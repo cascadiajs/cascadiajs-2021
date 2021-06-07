@@ -1,11 +1,18 @@
 {
-  "name": "begin-app",
+  "name": "cascadiajs-2021",
   "version": "0.0.0",
-  "description": "A simple Begin app with the minimum necessary file structure",
+  "description": "The web site & app for CascadiaJS 2021 - https://2021.cascadiajs.com",
   "scripts": {
     "start": "npx sandbox"
   },
   "devDependencies": {
-    "@architect/sandbox": "^3.3"
+    "@architect/architect": "^8.6.0",
+    "@architect/sandbox": "^3.3",
+    "eslint": "^7.27.0"
+  },
+  "dependencies": {
+    "@architect/functions": "^3.14.1",
+    "front-matter": "^4.0.2",
+    "marked": "^2.0.6"
   }
 }
