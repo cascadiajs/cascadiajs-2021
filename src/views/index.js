@@ -24,7 +24,7 @@ module.exports = function IndexView () {
                 </figure>
                 <p>We are SO excited to be bringing CascadiaJS back this year, this time in a hybrid format. In addition to a virtual event that anyone around the world can attend from the comfort of their couch, we will host watch parties in Seattle, Portland and Vancouver (BC).</p>
                 <p>The conference is going to take place <span class="highlight warning">Nov 3-4, 2021</span> so save the dates. As usual, we will load up tons of workshops and other fun activities during the course of that week.</p>
-                <p>Right now, we have an open CFP that runs to <span class="highlight warning">July 19, 2021</span>. Every developer has a story, and we want to hear yours!</p>
+                <p>Right now, we have an <a href="/cfp">open CFP</a> that runs to <span class="highlight warning">July 19, 2021</span>. Every developer has a story, and we want to hear yours!</p>
             </div>
         </section>
     </div>
