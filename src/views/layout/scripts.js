@@ -5,12 +5,14 @@ function script(source) {
 module.exports = function Scripts ({ scripts = [] }) {
   return /*html*/`
       <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153510023-1"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZZKTFYJ0D"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'UA-153510023-1');
+
+        gtag('config', 'G-MZZKTFYJ0D');
       </script>
       <!-- Twitter universal website tag code -->
       <script>

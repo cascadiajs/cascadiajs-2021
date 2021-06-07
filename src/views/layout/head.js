@@ -4,7 +4,7 @@ function script(source) {
 
 module.exports = function Head ({title, socialUrl = 'https://2020.cascadiajs.com/images/cjs19-family.jpg', scripts = []}) {
   // expand title
-  title = `CascadiaJS 2020${ title ? ' - ' + title : '' }`
+  title = `CascadiaJS 2021${ title ? ' - ' + title : '' }`
 
   return /*html*/`
   <head>
