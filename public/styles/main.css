@@ -165,10 +165,6 @@ footer a, footer a:visited {
 
 }
 
-#preview #info {
-    margin: 16px;
-}
-
 #content {
     background-color: #fff;
 }
@@ -559,15 +555,20 @@ footer {
     background-color: #112378;
 }
 
-/* Carousel widget styles */
-
-#carousel {
-    position:relative;
-    height: 600px;
-    width: 800px;
+#preview-carousel {
+    width: 600px;
+    margin: 16px 0;
 }
 
-#carousel > * {
+/* Carousel widget styles */
+
+.carousel {
+    position:relative;
+    height: 450px;
+    width: 600px;
+}
+
+.carousel > * {
     position:absolute;
     left:0;
     width: 100%;
@@ -584,23 +585,23 @@ footer {
     }
 }
 
-#carousel > * {
+.carousel > * {
     animation-name: fadeInOut;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 31s;
 }
 
-#carousel > *:nth-of-type(1) { animation-delay: 0s;}
-#carousel > *:nth-of-type(2) { animation-delay: 3.1s;}
-#carousel > *:nth-of-type(3) { animation-delay: 6.2s;}
-#carousel > *:nth-of-type(4) { animation-delay: 9.3s;}
-#carousel > *:nth-of-type(5) { animation-delay: 12.4s;}
-#carousel > *:nth-of-type(6) { animation-delay: 15.5s;}
-#carousel > *:nth-of-type(7) { animation-delay: 18.6s;}
-#carousel > *:nth-of-type(8) { animation-delay: 21.7s;}
-#carousel > *:nth-of-type(9) { animation-delay: 24.8s;}
-#carousel > *:nth-of-type(10) { animation-delay: 27.9s;}
+.carousel > *:nth-of-type(1) { animation-delay: 0s;}
+.carousel > *:nth-of-type(2) { animation-delay: 3.1s;}
+.carousel > *:nth-of-type(3) { animation-delay: 6.2s;}
+.carousel > *:nth-of-type(4) { animation-delay: 9.3s;}
+.carousel > *:nth-of-type(5) { animation-delay: 12.4s;}
+.carousel > *:nth-of-type(6) { animation-delay: 15.5s;}
+.carousel > *:nth-of-type(7) { animation-delay: 18.6s;}
+.carousel > *:nth-of-type(8) { animation-delay: 21.7s;}
+.carousel > *:nth-of-type(9) { animation-delay: 24.8s;}
+.carousel > *:nth-of-type(10) { animation-delay: 27.9s;}
 
 
 /*  speaker list components  */
@@ -1036,20 +1037,6 @@ input:checked + .slider:before {
         grid-template-rows: auto 1fr auto;
     }
 
-    #preview {
-        display: flex;
-    }
-
-    #preview #carousel {
-        width: 800px;
-    }
-
-    #preview #info {
-        flex: 1;
-        margin-left: 32px;
-        padding: 8px;
-    }
-
     .narrow {
         margin: 0 auto;
         width: 40%;
@@ -1058,6 +1045,11 @@ input:checked + .slider:before {
     .wide {
         margin: 0 auto;
         width: 70%;
+    }
+
+    #preview-carousel {
+        width: 600px;
+        margin: 16px auto;
     }
 
     img#hero-badge {
