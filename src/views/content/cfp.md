@@ -15,7 +15,7 @@ excerpt: Every developer has a story, what's yours?
 
 <i class="fas fa-calendar-alt"></i>  CFP closes on <span class="highlight warning">July 19, 2021</span>.
 
-<i class="fas fa-globe"></i>  Talks will done remotely via Zoom.
+<i class="fas fa-globe"></i>  Talks will be done remotely via Zoom.
 
 <i class="fas fa-hand-heart"></i>  We provide support and mentorship for new speakers.
 
@@ -52,13 +52,13 @@ If we accept your proposal to speak, the following items are taken care of by us
 
 ## How to submit a proposal
 
-First, make sure you're available to speak a the conference. It will be held on **November 3-4, 2021**.
+First, make sure you're available to speak at the conference. It will be held on **November 3-4, 2021**.
 
 Talk submissions are done as **2 minute videos**. Your goal here is not to produce a perfectly executed mini-talk, it is to describe your talk idea informally. What's the topic? How do you want to approach it? Why is it interesting?
 
 We won't make the videos public, so no need to worry about random Internet people seeing them. But we feel this is a good opportunity to start building a comfort level with talking about your idea in front of an audience.
 
-Below are a couple of submissions from two of our 2020 speakers, . These videos are _not_ meant to be templates, they're just here to illustrate a few goals: be clear about your topic, share some context for why you care, and please be yourself!
+Below are a couple of submissions from two of our 2020 speakers. These videos are _not_ meant to be templates, they're just here to illustrate a few goals: be clear about your topic, share some context for why you care, and please be yourself!
 
 <p class="video-container"><iframe src="https://drive.google.com/file/d/1kQUxxt9mXFVvnhLnim_tGJ9lrz9mxEMm/preview" width="640" height="480"></iframe></p>
 
@@ -70,9 +70,9 @@ Once you’ve recorded your 2-minute video, just upload it to a public but obfus
 
 ## Note for ASL speakers
 
-If you would like to deliver your talk using ASL, we are here we to support you! Once your proposal has been accepted, we will work with you to figure out the best way to make sure your talk is delivered appropriately to folks in our audience who don't understand ASL.
+If you would like to deliver your talk using ASL, we are here to support you! Once your proposal has been accepted, we will work with you to figure out the best way to make sure your talk is delivered appropriately to folks in our audience who don't understand ASL.
 
-For the purposes of the CFP, please record the 2-minute video using ASL and include an attached transcript. Our Talk Review Committee will use both to video and the transcript to evaluate your proposal.
+For the purposes of the CFP, please record the 2-minute video using ASL and include an attached transcript. Our Talk Review Committee will use both the video and the transcript to evaluate your proposal.
 
 ## We’re here to help!
 
@@ -82,13 +82,16 @@ If you are a new speaker, once your talk has been accepted we will commit to wor
 
 ## The selection process
 
-After the CFP closes, we will get back to all speakers as soon as possible. We will email all speakers at roughly the same time, so everyone will hear back on the same day.
+* 7/19 - The CFP closes
+* 7/26 - First round of review complete
+* 8/02 - Final round of review complete
+* 8/06 - We email CFP submitters
 
 <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrV5x4scdJTePbHd?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="2839" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 ## CFP FAQ
 
-### Q: Are there are specific topics I should consider?
+### Q: Are there any specific topics I should consider?
 
 Below are a few topics that we think are interesting, but it’s more about you and the story you want to tell.
 
