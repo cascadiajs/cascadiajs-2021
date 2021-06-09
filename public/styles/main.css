@@ -556,15 +556,16 @@ footer {
 }
 
 #preview-carousel {
-    width: 600px /*100%*/;
+    height: 300px;
+    margin-bottom: 16px;
 }
 
 /* Carousel widget styles */
 
 .carousel {
     position:relative;
-    height: 450px;
-    width: 600px /*100%*/;
+    height: 100%;
+    width: 100%;
 }
 
 .carousel > * {
@@ -1047,6 +1048,7 @@ input:checked + .slider:before {
     }
 
     #preview-carousel {
+        height: 450px;
         width: 600px;
         margin: 16px auto;
     }
