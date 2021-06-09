@@ -19,8 +19,8 @@ module.exports = function Head ({title, socialUrl = 'https://2020.cascadiajs.com
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@cascadiajs">
     <meta name="twitter:title" content="${ title }">
-    <link id="light-scheme-icon" rel="icon" href="/images/icon.svg">
-    <link id="dark-scheme-icon" rel="icon" href="/images/icon-green.svg">
+    <link id="light-scheme-icon" rel="icon" href="/images/logo-blue.svg">
+    <link id="dark-scheme-icon" rel="icon" href="/images/logo-green.svg">
     <!--script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffa37cf28eebc9e75b8558f3b/925e6ccb935f17081158752ba.js");</script-->
     <!--script src="/js/floating.js"></script-->
     ${ scripts.map(s => script(s)) }
