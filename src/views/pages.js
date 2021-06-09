@@ -5,6 +5,7 @@ let md = require('marked')
 let fm = require('front-matter')
 let join = require('path').join
 let Layout = require('./layout')
+let SocialLayout = require('./layout/social')
 
 function MarkdownTemplate({ title, body }) {
   return /*html*/ `
@@ -23,6 +24,7 @@ function MarkdownTemplate({ title, body }) {
  */
 module.exports = async function Page(req) {
   let page = req.path.substr(1)
+  let { social } = req.queryStringParameters
   let type = 'markdown'
   let doc = join(__dirname, 'content', `${page}.md`)
   if (!exists(doc)) {
@@ -38,13 +40,21 @@ module.exports = async function Page(req) {
   let title = attributes.title
   let html
   let content
-  if (type === 'markdown') {
-    content = MarkdownTemplate({ title, body })
-  } else {
-    content = body
-  }
 
-  html = Layout({ title, content })
+  if (social !== undefined) {
+    let excerpt = attributes.excerpt
+    let image = attributes.image
+    let header = title
+    html = SocialLayout({ image, header, excerpt })
+  }
+  else {
+    if (type === 'markdown') {
+      content = MarkdownTemplate({ title, body })
+    } else {
+      content = body
+    }
+    html = Layout({ title, content })
+  }
 
   return { html }
 }

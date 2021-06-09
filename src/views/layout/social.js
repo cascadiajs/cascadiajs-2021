@@ -20,11 +20,11 @@ module.exports = function SocialLayout ({ header, image = '/images/cjs19-family.
                   <div id="social-footer">
                       <div id="social-event">
                           CascadiaJS<br/>
-                          Sept 1-2, 2020<br/>
-                          Cyberspace
+                          Nov 3-4, 2021<br/>
+                          Online & In-Person
                       </div>
                       <div>
-                          <img src="/images/icon-green.svg" height="103" width="91" alt="logo"/>
+                          <img src="/images/logo-green.svg" height="103" width="91" alt="logo"/>
                       </div>
                   </div>
               </div>
