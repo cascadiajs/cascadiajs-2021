@@ -5,9 +5,11 @@ const sandbox = require("@architect/sandbox")
 const puppeteer = require("puppeteer")
 const url = "http://localhost:3333"
 
+// NOTE: make sure the PUPPETEER_SKIP_DOWNLOAD envvar is set to TRUE wherever you deploy this code
+
 async function createImages() {
   // start the sandbox webserver
-  const end = await sandbox.start()
+  await sandbox.start()
 
   // define which pages (URLs) we are going to generate social sharing images for
   const source = join(__dirname, "..", "src", "views", "content")
@@ -46,7 +48,7 @@ async function createImages() {
   // shut down te browser
   await browser.close()
   // shut down the sandbox
-  await end()
+  await sandbox.end()
 }
 
 createImages()
