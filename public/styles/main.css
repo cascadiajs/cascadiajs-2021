@@ -556,7 +556,7 @@ footer {
 }
 
 #preview-carousel {
-    width: 100%;
+    width: 600px /*100%*/;
 }
 
 /* Carousel widget styles */
@@ -564,7 +564,7 @@ footer {
 .carousel {
     position:relative;
     height: 450px;
-    width: 100%;
+    width: 600px /*100%*/;
 }
 
 .carousel > * {
