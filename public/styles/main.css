@@ -339,14 +339,14 @@ section.landing  {
     padding: 32px 16px;
 }
 
-section.landing h2 {
+section.landing h1 {
     font-family: mono45-headline, monospace;
     font-weight: 500;
     font-size: 48px;
     margin: 0 0 32px 0;
 }
 
-section.landing h3 { 
+section.landing h2 { 
     font-size: 32px; 
     color: #112378;
     font-weight: 700;
@@ -354,7 +354,7 @@ section.landing h3 {
     margin-bottom: 0;
 }
 
-section.landing h4 {
+section.landing h3 {
     font-size: 28px; 
     color: #fff;
     font-weight: 400;
@@ -388,16 +388,16 @@ section .cta {
     color: #17C37B;
 }
 
-#hero, #attend, #workshops, #workshops h2, #sponsors, #sponsors h2, #newsletter, #newsletter h2 {
+#hybrid, #cfp {
     background-color: #17C37B;
     color: #fff;
 }
 
-#attend a, #attend a:visited, #newsletter a, #newsletter a:visited {
+#hybrid a, #hybrid a:visited, #cfp a, #cfp a:visited {
     color: #fff;
 }
 
-#attend a:hover {
+#hybrid a:hover, #cfp a:hover {
     background-color: #fff;
     color: #17C37B;
 }

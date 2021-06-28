@@ -4,7 +4,7 @@ module.exports = function IndexView () {
     let content = /*html*/`
     <div id="landing">
         <section id="preview" class="landing">
-            <h2>CascadiaJS 2021 is going hybrid!</h2>
+            <h1>CascadiaJS 2021 (Nov 3-4)</h1>
             <div id="preview-carousel">
                 <div class="carousel">
                     <video aria-label="Video from https://twitter.com/Not_Woods/status/1301285874697551877?s=20" src="https://video.twimg.com/tweet_video/Eg8YmKXVoAAFETv.mp4" type="video/mp4"  muted autoplay loop playsinline></video>
@@ -19,10 +19,31 @@ module.exports = function IndexView () {
                     <video aria-label="Embedded video" src="https://video.twimg.com/tweet_video/Eg8WNvnVkAA7ibv.mp4" type="video/mp4"  muted autoplay loop playsinline></video>
                 </div>
             </div>
+        </section>
+        <section id="hybrid" class="landing">
+            <h1>Progressively Enhanced for 2021</h1>
             <div class="narrow">
-                <p>We are SO excited to be bringing CascadiaJS back this year, this time in a hybrid format. In addition to a virtual event that anyone around the world can attend from the comfort of their couch, we will host watch parties in Seattle, Portland and Vancouver (BC).</p>
-                <p>The conference is going to take place <span class="highlight warning">Nov 3-4, 2021</span> so save the dates. As usual, we will load up tons of workshops and other fun activities during the course of that week.</p>
-                <p>Right now, we have an <a href="/cfp">open CFP</a> that runs to <span class="highlight warning">July 19, 2021</span>. Every developer has a story, and we want to hear yours!</p>
+                <p style="width: 500px;margin: 0 auto;text-align:left;font-size:1.5em;">
+                    <i class="fas fa-calendar"></i> Nov 3 - 4, 2021<br/>
+                    <i class="fas fa-tv-retro"></i> Virtual Event for Everyone<br/>
+                    <i class="fas fa-users-class"></i> Enhanced IRL Events in SEA/PDX/YVR
+                </p>
+                <div class="cta"><a href="/tickets">More Info</a></div>
+            </div>
+        </section>
+        <section id="sponsors" class="landing">
+            <h1>Our Past Sponsors</h1>
+            <div class="wide">
+                <img src="/images/cjs-past-sponsors.png" alt="past sponsors of CascadiaJS"/>
+                <div class="cta"><a href="/sponsors">Sponsor Our Event</a></div>
+            </div>
+        </section>
+        <section id="cfp" class="landing">
+            <h1>Call for Presenters is OPEN</h1>
+            <div class="narrow">
+                <p>Right now, we have an <a href="/cfp">open CFP</a> that runs to July 19, 2021.</p>
+                <p>Every developer has a story, and we want to hear yours!</p>
+                <div class="cta"><a href="/cfp">Lean More</a></div>
             </div>
         </section>
     </div>
