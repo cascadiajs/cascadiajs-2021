@@ -21,7 +21,9 @@ Every ticket includes access to:
 
 For folks who are vaccinated and interested in participating in an in-person event, we will be hosting in-person satellite events in Seattle WA, Portland OR and Vancouver BC! A ticket to one of our IRL events will include:
 
-<i class="fas fa-users-class"></i> a Watch Party in a central location
+<i class="fas fa-file-medical"></i> Must be vaccinated at least two weeks prior to conference
+
+<i class="fas fa-users-class"></i> Watch Party in a central location
 
 <i class="fas fa-coffee"></i> Catering (coffee, light snacks and lunch)
 
