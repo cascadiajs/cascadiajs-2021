@@ -8,6 +8,9 @@ let Layout = require('./layout')
 let SocialLayout = require('./layout/social')
 
 function MarkdownTemplate({ title, body }) {
+  /* begin hack for injecting variable content into markdown files */
+  body = body.replace(/\$\{SLACK_JOIN_URL\}/g, process.env.SLACK_JOIN_URL)
+  /* end hack */
   return /*html*/ `
     <div id="page">
       <div class="page-title">
