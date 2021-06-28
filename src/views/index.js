@@ -43,7 +43,7 @@ module.exports = function IndexView () {
             <div class="narrow">
                 <p>Right now, we have an <a href="/cfp">open CFP</a> that runs to July 19, 2021.</p>
                 <p>Every developer has a story, and we want to hear yours!</p>
-                <div class="cta"><a href="/cfp">Lean More</a></div>
+                <div class="cta"><a href="/cfp">Learn More</a></div>
             </div>
         </section>
     </div>

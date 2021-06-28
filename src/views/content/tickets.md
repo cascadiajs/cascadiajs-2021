@@ -29,6 +29,20 @@ For folks who are vaccinated and interested in participating in an in-person eve
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Conference Ticket</a></div>
 
+## Tickets FAQ
+
+### Q: Have you announced any speakers yet?
+
+A: No, we haven't announced any speakers. The Early Bird round of tickets are also known as the "trust us" round. But if the past is any indication, this year's lineup will be amazing.
+
+### Q: Will you be running a Scholarship Program this year?
+
+A: Yes, we will be running our Scholarship Program again this year, so if you are a member of an under-represented group, please stay tuned.
+
+### Q: Is there a way to purchase tickets in bulk, like for a team or company?
+
+A: Yes. If you work for a company that would like to purchase a block of discounted tickets (and do stuff like invoicing) just send an email to info@cascadiajs.com and we'll take care of the rest.
+
 ## Highlights from CascadiaJS 2020
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I absolutely LOVED MCing <a href="https://twitter.com/CascadiaJS?ref_src=twsrc%5Etfw">@CascadiaJS</a>! This was such a well organized conference, huge kudos to the speakers, the organizers, the sponsors, and of course the audience + community for making it great. It was a pleasure!! <a href="https://twitter.com/hashtag/cjs20?src=hash&amp;ref_src=twsrc%5Etfw">#cjs20</a> <a href="https://t.co/EhqjhYJEVY">pic.twitter.com/EhqjhYJEVY</a></p>&mdash; Cassidy (@cassidoo) <a href="https://twitter.com/cassidoo/status/1301313550577577984?ref_src=twsrc%5Etfw">September 3, 2020</a></blockquote>
