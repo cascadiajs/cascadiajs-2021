@@ -5,7 +5,7 @@ excerpt: Every developer has a story, what's yours?
 ---
 ![Aaron Turner CascadiaJS 2019 speaker](/images/aaron-2019.jpg) <!--div class="highlight warning">UPDATE: We have extended the deadline to May 15, 2020</div-->
 
-<div class="cta"><a href="/tickets">Early Bird Tickets go on sale 6/28</a></div>
+<div class="cta"><a href="/tickets">Early Bird Tickets are ON SALE!</a></div>
 
 ## tl;dr
 
@@ -13,7 +13,7 @@ excerpt: Every developer has a story, what's yours?
 
 <i class="fas fa-clock"></i> Conference talks are 25 minutes long.
 
-<i class="fas fa-calendar-alt"></i>  CFP closes on <span class="highlight warning">July 19, 2021</span>.
+<i class="fas fa-calendar-alt"></i>  CFP closes on <span class="strike">July 19, 2021</span> <span class="highlight warning">August 2, 2021</span>.
 
 <i class="fas fa-globe"></i>  Talks will be done remotely via Zoom.
 

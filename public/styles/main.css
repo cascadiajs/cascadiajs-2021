@@ -139,6 +139,10 @@ footer a, footer a:visited {
     text-decoration: none;
 }
 
+.strike {
+    text-decoration: line-through;
+}
+
 
 /* responsive Youtube embed styles */
 
@@ -220,12 +224,11 @@ th, td {
 
 div.cta {
     font-family: mono45-headline, monospace;
-	font-size: 32px;
-    padding: 16px 44px;
+	font-size: 24px;
+    padding: 8px 16px;
     text-align: center;
 	background-color: #0033FF;
-    border: 4px solid #fff;
-    margin: 16px 0;
+    margin: 8px 0;
 }
 
 span.cta {
@@ -241,8 +244,8 @@ span.cta {
   	text-decoration: none;
 }
 
-.cta a:hover {
-	text-decoration: underline;
+.cta:hover {
+	background-color: #112378;
 }
 
 .cta.nope {
@@ -362,44 +365,26 @@ section.landing h3 {
 }
 
 section .cta {
-    margin: 32px 0 0 0;
+    margin: 16px 0 0 0;
 }    
 
-
-#hero-logo {
-    margin-bottom: 24px;
+#hero {
+    background-color: #CFD3E4;
 }
 
-#hero .buy, #hero .cta {
-    font-size: 40px;
+#hero>div:nth-child(1) {
+    position:relative;
 }
 
-#hero .buy {
-    margin-top: 64px;
-}
-
-#hero .cta {
-	background-color: #112378;
-    color: #17C37B;
-    border: 4px solid #17C37B;
-}
-
-#hero .cta a {
-    color: #17C37B;
+#hero-copy p {
+    font-family:ibm-plex-mono;
+    font-size:2vw;
+    color:#112378
 }
 
 #hybrid, #cfp {
     background-color: #17C37B;
     color: #fff;
-}
-
-#hybrid a, #hybrid a:visited, #cfp a, #cfp a:visited {
-    color: #fff;
-}
-
-#hybrid a:hover, #cfp a:hover {
-    background-color: #fff;
-    color: #17C37B;
 }
 
 /* Schedule styles */
@@ -1128,6 +1113,28 @@ input:checked + .slider:before {
 
     #landing .right {
         text-align: left;
+        flex: 1;
+    }
+
+    #hero {
+        display: flex;
+        width:100%;
+        padding: 0;
+    }
+
+    #hero-copy {
+        position:absolute;
+        left:0;
+        top:0;
+        text-align:left;
+        margin:10% 0 0 30%;
+    }
+
+    #hero h1 {
+        font-size: 4vw;
+    }
+
+    #hero>div {
         flex: 1;
     }
 
