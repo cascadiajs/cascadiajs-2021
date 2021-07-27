@@ -4,19 +4,19 @@ module.exports = function IndexView () {
     let content = /*html*/`
     <div id="landing">
         <section id="hero">
-            <div>
-                <div id="hero-copy" class="landing" style="">
+            <div style="height:100%;display:flex;flex-direction:column">
+                <div id="hero-copy" class="landing" style="flex: 1">
                     <h1>CascadiaJS is the Pacific Northwest JavaScript Conference</h1>    
                     <p>This year's event will be a <em>hybrid</em> event, a virtual conference <em>progressively enhanced</em> with in-person events in Seattle, Portland and Vancouver, BC</p>
                     <div class="cta"><a href="/tickets">More Info</a></div>
                 </div>
-                <div style="height:100%;display:flex;flex-direction:column">
-                    <div style="flex:1"></div>
-                    <div id="waves" style="padding-top:16px;"><img src="/images/heron-left.png" alt="hero image of a hybrid heron / espresso machine"/></div>
+                <div id="waves">
+                    <img src="/images/heron-left.png" alt="hero image of a hybrid heron / espresso machine"/>
                 </div>
             </div>
-            <div id="hero-image">
-                <img src="/images/heron-right.png" alt="hero image of a hybrid heron / espresso machine"/>
+            <div style="display:flex;flex-direction:column">
+                <div style="flex:1"></div>
+                <div><img src="/images/heron-right.png" alt="hero image of a hybrid heron / espresso machine"/></div>
             </div>
         </section>
         <section id="sponsors" class="landing">

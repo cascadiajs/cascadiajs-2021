@@ -5,7 +5,7 @@ excerpt: Every developer has a story, what's yours?
 ---
 ![Aaron Turner CascadiaJS 2019 speaker](/images/aaron-2019.jpg) <!--div class="highlight warning">UPDATE: We have extended the deadline to May 15, 2020</div-->
 
-<div class="cta"><a href="/tickets">Early Bird Tickets are ON SALE!</a></div>
+<div class="cta"><a href="/tickets">Tickets are ON SALE!</a></div>
 
 ## tl;dr
 
