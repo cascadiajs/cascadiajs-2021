@@ -2,7 +2,7 @@ let head = require('./head')
 let footer = require('./footer')
 let bodyScripts = require('./scripts')
 
-module.exports = function Layout ({title, content, socialUrl = 'https://2020.cascadiajs.com/images/cjs19-family.jpg', scripts = []}) {
+module.exports = function Layout ({title, content, socialUrl, scripts = []}) {
   return /*html*/`
   <!doctype html>
   <html lang=en>
