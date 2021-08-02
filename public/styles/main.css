@@ -765,18 +765,33 @@ a.js-topic:hover {
 
 #social-share {
     display: flex;
+    width: 1200px;
+    background-color: #17C37B;
 }
 
 #social-image {
-    height: 628px;
-	width: 628px;
-	margin-right: 0;
+    height: 560px;
+	width: 600px;
+	margin: 20px;
+    border-radius: 30px 0 0 30px;
+    background: linear-gradient(to bottom left, #112378 50%, #0033ff 100%);
+}
+
+#social-image img {
+    mix-blend-mode: screen; 
+    filter:grayscale(100%);
+    border-radius: 30px 0 0 30px;
+    object-fit: cover;
+    height: 560px;
+	width: 600px;
 }
 
 #social-info {
     width: 574px;
-    border: 10px solid #17C37B;
+    background-color: #fff;
     padding: 24px;
+    margin: 20px 20px 20px 0;
+    border-radius: 0 30px 30px 0;
     display: flex;
     flex-direction: column;
 }
@@ -787,13 +802,13 @@ a.js-topic:hover {
     font-size: 80px;
     line-height: 80px;
     color: #112378;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 #social-excerpt {
-    font-family: canada-type-gibson, sans-serif;
+    font-family: ibm-plex-mono, sans-serif;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 400;
     color: #112378;
     flex: 1;
 }
@@ -808,7 +823,8 @@ a.js-topic:hover {
     font-family: mono45-headline, monospace;
     font-size: 32px;
     text-transform: uppercase;
-    color: #17C37B;
+    color: #112378;
+    margin-left: 16px;
 }
 
 #attendees-pics {

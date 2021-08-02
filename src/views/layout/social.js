@@ -1,4 +1,4 @@
-module.exports = function SocialLayout ({ header, image = '/images/cjs19-family.jpg', excerpt = '' }) {
+module.exports = function SocialLayout ({ header, image = '/images/heron-right.png', excerpt = '' }) {
   return /*html*/`
 <!doctype html>
 <html lang=en>
@@ -13,19 +13,21 @@ module.exports = function SocialLayout ({ header, image = '/images/cjs19-family.
     <div id="root">
       <div id="content">        
           <div id="social-share">
-              <div id="social-image" style="background-image:url('${ image }'), linear-gradient(45deg, #112378, #17C37B);background-position: center;"></div>
+              <div id="social-image">
+                <img src="${ image }" alt="foo"/>
+              </div>
               <div id="social-info">
                   <div id="social-header">${ header }</div>
                   <div id="social-excerpt">${ excerpt }</div>
                   <div id="social-footer">
-                      <div id="social-event">
+                    <div>
+                      <img src="/images/logo-blue.svg" height="103" width="91" alt="logo"/>
+                    </div>
+                    <div id="social-event">
                           CascadiaJS<br/>
                           Nov 3-4, 2021<br/>
                           Online & In-Person
-                      </div>
-                      <div>
-                          <img src="/images/logo-green.svg" height="103" width="91" alt="logo"/>
-                      </div>
+                    </div>
                   </div>
               </div>
           </div>
