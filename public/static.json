@@ -6,7 +6,7 @@
   "images/cjs-past-sponsors.png": "images/cjs-past-sponsors-da4316ce13.png",
   "images/cjs19-family.jpg": "images/cjs19-family-89ab5698f0.jpg",
   "images/cjs20-emily.gif": "images/cjs20-emily-559edb6021.gif",
-  "images/cjs21-social.png": "images/cjs21-social-36db460298.png",
+  "images/cjs21-social-2.png": "images/cjs21-social-2-36db460298.png",
   "images/griffin.png": "images/griffin-864bbd952a.png",
   "images/heron-left.png": "images/heron-left-ffa6c3b888.png",
   "images/heron-right.png": "images/heron-right-16469100b7.png",
@@ -15,11 +15,12 @@
   "images/logo-green.svg": "images/logo-green-d9097c0543.svg",
   "images/testimonial-1.png": "images/testimonial-1-9bfb319444.png",
   "styles/admin.css": "styles/admin-7e971be614.css",
-  "styles/main.css": "styles/main-af78f81da0.css",
+  "styles/main.css": "styles/main-54f8d33529.css",
   "styles/normalize.css": "styles/normalize-81ad871a5c.css",
-  "images/social/cfp-share.png": "images/social/cfp-share-0db9113be1.png",
-  "images/social/code-of-conduct-share.png": "images/social/code-of-conduct-share-dc4adc0fa6.png",
-  "images/social/next-steps-share.png": "images/social/next-steps-share-e0baefbc0f.png",
-  "images/social/sponsors-share.png": "images/social/sponsors-share-76f79a8ec8.png",
-  "images/social/tickets-share.png": "images/social/tickets-share-5b5ad981c9.png"
+  "images/social/about-share.png": "images/social/about-share-ba7568d8de.png",
+  "images/social/cfp-share.png": "images/social/cfp-share-3f179b64ae.png",
+  "images/social/code-of-conduct-share.png": "images/social/code-of-conduct-share-f9cc1d3c6f.png",
+  "images/social/next-steps-share.png": "images/social/next-steps-share-f5d4787872.png",
+  "images/social/sponsors-share.png": "images/social/sponsors-share-bf7a6e787b.png",
+  "images/social/tickets-share.png": "images/social/tickets-share-b0ff47684d.png"
 }
