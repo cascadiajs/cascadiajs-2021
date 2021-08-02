@@ -770,7 +770,7 @@ a.js-topic:hover {
 }
 
 #social-image {
-    height: 560px;
+    height: 588px;
 	width: 600px;
 	margin: 20px;
     border-radius: 30px 0 0 30px;
@@ -782,7 +782,7 @@ a.js-topic:hover {
     filter:grayscale(100%);
     border-radius: 30px 0 0 30px;
     object-fit: cover;
-    height: 560px;
+    height: 588px;
 	width: 600px;
 }
 
