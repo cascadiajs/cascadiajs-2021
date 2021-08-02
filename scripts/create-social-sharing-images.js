@@ -19,7 +19,7 @@ async function createImages() {
 
   // set-up headless browser
   let browser
-  let height = 627
+  let height = 600
   let width = 1200
   let deviceScaleFactor = 1
 
