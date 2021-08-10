@@ -3,9 +3,13 @@ title: Call for Presenters
 image: /images/aaron-2019.jpg
 excerpt: Every developer has a story, what's yours?
 ---
-![Aaron Turner CascadiaJS 2019 speaker](/images/aaron-2019.jpg) <!--div class="highlight warning">UPDATE: We have extended the deadline to May 15, 2020</div-->
+![Aaron Turner CascadiaJS 2019 speaker](/images/aaron-2019.jpg)
 
-<div class="cta"><a href="/tickets">Tickets are ON SALE!</a></div>
+## UPDATE: the CFP is Closed
+
+We have closed the Call for Presenters for CascadiaJS 2021. However, if you're interested in speaking at one of the many awesome JS meetups in the Pacific Northwest, please consider submitting a proposal to the new [Pan-Cascadia JS Meetup CFP](https://airtable.com/shrGGbCkeuJkesM2p)! 
+
+This is a single form that folks can fill-out and we will share your proposal with meetup organizers up and down the Pacific Northwest.
 
 ## tl;dr
 
