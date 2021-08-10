@@ -1,3 +1,7 @@
+# App
+data/staging
+data/production
+
 # Logs
 logs
 *.log
