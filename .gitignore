@@ -1,6 +1,8 @@
 # App
 data/staging
 data/production
+public/static.json
+src/shared/static.json
 
 # Logs
 logs
