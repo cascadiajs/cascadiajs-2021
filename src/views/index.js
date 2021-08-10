@@ -1,6 +1,6 @@
 let Layout = require('./layout')
 
-module.exports = function IndexView () {
+module.exports = function IndexView ({ changelog }) {
     let content = /*html*/`
     <div id="landing">
         <section id="hero">
@@ -19,19 +19,25 @@ module.exports = function IndexView () {
                 <div><img src="/images/heron-right.png" alt="hero image of a hybrid heron / espresso machine"/></div>
             </div>
         </section>
+        <section id="changelog" class="landing">
+            <h1>Changelog</h1>
+            <div id="changelog-posts">
+            ${ changelog.map(post => `
+                <div class="changelog-post">
+                    <h2>${ post.title }</h2>
+                    <p style="flex:1">${ post.excerpt }</p>
+                    <div>
+                        <div class="cta"><a href="/changelog/${ post.stub }">Read More</a></div>
+                    </div>
+                </div>
+            `).join('')}
+            </div>
+        </section>
         <section id="sponsors" class="landing">
             <h1>Our Past Sponsors</h1>
             <div class="wide">
                 <img src="/images/cjs-past-sponsors.png" alt="past sponsors of CascadiaJS"/>
                 <div class="cta"><a href="/sponsors">Sponsor Our Event</a></div>
-            </div>
-        </section>
-        <section id="cfp" class="landing">
-            <h1>Call for Presenters is OPEN</h1>
-            <div class="wide">
-                <p>Right now, we have an <a href="/cfp">open CFP</a> that runs to <span class="strike">July 19, 2021</span> August 2, 2021.</p>
-                <p>Every developer has a story, and we want to hear yours!</p>
-                <div class="cta"><a href="/cfp">Learn More</a></div>
             </div>
         </section>
     </div>

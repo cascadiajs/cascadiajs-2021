@@ -226,9 +226,11 @@ div.cta {
     font-family: mono45-headline, monospace;
 	font-size: 24px;
     padding: 8px 16px;
-    text-align: center;
+   
 	background-color: #0033FF;
     margin: 8px 0;
+    display: inline-block;
+   
 }
 
 span.cta {
@@ -386,7 +388,7 @@ section .cta {
     color:#112378;
 }
 
-#cfp {
+#cfp, #changelog {
     background-color: #d1f3e5;
     color: #112378;
 }
@@ -1093,11 +1095,6 @@ input:checked + .slider:before {
         font-size: 1em;
     }
 
-    .cta {
-        display: inline-block;
-        text-align: left;
-    }
-
     .highlight {
         padding: 4px;
     }
@@ -1131,6 +1128,22 @@ input:checked + .slider:before {
 
     #hero>div {
         flex: 1;
+    }
+
+    #changelog-posts {
+        display:flex;
+    }
+
+    .changelog-post {
+        width: 33%;
+        padding: 0 16px;
+        text-align:left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .changelog-post h2 {
+        margin: 0 0 16px 0;
     }
 
     #waves {

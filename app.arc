@@ -8,7 +8,11 @@ fingerprint true
 @views
 src src/views
 
+@shared
+src src/shared
+
 @http
+get /changelog*
 get /*
 
 @tables
