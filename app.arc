@@ -9,7 +9,6 @@ fingerprint true
 src src/views
 
 @http
-get /changelog/*
 get /*
 
 @tables

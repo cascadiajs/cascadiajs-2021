@@ -11,6 +11,8 @@ We have closed the Call for Presenters for CascadiaJS 2021. However, if you're i
 
 This is a single form that folks can fill-out and we will share your proposal with meetup organizers up and down the Pacific Northwest.
 
+<div class="cta"><a href="https://airtable.com/shrGGbCkeuJkesM2p">Pan-Cascadia JS Meetup CFP</a></div>
+
 ## tl;dr
 
 <i class="fas fa-inbox-in"></i> CFP submissions are 2-minute videos.
