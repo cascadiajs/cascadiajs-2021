@@ -4,13 +4,17 @@
   "description": "The web site & app for CascadiaJS 2021 - https://2021.cascadiajs.com",
   "scripts": {
     "start": "npx sandbox",
+    "lint": "eslint src --ignore-pattern node_modules --fix",
+    "test": "cross-env NODE_ENV=testing PORT=6666 tape test/*-test.js ./test/**/*-test.js | tap-spec",
     "social": "node scripts/create-social-sharing-images"
   },
   "devDependencies": {
     "@architect/architect": "^8.6.0",
     "@architect/sandbox": "^3.3",
     "eslint": "^7.27.0",
-    "puppeteer": "^10.1.0"
+    "puppeteer": "^10.1.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.3.1"
   },
   "dependencies": {
     "@architect/functions": "^3.14.1",
