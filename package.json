@@ -11,10 +11,12 @@
   "devDependencies": {
     "@architect/architect": "^8.6.0",
     "@architect/sandbox": "^3.3",
+    "@begin/data": "^2.0.1",
     "eslint": "^7.27.0",
     "puppeteer": "^10.1.0",
     "tap-spec": "^5.0.0",
-    "tape": "^5.3.1"
+    "tape": "^5.3.1",
+    "tiny-json-http": "^7.3.0"
   },
   "dependencies": {
     "@architect/functions": "^3.14.1",
