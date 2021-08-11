@@ -3,11 +3,12 @@ let fs = require('fs')
 let readDir = fs.readdirSync
 let readFile = fs.readFileSync
 let fm = require('front-matter')
+let sortDesc = require('./utils').sortDesc
 
 module.exports = function () {
     let path = join(process.cwd(), 'node_modules', '@architect', 'views', 'content', 'changelog')
     let files = readDir(path)
-    return files
+    let posts = files
         .map(file => {
             let doc = readFile(`${path}/${file}`).toString()
             let { attributes } = fm(doc)
@@ -15,4 +16,6 @@ module.exports = function () {
             return { file, stub, ...attributes }
         })
         .filter(post => post.published)
+
+    return sortDesc(posts, 'published').slice(0, 3)
 }

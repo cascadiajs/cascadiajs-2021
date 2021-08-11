@@ -7,7 +7,6 @@ let PageView = require('@architect/views/pages')
 let NotFoundView = require('@architect/views/404')
 let manifest = require('@architect/shared/static.json')
 let getChangelog = require('@architect/shared/changelog')
-let sortDesc = require('@architect/shared/utils').sortDesc
 
 // return true if the markdown file exists, false otherwise
 function pageExists(path) {
@@ -31,7 +30,7 @@ async function Router (req) {
   if (req.path === '/') {
       let all = getChangelog()
       // only pass the most recent 3 posts
-      let changelog = sortDesc(all, 'published').slice(0, 3)
+      let changelog = all.slice(0, 3)
       return await IndexView({ changelog })
   }
   // the path matches a markdown file in our filesystem
