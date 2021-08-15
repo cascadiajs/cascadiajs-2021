@@ -10,6 +10,9 @@ src src/views
 
 @http
 get /changelog
+get /admin
+post /login
+post /upload
 get /*
 
 @tables
