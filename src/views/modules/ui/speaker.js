@@ -18,12 +18,12 @@ export default function Speaker(props) {
   // don't reveal the speaker yet!
   if (!revealed) {
     name = 'Secret Speaker'
-    photoUrl = `https://create-4jr-staging.begin.app/_static/2020-pixelated/${ speaker.pixelated }.png`
+    photoUrl = `https://create-4jr.begin.app/_static/2021-pixelated/${ speaker.pixelated }.png`
   }
   else {
     key = speaker.key
     name = speaker.name
-    photoUrl = `https://create-4jr-staging.begin.app/_static/2020/${ speaker.key }.jpg`
+    photoUrl = `https://create-4jr.begin.app/_static/2021/${ speaker.key }.jpg`
   }
 
   return `

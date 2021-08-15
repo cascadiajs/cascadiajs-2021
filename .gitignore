@@ -4,6 +4,7 @@ data/production
 public/static.json
 src/shared/static.json
 .arc-env
+.env
 
 # Logs
 logs
