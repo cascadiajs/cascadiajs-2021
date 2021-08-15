@@ -13,9 +13,12 @@ exports.handler = arc.http.async(unauthenticated, authenticated)
 async function unauthenticated(req) {
   if (req.session.loggedIn) return
   else {
-    let form = `<form action=/login method=post>
-      <input type=password name=password>
-    </form>`
+    let form = `
+      <h1>Please log-in</h1>
+      <form action=/login method=post>
+        <input type=password name=password>
+        <input type=submit value=Log-In>
+      </form>`
     let html = layout(form)
     return { html }
   }
@@ -23,7 +26,7 @@ async function unauthenticated(req) {
 
 /** render the speaker list/form */
 async function authenticated(req) {
-  let speakerData = await data.get({ table: 'speakers', limit: 24 })
+  let speakerData = await data.get({ table: 'speakers', limit: 20 })
   if (req.query.export === 'speakers') {
     return { json: speakerData }
   }

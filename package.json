@@ -20,7 +20,9 @@
   },
   "dependencies": {
     "@architect/functions": "^3.14.1",
+    "esm": "^3.2.25",
     "front-matter": "^4.0.2",
-    "marked": "^2.0.6"
+    "marked": "^2.0.6",
+    "rollup": "^2.56.2"
   }
 }

@@ -3,7 +3,7 @@ let fs = require('fs')
 let readDir = fs.readdirSync
 let readFile = fs.readFileSync
 let fm = require('front-matter')
-let sortDesc = require('./utils').sortDesc
+let sortDesc = require('./utils/sort').sortDesc
 
 module.exports = function () {
     let path = join(process.cwd(), 'node_modules', '@architect', 'views', 'content', 'changelog')

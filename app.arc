@@ -9,10 +9,13 @@ fingerprint true
 src src/views
 
 @http
-get /changelog
-get /admin
+get  /admin
+get  /changelog
+get  /modules/:type/:module
+get  /speakers
+get  /speakers/:key
 post /login
-post /upload
+post /speakers
 get /*
 
 @tables
