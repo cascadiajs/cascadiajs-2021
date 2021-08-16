@@ -26,5 +26,8 @@
     "front-matter": "^4.0.2",
     "marked": "^2.0.6",
     "rollup": "^2.56.2"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
