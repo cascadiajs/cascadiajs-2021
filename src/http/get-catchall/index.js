@@ -1,4 +1,5 @@
 // eslint-disable-next-line no-global-assign
+require = require('esm')(module)
 let exists = require('fs').existsSync
 let join = require('path').join
 let arc = require('@architect/functions')
@@ -7,6 +8,7 @@ let PageView = require('@architect/views/pages')
 let NotFoundView = require('@architect/views/404')
 let manifest = require('@architect/shared/static.json')
 let getChangelog = require('@architect/shared/changelog')
+const getSpeakerData = require('@architect/shared/get-speaker-data')
 
 // return true if the markdown file exists, false otherwise
 function pageExists(path) {
@@ -29,9 +31,10 @@ async function Router (req) {
   // root (/) request, return Index view
   if (req.path === '/') {
       let all = getChangelog()
+      let { speakers } = await getSpeakerData(req)
       // only pass the most recent 3 posts
       let changelog = all.slice(0, 3)
-      return await IndexView({ changelog })
+      return await IndexView({ changelog, speakers })
   }
   // the path matches a markdown file in our filesystem
   else if (pageExists(req.path)) {

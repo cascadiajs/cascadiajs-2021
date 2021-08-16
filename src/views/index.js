@@ -1,6 +1,7 @@
 let Layout = require('./layout')
+let SpeakersContainer = require('./components/speakers')
 
-module.exports = function IndexView ({ changelog }) {
+ let Template = function ({ speakersContainer, changelog }) {
     let content = /*html*/`
     <div id="landing">
         <section id="hero">
@@ -33,6 +34,10 @@ module.exports = function IndexView ({ changelog }) {
             `).join('')}
             </div>
         </section>
+        <section id="speakers" class="landing">
+            <h1>Speakers</h2>
+            ${ speakersContainer }
+        </section>
         <section id="sponsors" class="landing">
             <h1>Our Past Sponsors</h1>
             <div class="wide">
@@ -42,6 +47,12 @@ module.exports = function IndexView ({ changelog }) {
         </section>
     </div>
     `
+    return content
+  }
+
+  module.exports = function IndexView ({ changelog, speakers }) {
+    let speakersContainer = SpeakersContainer({ speakers })
+    let content = Template({ changelog, speakersContainer })
     let html = Layout({ content, title: 'Home' })
     return { html }
   }
