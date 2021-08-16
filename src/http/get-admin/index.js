@@ -14,7 +14,7 @@ async function unauthenticated(req) {
   if (req.session.loggedIn) return
   else {
     let form = `
-      <h1>Please log-in</h1>
+      <h1>Please Log-in</h1>
       <form action=/login method=post>
         <input type=password name=password>
         <input type=submit value=Log-In>
