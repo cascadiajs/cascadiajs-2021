@@ -3,7 +3,7 @@ const fs = require('fs')
 // for pushing speakers to staging & prod
 //const speakerData = require('../data/prod/speakers.json')
 
-async function uploadSpeakers(env, password) {
+async function uploadSpeakers(env, data, password) {
     // set-up the API URL
     let url
     if (env === 'testing') {
@@ -14,7 +14,7 @@ async function uploadSpeakers(env, password) {
     }
 
     // read the proper file
-    let speakerData = JSON.parse(fs.readFileSync(`./data/${ env }/speakers.json`).toString())
+    let speakerData = JSON.parse(fs.readFileSync(data).toString())
 
     // log-in
     const params = new URLSearchParams()
@@ -36,8 +36,9 @@ async function uploadSpeakers(env, password) {
 
 function main() {
     let env = process.argv[2]
-    let password = process.argv[3]
-    uploadSpeakers(env, password)
+    let data = process.argv[3]
+    let password = process.argv[4]
+    uploadSpeakers(env, data, password)
 }
 
 main()
