@@ -5,6 +5,8 @@ excerpt: Learn Node.js and GraphQL from an expert in the industry!
 ---
 <div class="speaker"><div class="speaker-photo"><img src="/images/workshops/eve-porcello.jpg" alt="Photo of Eve"/></div></div>
 
+Eve Porcello is a software engineer, instructor, author, and co-founder of Moon Highway. Her career started writing technical specifications and creating UX designs for web projects. Since starting Moon Highway in 2012, she has created video content for egghead.io and LinkedIn Learning and has co-authored Learning React and Learning GraphQL for O'Reilly Media. She is also a frequent conference speaker and has presented at conferences including React Rally, GraphQL Summit, and OSCON.
+
 ## Functional Programming in Node.js
 
 * When: Monday, Nov 8 (9am - noon)

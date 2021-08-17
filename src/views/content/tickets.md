@@ -2,7 +2,9 @@
 title: Tickets
 excerpt: Join us for a very hyrbid, very awesome CascadiaJS 2021!
 ---
-Early Bird tickets are on sale starting <span class="highlight warning">June 28, 4pm PDT</span> in limited quantities! Please read below for more information on how this year's progressively enhanced hybrid event is going to work:
+When you buy a ticket to CascadiaJS 2021, you have the option of purchasing a ticket to the virtual event (modeled after last year's fully virtual conference, [which was awesome](#highlights-from-cascadiajs-2020)) or a ticket to an in-person Watch Party in Seattle, Portland or Vancouver, BC.
+
+No matter what ticket you purchase, you will have the option of adding one or more [workshops](/workshops) to your order, which will all take place the week after the conference. When you purchase a workshop ticket bundled with a conference ticket, you save $50 for half-day workshops and $100 for full-day workshops.
 
 *Note: all times below in PDT, which is UTC-7*
 ## Baseline: a virtual CascadiaJS conference 
@@ -35,7 +37,7 @@ For folks who are vaccinated and interested in participating in an in-person eve
 
 ### Q: Have you announced any speakers yet?
 
-A: No, we haven't announced any speakers. The Early Bird round of tickets are also known as the "trust us" round. But if the past is any indication, this year's lineup will be amazing.
+A: Almost! We will start announcing speakers on August 18 and announce all 20 over the next 10 days.
 
 ### Q: Will you be running a Scholarship Program this year?
 

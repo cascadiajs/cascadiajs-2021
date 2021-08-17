@@ -41,7 +41,7 @@ Join us for a week of awesome workshops from industry experts following the conf
 
 ### Zero to React with Hooks
 
-* When: Wednesday, Nov 10 (1pm - 4pm)
+* When: Wednesday, Nov 10 (1pm - 4:30pm)
 * Level: Intro
 * Instructor: Ben Ilegbodu
 
@@ -57,7 +57,7 @@ Join us for a week of awesome workshops from industry experts following the conf
 
 ### TypeScript for React Developers
 
-* When: Thursday, Nov 11 (1pm - 4pm)
+* When: Thursday, Nov 11 (1pm - 4:30pm)
 * Level: Intro
 * Instructor: Ben Ilegbodu
 
