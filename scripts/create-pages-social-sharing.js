@@ -7,6 +7,22 @@ const url = "http://localhost:3333"
 
 // NOTE: make sure the PUPPETEER_SKIP_DOWNLOAD envvar is set to TRUE wherever you deploy this code
 
+function getAllFiles(dirPath, arrayOfFiles) {
+  let files = fs.readdirSync(dirPath)
+
+  arrayOfFiles = arrayOfFiles || []
+
+  files.forEach(function(file) {
+    if (fs.statSync(dirPath + "/" + file).isDirectory()) {
+      arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
+    } else {
+      arrayOfFiles.push(join(dirPath, "/", file))
+    }
+  })
+
+  return arrayOfFiles
+}
+
 async function createImages() {
   // start the sandbox webserver
   await sandbox.start()
@@ -35,13 +51,13 @@ async function createImages() {
 
   let page = await browser.newPage()
 
-  const files = fs.readdirSync(source)
+  const files = getAllFiles(source)
 
   for (const file of files) {
-    console.log(`Generating a screen shot for ${ file }`)
-    const stub = file.split('.md')[0]
-    await page.goto(`${ url }/${ stub }?social`)
-    await page.screenshot({ path: `${dest}/${ stub }-share.png` })
+    let relativePath = file.split(source).pop().split('.md')[0]
+    console.log(`Generating a screen shot for ${ relativePath }`)
+    await page.goto(`${ url }/${ relativePath }?social`)
+    await page.screenshot({ path: `${dest}/${ relativePath }-share.png` })
   }
 
   console.log("Shutting down")
