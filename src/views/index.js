@@ -28,7 +28,7 @@ let SpeakersContainer = require('./components/speakers')
                     <h2>${ post.title }</h2>
                     <p style="flex:1">${ post.excerpt }</p>
                     <div>
-                        <div class="cta"><a href="/changelog/${ post.stub }">Read More</a></div>
+                        <div class="cta secondary"><a href="/changelog/${ post.stub }">Read More</a></div>
                     </div>
                 </div>
             `).join('')}

@@ -642,9 +642,13 @@ footer {
     width: 250px;
 }
 
-#speaker .speaker-photo img {
+.speaker .speaker-photo img {
     height: 300px;
     width: 300px;
+}
+
+.page-body .speaker {
+    padding-bottom: 16px;
 }
 
 #speaker-list .speaker .speaker-photo:hover {
@@ -728,17 +732,17 @@ a.js-topic:hover {
     color: #0033FF;
 }
 
-#speaker h3 {
+.speaker h3 {
     margin: 8px 0 8px 0;
 }
 
-#speaker .speaker-photo {	
+.speaker .speaker-photo {	
 	margin-right: 16px;
     height: 300px;
     width: 300px;
 }
 
-#speaker .abstract {
+.speaker .abstract {
 	margin: 16px 0 16px 0;
 }
 
@@ -841,7 +845,7 @@ a.js-topic:hover {
 
 #social-excerpt {
     font-family: ibm-plex-mono, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     color: #112378;
     flex: 1;

@@ -17,7 +17,7 @@ let Template = function(speaker) {
         </div>
         <div class="page-body">
             <!--div class="cta"><a href="http://eepurl.com/dPmCkT">Sign-Up for Updates on CascadiaJS 2022</a></div-->
-            <section id="speaker">
+            <section class="speaker">
                 <h2>${ title }</h2>
                 <!--div class="video">
                     ${ ytId ?
