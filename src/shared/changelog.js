@@ -5,7 +5,7 @@ let readFile = fs.readFileSync
 let fm = require('front-matter')
 let sortDesc = require('./utils/sort').sortDesc
 
-module.exports = function () {
+module.exports = function getAll () {
     let path = join(process.cwd(), 'node_modules', '@architect', 'views', 'content', 'changelog')
     let files = readDir(path)
     let posts = files
@@ -17,5 +17,5 @@ module.exports = function () {
         })
         .filter(post => post.published)
 
-    return sortDesc(posts, 'published').slice(0, 3)
+    return sortDesc(posts, 'published')
 }
