@@ -76,7 +76,7 @@ Once you’ve recorded your 2-minute video, just upload it to a public but obfus
 
 ## Note for ASL speakers
 
-If you would like to deliver your talk using ASL, we are here to support you! Once your proposal has been accepted, we will work with you to figure out the best way to make sure your talk is delivered appropriately to folks in our audience who don't understand ASL.
+If you would like to deliver your talk using American Sign Language, we are here to support you! Once your proposal has been accepted, we will work with you to figure out the best way to make sure your talk is delivered appropriately to folks in our audience who don't understand ASL.
 
 For the purposes of the CFP, please record the 2-minute video using ASL and include an attached transcript. Our Talk Review Committee will use both the video and the transcript to evaluate your proposal.
 
