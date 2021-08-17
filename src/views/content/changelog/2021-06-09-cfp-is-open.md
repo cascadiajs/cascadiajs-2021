@@ -1,6 +1,7 @@
 ---
 title: The Call for Presenters is OPEN
 excerpt: Every developer has a story, what's yours?
+image: /images/aaron-2019.jpg
 published: 2021-06-09T00:00Z
 ---
 We believe is that every developer has a story, and that sharing these stories is how we grow as web developers and as people.

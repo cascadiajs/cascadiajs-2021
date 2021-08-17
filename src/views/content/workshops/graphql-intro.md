@@ -2,7 +2,7 @@
 title: Getting Started with GraphQL
 image: /images/workshops/eve-porcello.jpg 
 ---
-<div id="speaker"><div class="speaker-photo"><img src="/images/workshops/eve-porcello.jpg" alt="Photo of Eve"/></div></div>
+<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/eve-porcello.jpg" alt="Photo of Eve"/></div></div>
 
 * When: Monday, Nov 12 (9am - noon)
 * Where: Online / Zoom

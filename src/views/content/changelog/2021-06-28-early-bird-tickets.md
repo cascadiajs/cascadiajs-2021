@@ -1,6 +1,6 @@
 ---
 title: Early Bird tickets have gone on sale
-excerpt: Early Bird tickets just went on sale. Grab one before they're gone!
+excerpt: Grab one before they're gone!
 published: 2021-06-28T00:00Z
 ---
 Heads up that Early Bird tickets 🎟 for this year's progressively enhanced hybrid conference will go on sale at 4pm PDT today!

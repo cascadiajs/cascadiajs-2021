@@ -1,6 +1,7 @@
 ---
 title: SeattleJS August Meetup
-excerpt: The next SeattleJS meetup is coming up August 18!
+excerpt: The next virtual meetup is coming up August 18!
+image: https://secure.meetupstatic.com/photos/event/6/e/9/1/clean_497548305.jpeg
 published: 2021-08-10T00:00Z
 ---
 ![SeattleJS virtual meeting screenshot](https://secure.meetupstatic.com/photos/event/6/e/9/1/clean_497548305.jpeg)

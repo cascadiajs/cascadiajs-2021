@@ -2,7 +2,7 @@
 title: Scaling GraphQL APIs with Federation
 image: /images/workshops/eve-porcello.jpg 
 ---
-<div id="speaker"><div class="speaker-photo"><img src="/images/workshops/eve-porcello.jpg" alt="Photo of Eve"/></div></div>
+<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/eve-porcello.jpg" alt="Photo of Eve"/></div></div>
 
 * When: Friday, Nov 12 (1pm - 4pm)
 * Where: Online / Zoom

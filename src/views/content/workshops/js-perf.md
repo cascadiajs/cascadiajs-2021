@@ -2,7 +2,7 @@
 title: Building Blazing-Fast Apps by using Chrome DevTools
 image: /images/workshops/brian-love.jpg 
 ---
-<div id="speaker"><div class="speaker-photo"><img src="/images/workshops/brian-love.jpg" alt="Photo of Brian"/></div></div>
+<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/brian-love.jpg" alt="Photo of Brian"/></div></div>
 
 * When: Tuesday, Nov 9 (9am - 4pm)
 * Where: Online / Zoom

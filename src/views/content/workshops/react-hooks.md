@@ -2,7 +2,7 @@
 title: Zero to React with Hooks
 image: /images/workshops/ben-ilegbodu.jpg 
 ---
-<div id="speaker"><div class="speaker-photo"><img src="/images/workshops/ben-ilegbodu.jpg" alt="Photo of Ben"/></div></div>
+<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/ben-ilegbodu.jpg" alt="Photo of Ben"/></div></div>
 
 * When: Wednesday, Nov 10 (1pm - 4pm)
 * Where: Online / Zoom

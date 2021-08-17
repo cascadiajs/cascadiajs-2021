@@ -46,7 +46,6 @@ Join us for a week of awesome workshops from industry experts following the conf
 
 <span class="cta secondary"><a href="/workshops/react-hooks">More Info</a></span>
 
-
 ### Advanced Accessibility with JavaScript and Automated Testing
 
 * When: Thursday, Nov 11 (9am - noon)

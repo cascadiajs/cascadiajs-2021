@@ -2,7 +2,7 @@
 title: Intro to Accessible Web Development with HTML, CSS and JS
 image: /images/workshops/marcy-sutton.jpg
 ---
-<div id="speaker"><div class="speaker-photo"><img src="/images/workshops/marcy-sutton.jpg" alt="Photo of Marcy"/></div></div>
+<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/marcy-sutton.jpg" alt="Photo of Marcy"/></div></div>
 
 * When: Wednesday, Nov 10 (9am - noon)
 * Where: Online / Zoom
