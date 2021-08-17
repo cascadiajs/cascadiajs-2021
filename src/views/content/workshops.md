@@ -1,6 +1,7 @@
 ---
 title: Workshops
 excerpt: Join us for a week of awesome workshops from industry experts following the conference!
+image: /images/workshops/instructors.jpg
 ---
 Join us for a week of awesome workshops from industry experts following the conference!
 

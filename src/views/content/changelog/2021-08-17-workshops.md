@@ -1,7 +1,7 @@
 ---
 title: Announcing Workshop Week
 excerpt: A week of half-day and full-day workshops covering everything from React to GraphQL
-image: /images/changelog/workshop-instructors.jpg
+image: /images/workshops/instructors.jpg
 published: 2021-08-17T00:00Z
 ---
 Every year, we work with some of the best folks in the industry to put on workshops that build on the topic covered at CascadiaJS. This year we are thrilled to have 4 amazing people putting on 9 workshops over the course 5 days following CascadiaJS. An event of this magnitude deserves a name, so `<say>hello</say>` to Workshop Week!

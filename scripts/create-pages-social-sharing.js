@@ -24,6 +24,8 @@ function getAllFiles(dirPath, arrayOfFiles) {
 }
 
 async function createImages() {
+  // if provided, should be the relative path to a single file to render a social sharing image for
+  let input = process.argv[2]
   // start the sandbox webserver
   await sandbox.start()
 
@@ -51,7 +53,13 @@ async function createImages() {
 
   let page = await browser.newPage()
 
-  const files = getAllFiles(source)
+  let files = []
+  if (input) {
+    files.push(join(__dirname, '..', input))
+  }
+  else {
+    files = getAllFiles(source)
+  }
 
   for (const file of files) {
     let relativePath = file.split(source).pop().split('.md')[0]
