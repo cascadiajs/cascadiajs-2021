@@ -30,7 +30,7 @@ Marcy Sutton is a freelance web developer and accessibility specialist. Previous
 
 <div class="speaker"><div class="speaker-photo"><img src="/images/workshops/brian-love.jpg" alt="Photo of Brian Love"/></div></div>
 
-Brian is a Google Developer Expert focused on Angular, Web Technologies, and Node.js from Portland, OR. He's been building web applications since he was 13, and hasn't stopped since. He is the Principal Architect at [LiveLoveApp](https://liveloveapp.com/).
+Brian is a Principal Architect at [LiveLoveApp](https://liveloveapp.com/) and a Google Developer Expert in Web Technologies and Angular with a passion for learning, writing, speaking, teaching, and mentoring. He regularly speaks at conferences and meetups around the country and teaches workshops on web performance, RxJS, NgRx, and Angular. Brian co-authored “Why Angular for the Enterprise” published by O’Reilly. When not coding, Brian enjoys skiing, hiking, and being in the outdoors.
 
 <div class="cta secondary"><a href="/workshops/brian-love">More Info on Brian's Workshops</a></div>
 
