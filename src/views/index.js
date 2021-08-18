@@ -21,9 +21,9 @@ let OrganizersContainer = require('./components/organizers')
             <h1>Changelog</h1>
             <div id="changelog-posts">
             ${ changelog.map(post => `
-                <div class="changelog-post">
-                    <h2><a href="/changelog/${ post.stub }">${ post.title }</a></h2>
-                    <p><i>${ (new Date(post.published)).toDateString() }</i></p>
+                <div class="changelog-card">
+                    <p class="changelog-card-date">${ (new Date(post.published)).toDateString() }</p>
+                    <p class="changelog-card-title"><a href="/changelog/${ post.stub }">${ post.title }</a></p>
                     <!--p style="flex:1">${ post.excerpt }</p>
                     <div>
                         <div class="cta secondary"><a href="/changelog/${ post.stub }">Read More</a></div>

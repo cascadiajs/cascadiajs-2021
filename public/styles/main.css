@@ -304,6 +304,14 @@ div.highlight {
     font-size: 0.8em;
 }
 
+.changelog-card-date {
+    font-size: 20px;
+}
+
+.changelog-card-title {
+    font-size: 28px;
+}
+
 .sponsor-includes {
     background-color: #ddd;
 }
@@ -1164,7 +1172,7 @@ input:checked + .slider:before {
         display:flex;
     }
 
-    .changelog-post {
+    .changelog-card {
         width: 33%;
         padding: 0 16px;
         text-align:left;
@@ -1172,7 +1180,7 @@ input:checked + .slider:before {
         flex-direction: column;
     }
 
-    .changelog-post h2 {
+    .changelog-card-title {
         margin: 0 0 16px 0;
     }
 
