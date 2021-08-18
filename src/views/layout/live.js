@@ -12,7 +12,7 @@ module.exports = function Layout ({title, content, socialUrl = 'https://2020.cas
     ${ head({ title, content, socialUrl })}
     <body>
       <div id="root">
-        <section id="live-header">
+        <header id="live-header">
           <div id="logo">
             <a href="/"><img src="/images/icon-green.svg" alt="CascadiaJS logo"/></a>
           </div>
@@ -45,10 +45,10 @@ module.exports = function Layout ({title, content, socialUrl = 'https://2020.cas
               </label>
             </div>
           </div>
-        </section>
-        <div id="content">
+        </header>
+        <main id="content">
           ${ content }
-        </div>
+        </main>
         ${ footer() }
       </div>
       ${ bodyScripts({ scripts })}

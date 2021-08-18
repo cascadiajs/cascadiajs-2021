@@ -17,7 +17,7 @@ In part two, you'll learn the basics of accessible interactivity on the web with
 
 This workshop is intended as a beginner to intermediate technical workshop. Some experience with JavaScript coding will be helpful, but not required, as there will be opportunities to test live websites for accessibility without any coding.
 
-### What You'll Need
+## What You'll Need
 
 * A code editor
 * A browser

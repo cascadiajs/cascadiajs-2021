@@ -17,10 +17,11 @@ To round out this technical workshop, you'll also gain an understanding of how a
 
 This workshop is intended for intermediate to advanced web developers with JavaScript experience. React knowledge will be helpful but is not absolutely required. This is part two following another workshop for beginner to intermediate developers: Intro to Accessible Web Development with HTML, CSS, and JavaScript.
 
-### What You'll Need
+## What You'll Need
 
 * A code editor
 * A browser
+* Git and Node.js installed
 * Zoom - the course will be taught using this platform
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021/">Buy a Conference + Workshop Bundle ($50 discount)</a></div> <div class="cta secondary"><a href="https://ti.to/event-loop/cascadiajs-2021/with/noa5qxuzqq4,ttkg9rthsno,qbhdoha8bvo,mzrv5d5lg5c,9bpugxsil-y,rquptpreq3s,2yhjle-navk,1k-p6c67048,kgqqxm0p3wc">Buy Standalone Workshop Ticket</a></div>
