@@ -5,20 +5,16 @@ let OrganizersContainer = require('./components/organizers')
  let Template = function ({ speakersContainer, changelog, organizersContainer }) {
     let content = /*html*/`
     <div id="landing">
-        <section id="hero">
-            <div style="height:100%;display:flex;flex-direction:column">
-                <div id="hero-copy" class="landing" style="flex: 1">
-                    <h1>CascadiaJS is the Pacific Northwest JavaScript Conference</h1>    
+        <section id="hero" class="landing">
+            <h1>CascadiaJS is the Pacific Northwest JavaScript Conference</h1>
+            <div id="hero-copy">   
+                <div>
                     <p>This year's event will be a <em>hybrid</em> event, a virtual conference <em>progressively enhanced</em> with in-person events in Seattle, Portland and Vancouver, BC</p>
                     <div class="cta"><a href="/tickets">More Info</a></div>
                 </div>
-                <div id="waves">
-                    <img src="/images/heron-left.png" alt="hero image of a hybrid heron / espresso machine"/>
+                <div>
+                    <img src="/images/heron-right.png" alt="hero image of a hybrid heron / espresso machine"/>
                 </div>
-            </div>
-            <div style="display:flex;flex-direction:column">
-                <div style="flex:1"></div>
-                <div><img src="/images/heron-right.png" alt="hero image of a hybrid heron / espresso machine"/></div>
             </div>
         </section>
         <section id="changelog" class="landing">
@@ -26,13 +22,17 @@ let OrganizersContainer = require('./components/organizers')
             <div id="changelog-posts">
             ${ changelog.map(post => `
                 <div class="changelog-post">
-                    <h2>${ post.title }</h2>
-                    <p style="flex:1">${ post.excerpt }</p>
+                    <h2><a href="/changelog/${ post.stub }">${ post.title }</a></h2>
+                    <p><i>${ (new Date(post.published)).toDateString() }</i></p>
+                    <!--p style="flex:1">${ post.excerpt }</p>
                     <div>
                         <div class="cta secondary"><a href="/changelog/${ post.stub }">Read More</a></div>
-                    </div>
+                    </div-->
                 </div>
             `).join('')}
+            </div>
+            <div class="wide">
+                <div class="cta"><a href="/changelog">See Full Changelog</a></div>
             </div>
         </section>
         <section id="speakers" class="landing">

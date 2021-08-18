@@ -392,6 +392,7 @@ section .cta {
 
 #hero {
     background-color: #CFD3E4;
+    text-align: left;
 }
 
 #waves {
@@ -399,13 +400,17 @@ section .cta {
 }
 
 #hero-copy {
-    padding: 32px 16px;
+    padding: 0;
 }
 
 #hero-copy p {
     font-family:ibm-plex-mono;
     font-size:1.5em;
     color:#112378;
+}
+
+#hero img {
+    display: none;
 }
 
 #sponsors, #changelog {
@@ -1154,17 +1159,6 @@ input:checked + .slider:before {
     section.landing {
         text-align: center;
     }
-    
-
-    #hero {
-        display: flex;
-        width:100%;
-        padding: 0;
-    }
-
-    #hero>div {
-        flex: 1;
-    }
 
     #changelog-posts {
         display:flex;
@@ -1186,17 +1180,19 @@ input:checked + .slider:before {
         display: block;
     }
 
+    #hero {
+        padding: 16px 15% 0 15%;
+    }
+
     #hero-copy {
-        text-align:left;
-        margin:0 0 0 30%;
+        display: flex;
+        font-size: 1.2vw;
     }
 
-    #hero-copy p {
-        font-size:2vw;
-    }
-
-    #hero h1 {
-        font-size: 4vw;
+    #hero img {
+        display: inline;
+        height: 100%;
+        width: 100%;
     }
 
     #attend .container {
