@@ -1,7 +1,8 @@
 let Layout = require('./layout')
 let SpeakersContainer = require('./components/speakers')
+let OrganizersContainer = require('./components/organizers')
 
- let Template = function ({ speakersContainer, changelog }) {
+ let Template = function ({ speakersContainer, changelog, organizersContainer }) {
     let content = /*html*/`
     <div id="landing">
         <section id="hero">
@@ -45,6 +46,10 @@ let SpeakersContainer = require('./components/speakers')
                 <div class="cta"><a href="/sponsors">Sponsor Our Event</a></div>
             </div>
         </section>
+        <section id="organizers" class="landing">
+            <h1>Organizers</h2>
+            ${ organizersContainer }
+        </section>
     </div>
     `
     return content
@@ -52,7 +57,8 @@ let SpeakersContainer = require('./components/speakers')
 
   module.exports = function IndexView ({ changelog, speakers }) {
     let speakersContainer = SpeakersContainer({ speakers })
-    let content = Template({ changelog, speakersContainer })
+    let organizersContainer = OrganizersContainer()
+    let content = Template({ changelog, speakersContainer, organizersContainer })
     let html = Layout({ content, title: 'Home' })
     return { html }
   }

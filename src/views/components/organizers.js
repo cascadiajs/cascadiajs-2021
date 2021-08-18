@@ -1,10 +1,13 @@
 const organizers = [
-    {key: 'carter-rabasa', name: 'Carter Rabasa', pronouns: 'He/him', title: 'Lead Organizer', place: 'Seattle, WA'},
-    {key: 'carrie-rabasa', name: 'Carrie Rabasa', pronouns: 'She/her',  title: 'Design Lead', place: 'Seattle, WA'},
-    {key: 'brenden-niedermeyer', name: 'Brenden Niedermeyer', pronouns: 'He/him',  title: 'New Speaker Lead', place: 'Seattle, WA'},
-    {key: 'brian-love', name: 'Brian Love', pronouns: 'He/him',  title: 'New Speaker Support', place: 'Seattle, WA'},
-    {key: 'nicole-oliver', name: 'Nicole Oliver', pronouns: 'She/her',  title: 'New Speaker Support', place: 'Seattle, WA'},
-    {key: 'kate-pond', name: 'Kate Pond', pronouns: 'She/her',  title: 'Talk Review Committee', place: 'Seattle, WA'}
+    {key: 'carter-rabasa', name: 'Carter Rabasa', pronouns: 'he/him', title: 'Lead Organizer', place: 'Seattle, WA'},
+    {key: 'carrie-rabasa', name: 'Carrie Rabasa', pronouns: 'she/her',  title: 'Design Lead', place: 'Seattle, WA'},
+    {key: 'kate-pond', name: 'Kate Pond', pronouns: 'she/her',  title: 'Talk Review Committee', place: 'Seattle, WA'},
+    {key: 'david-guttman', name: 'David Guttman', pronouns: 'he/him',  title: 'Talk Review Committee', place: 'Los Angeles, CA'},
+    {key: 'brenden-niedermeyer', name: 'Brenden Niedermeyer', pronouns: 'he/him',  title: 'New Speaker Support', place: 'Seattle, WA'},
+    {key: 'nicole-oliver', name: 'Nicole Oliver', pronouns: 'she/her',  title: 'New Speaker Support', place: 'Seattle, WA'},
+    {key: 'greg-bulmash', name: 'Greg Bulmash', pronouns: 'he/him/his',  title: 'New Speaker Support', place: 'Seattle, WA'},
+    {key: 'brian-love', name: 'Brian Love', pronouns: 'he/him',  title: 'Portland Lead', place: 'Portland, OR'},
+    {key: 'kyle-bjordahl', name: 'Kyle Bjordahl', pronouns: 'he/him',  title: 'Portland Volunteer', place: 'Portland, OR'},
 ]
 
 module.exports = function OrganizerContainer () {
