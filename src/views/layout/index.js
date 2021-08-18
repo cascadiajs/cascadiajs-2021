@@ -23,9 +23,9 @@ module.exports = function Layout ({title, content, socialUrl, scripts = []}) {
             </div>
           </nav>
         </header>
-        <div id="content">
+        <main id="content">
           ${ content }
-        </div>
+        </main>
         ${ footer() }
       </div>
       ${ bodyScripts({ scripts })}

@@ -15,7 +15,7 @@ module.exports = function OrganizerContainer () {
     <div id="organizer-list">
         ${ organizers.map(o => /*html*/`
         <div class="organizer">
-            <div class="organizer-photo"><img src="/images/organizers/${ o.key }.jpg"/></div></a>
+            <div class="organizer-photo"><img src="/images/organizers/${ o.key }.jpg" alt="" /></div></a>
             <div class="organizer-info">
                 <div class="organizer-name">${ o.name }</div>
                 <div class="organizer-misc">${ o.title }<br/>${ o.pronouns }<br/>${ o.place }</div>

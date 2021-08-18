@@ -11,7 +11,7 @@ module.exports = function SocialLayout ({ header, image = '/images/heron-right.p
   </head>
   <body>
     <div id="root">
-      <div id="content">        
+      <main id="content">
           <div id="social-share">
               <div id="social-image">
                 <img src="${ image }" alt="foo"/>
@@ -31,7 +31,7 @@ module.exports = function SocialLayout ({ header, image = '/images/heron-right.p
                   </div>
               </div>
           </div>
-      </div>
+      </main>
     </div>
   </body>
 </html>
