@@ -1,5 +1,5 @@
 ---
-title: Why is CascadiaJS "hybrid" this year?
+title: Why is CascadiaJS hybrid this year?
 excerpt: Hint - we're about people, not technology
 published: 2021-08-25T00:00Z
 ---
