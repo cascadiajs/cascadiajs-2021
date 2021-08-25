@@ -2,10 +2,15 @@
 title: Recording Talks
 excerpt: Tips and tools on how to record an amazing talk!
 ---
+Here are some resources for recording your talk for CascadiaJS 2021. We hope you find this helpful. Let us know if you have any tips or tricks, and we'll update this guide. [PRs are welcome](https://github.com/cascadiajs/cascadiajs-2021/tree/main/src/views/content/resources)!
 
-# Downloading Loom
+## Choose a Recording Tool
 
-We are strongly encouraging all speakers to use [Loom](https://www.loom.com) to record their talks for CascadiaJS 2021. 
+We are strongly encouraging all speakers to use [Loom](https://www.loom.com) to record their talks. It has most every feature folks would need and we can best provide support for you if you use this tool.
+
+However, the choice is yours. So long as you record a video that meets our requirements, you may use any combination of tools that you like.
+
+## Downloading Loom
 
 We have purchased a business license and we are happy to add all of you to our Workspace so that you have access to all of the pro features of Loom for free!
 

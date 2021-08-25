@@ -1,6 +1,5 @@
 ---
 title: Why is CascadiaJS hybrid this year?
-excerpt: Hint - we're about people, not technology
 published: 2021-08-25T00:00Z
 ---
 Last year we did the hardest thing we've ever done: we took an in-person event that people love for its focus on people and relationships and we brought in online as a fully virtual event. We created an experience that stayed true to our roots, an event that put people first, connected folks, helped our community level-up and have tons of fun together! And what we lost in the form of high-fiving a friend, we gained in creating the biggest and most accessible CascadiaJS yet.
