@@ -17,6 +17,7 @@ get  /speakers/:key
 post /login
 post /speakers
 post /speakers/:key
+post /orders
 get /*
 
 @tables
