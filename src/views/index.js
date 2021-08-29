@@ -36,7 +36,7 @@ let OrganizersContainer = require('./components/organizers')
             </div>
         </section>
         <section id="speakers" class="landing">
-            <h1>Speakers</h2>
+            <h1>Speakers</h1>
             ${ speakersContainer }
         </section>
         <section id="sponsors" class="landing">
@@ -47,7 +47,7 @@ let OrganizersContainer = require('./components/organizers')
             </div>
         </section>
         <section id="organizers" class="landing">
-            <h1>Organizers</h2>
+            <h1>Organizers</h1>
             ${ organizersContainer }
         </section>
     </div>
