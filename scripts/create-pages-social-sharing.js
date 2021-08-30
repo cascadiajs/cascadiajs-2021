@@ -7,6 +7,8 @@ const url = "http://localhost:3333"
 
 // NOTE: make sure the PUPPETEER_SKIP_DOWNLOAD envvar is set to TRUE wherever you deploy this code
 
+// NOTE: will not create directories!!!
+
 function getAllFiles(dirPath, arrayOfFiles) {
   let files = fs.readdirSync(dirPath)
 
@@ -62,6 +64,7 @@ async function createImages() {
   }
 
   for (const file of files) {
+    console.log(file)
     let relativePath = file.split(source).pop().split('.md')[0]
     console.log(`Generating a screen shot for ${ relativePath }`)
     await page.goto(`${ url }/${ relativePath }?social`)
