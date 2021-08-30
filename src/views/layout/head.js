@@ -2,7 +2,7 @@ function script(source) {
   return `<script src=${source} type=module crossorigin></script>`
 }
 
-module.exports = function Head ({title, socialUrl = 'https://2021.cascadiajs.com/images/social/about-share.png', scripts = []}) {
+module.exports = function Head ({title, socialUrl = 'https://2021.cascadiajs.com/images/social/about-share.png', excerpt = null, scripts = []}) {
   // expand title
   title = `CascadiaJS 2021${ title ? ' - ' + title : '' }`
 
@@ -14,6 +14,7 @@ module.exports = function Head ({title, socialUrl = 'https://2021.cascadiajs.com
     <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="stylesheet" href="/styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ${ excerpt ? `<meta property="og:description" content="${ excerpt }" />` : ``}
     <meta property="og:image" content="${ socialUrl }" />
     <meta name="twitter:image" content="${ socialUrl }">
     <meta name="twitter:card" content="summary_large_image">

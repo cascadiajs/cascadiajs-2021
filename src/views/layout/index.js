@@ -2,11 +2,11 @@ let head = require('./head')
 let footer = require('./footer')
 let bodyScripts = require('./scripts')
 
-module.exports = function Layout ({title, content, socialUrl, scripts = []}) {
+module.exports = function Layout ({title, content, socialUrl, excerpt, scripts = []}) {
   return /*html*/`
   <!doctype html>
   <html lang=en>
-    ${ head({ title, content, socialUrl })}
+    ${ head({ title, content, socialUrl, excerpt })}
     <body>
       <div id="root">
         <header>

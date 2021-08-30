@@ -41,11 +41,11 @@ module.exports = async function Page(req) {
   // pull out any front-matter key/values
   let { attributes, body } = fm(doc)
   let title = attributes.title
+  let excerpt = attributes.excerpt
   let html
   let content
 
   if (social !== undefined) {
-    let excerpt = attributes.excerpt
     let image = attributes.image
     let header = title
     html = SocialLayout({ image, header, excerpt })
@@ -58,7 +58,7 @@ module.exports = async function Page(req) {
     }
 
     let socialUrl = `https://${ process.env.NODE_ENV === 'staging' ? 'staging.' : '' }2021.cascadiajs.com/images/social/${ page }-share.png`
-    html = Layout({ title, content, socialUrl })
+    html = Layout({ title, content, socialUrl, excerpt })
   }
 
   return { html }
