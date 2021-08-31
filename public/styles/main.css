@@ -68,7 +68,7 @@ header>section.alert {
     font-weight: 500;
     color: #112378;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 header>section.alert a, header>section.alert a:visited {
@@ -1232,6 +1232,20 @@ input:checked + .slider:before {
     
     #attend {
         display: flex;
+    }
+
+    .sponsor-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sponsor-grid div {
+        padding: 48px;
+    }
+
+    .sponsor-grid img {
+        height: 100px;
     }
 
     #sponsor-container {

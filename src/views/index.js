@@ -39,13 +39,6 @@ let OrganizersContainer = require('./components/organizers')
             <h1>Speakers</h2>
             ${ speakersContainer }
         </section>
-        <section id="sponsors" class="landing">
-            <h1>Our Past Sponsors</h1>
-            <div class="wide">
-                <img src="/images/cjs-past-sponsors.png" alt="past sponsors of CascadiaJS"/>
-                <div class="cta"><a href="/sponsors">Sponsor Our Event</a></div>
-            </div>
-        </section>
         <section id="organizers" class="landing">
             <h1>Organizers</h2>
             ${ organizersContainer }
