@@ -1,6 +1,7 @@
 ---
 title: Updates on Venues, Parties and Deadlines
 published: 2021-09-01T00:00Z
+image: /images/goodie-box-500.png
 ---
 We are **9 weeks out** from CascadiaJS 2021! Here are some important updates on the biggest and most accessible CascadiaJS we've ever put on.
 
