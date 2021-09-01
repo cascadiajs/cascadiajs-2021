@@ -2,15 +2,6 @@
 title: Tickets
 excerpt: Join us for a very hyrbid, very awesome CascadiaJS 2021!
 ---
-<!-- ## Why is CascadiaJS "hybrid" this year?
-
-Last year we did the hardest thing we've ever done: we took an in-person event that people love for its focus on people and relationships and we brought in online as a fully virtual event. We created an experience that stayed true to our roots, an event that put people first, connected folks, helped our community level-up and have tons of fun together! And what we lost in the form of high-fiving a friend, we gained in creating the biggest and most accessible CascadiaJS yet.
-
-So how do we follow this up? With [progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) of course! We are going to ship the awesome and accessible virtual event that people loved, and we're going to enhance it by adding Hybrid Events in Seattle, Portland and Vancouver BC. Folks who are comfortable gathering in person will be able to watch the live stream with fellow vaccinated attendees in their city, hang out and network during the breaks and socialize at evening events following Day One and Day Two. 
-
-In this way, we hope that no matter who you are, where you are located or what your comfort level is with gathering around people, there is a way for you to attend CascadiaJS 2021 this year. 
--->
-
 ## Ticket Options
 
 When you buy a ticket to CascadiaJS 2021, you have the option of purchasing a ticket to the virtual event (modeled after last year's fully virtual conference, [which was awesome](#highlights-from-cascadiajs-2020)) or a ticket to an in-person Watch Party in Seattle, Portland or Vancouver, BC.
@@ -26,7 +17,9 @@ Every ticket includes access to:
 
 <i class="fas fa-handshake"></i> Job Fair and other networking activities
 
-<i class="fas fa-turntable"></i> Opening and Closing virtual parties, which will include music, trivia, prizes and more (5pm - 7pm)
+<i class="fas fa-handshake"></i> Our first ever pre-conference Hack Event!
+
+<i class="fas fa-turntable"></i> Opening and Closing virtual parties, which will include music, trivia, prizes and more
 
 <i class="fas fa-gifts"></i> Goodie Box with a hoodie, stickers and other fun stuff **shipped to you**
 
@@ -38,18 +31,18 @@ For folks who are vaccinated and interested in participating in an in-person eve
 
 <i class="fas fa-users-class"></i> Watch Party in a central location
 
-<i class="fas fa-coffee"></i> Catering (coffee, light snacks and lunch)
+<i class="fas fa-coffee"></i> Catering (coffee and snacks)
 
-<i class="fas fa-microphone-stand"></i> Opening and Closing parties, which will definitely include karaoke (7pm - ???)
+<i class="fas fa-microphone-stand"></i> Opening and Closing parties (karaoke!)
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Conference Ticket</a></div>
 
 ## Tickets FAQ
 
-### Q: Have you announced any speakers yet?
+<!--### Q: Have you announced any speakers yet?
 
 A: Almost! We will start announcing speakers on August 18 and announce all 20 over the next 10 days.
-
+-->
 ### Q: Will you be running a Scholarship Program this year?
 
 A: Yes, we will be running our Scholarship Program again this year, so if you are a member of an under-represented group, please stay tuned.
