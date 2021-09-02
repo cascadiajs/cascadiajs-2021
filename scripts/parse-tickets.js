@@ -11,9 +11,11 @@ const records = parse(ticketsData, {
     skip_empty_lines: true
   })
 
-const subset = records.map((r) => {
+const orders = Array.from(new Set(records.map(r => r['Ticket Reference'].split('-')[0])))
+
+const subset = records.map((r, i) => {
     return {
-        number: r['Number'],
+        number: orders.indexOf(r['Ticket Reference'].split('-')[0]),
         ticket: r['Ticket'],
         fullName: r['Ticket Full Name'],
         key: r['Ticket Reference'],
