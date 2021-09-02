@@ -1,5 +1,5 @@
 ---
-title: Vancouver, BC
+title: Vancouver BC Hybrid Event
 excerpt: Everything you need to know about attending the Vancouver hybrid event!
 image: /images/conf/vancouver.jpg
 ---

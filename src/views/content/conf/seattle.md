@@ -1,6 +1,7 @@
 ---
-title: Seattle, WA
+title: Seattle Hybrid Event
 excerpt: Everything you need to know about attending the Seattle hybrid event!
+image: /images/conf/seattle.jpg
 ---
 Everything you need to know about attending the Seattle, WA hybrid event!
 
