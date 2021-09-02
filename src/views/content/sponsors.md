@@ -16,7 +16,7 @@ image: /images/cjs-past-sponsors.png
 - 20 talks from industry experts and members of the global JavaScript community
 - Social events on both evenings
 
-## Why sponsor?
+## Why Sponsor?
 
 A CascadiaJS sponsorship represents your company within the developer community - and it can also help you achieve your business goals. Pick from 1 or more sponsorship paths:
 
