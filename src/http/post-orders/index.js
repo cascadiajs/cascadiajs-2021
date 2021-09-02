@@ -12,7 +12,9 @@ exports.handler = async function(req) {
   // authenticate the token passed in the header
   let titoSig = req.headers['Tito-Signature'] || req.headers['tito-signature']
   //console.log(titoSig)
+  console.log(req.body)
   let decoded = Buffer.from(req.body, 'base64').toString()
+  console.log(decoded)
   //console.log(decoded)
   let hash = crypto.createHmac("sha256", process.env.TITO_WEBHOOK_KEY).update(decoded).digest("base64")
   // the hash of the POST body and the value of tito sig don't match, this is a bad request
