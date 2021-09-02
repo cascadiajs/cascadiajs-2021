@@ -56,6 +56,9 @@ exports.handler = async function(req) {
 
 async function registrationFinished(req) {
   let titoOrder = parseBody(req)
+
+  console.log(titoOrder)
+
   // write ticket data to the DB and see if any tickets includes a hoodie
   let hoodieTickets = []
   for (let ticket of titoOrder.tickets) {
@@ -67,19 +70,20 @@ async function registrationFinished(req) {
       hoodieTickets.push(ticketDoc)
     }
   }
-  //console.log('tickets that include a free hoodie', hoodieTickets)
+
+  console.log('tickets that include a free hoodie', hoodieTickets)
 
   // if so find a redemption code that is free, and assign it to this ticket id
   if (hoodieTickets.length > 0) {
     let codes = await data.get({table: 'codes', limit: 1000})
     let freeCodes = codes.filter(c => c.ticketRef === undefined)
-    //console.log('Number of free codes available: ', freeCodes.length)
+    console.log('Number of free codes available: ', freeCodes.length)
     // loop through each ticket that qualifies for a hoodie
     for (let i in hoodieTickets) {
       let ticket = hoodieTickets[i]
       let free = freeCodes[i]
       if (free) {
-        //console.log('Assigning code to ticket ref', free.key, ticket.key)
+        console.log('Assigning code to ticket ref', free.key, ticket.key)
         // update the codes table to mark this code as used
         await data.set({...free, ticketRef: ticket.key})
         // update the tickets table to reference the assigned code
