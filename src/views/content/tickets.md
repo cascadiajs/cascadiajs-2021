@@ -4,36 +4,14 @@ excerpt: Join us for a very hyrbid, very awesome CascadiaJS 2021!
 ---
 ## Ticket Options
 
-When you buy a ticket to CascadiaJS 2021, you have the option of purchasing a ticket to the virtual event (modeled after last year's fully virtual conference, [which was awesome](#highlights-from-cascadiajs-2020)) or a ticket to an in-person Watch Party in Seattle, Portland or Vancouver, BC.
+When you buy a ticket to CascadiaJS 2021, you have the option of purchasing a ticket to:
 
-No matter what ticket you purchase, you will have the option of adding one or more [workshops](/workshops) to your order, which will all take place the week after the conference. When you purchase a workshop ticket bundled with a conference ticket, you save $50 for half-day workshops and $100 for full-day workshops.
+- The virtual event (modeled after last year's fully virtual conference, [which was awesome](#highlights-from-cascadiajs-2020)) 
+- An in-person hybrid event in Seattle, Portland or Vancouver, BC
 
-*Note: all times below in PDT, which is UTC-7*
-## Baseline: a virtual CascadiaJS conference 
+No matter what ticket you purchase, you will have the option of adding one or more [workshops](/workshops) to your order, which will all take place the week after the conference. When you purchase a workshop ticket bundled with a conference ticket, you save <span class="highlight warning">$50</span> for half-day workshops and <span class="highlight warning">$100</span> for full-day workshops.
 
-Every ticket includes access to:
-
-<i class="fas fa-tv-retro"></i> Live streamed talks (9am - 5pm)
-
-<i class="fas fa-handshake"></i> Job Fair and other networking activities
-
-<i class="fas fa-handshake"></i> Our first ever pre-conference Hack Event!
-
-<i class="fas fa-turntable"></i> Opening and Closing virtual parties, which will include music, trivia, prizes and more
-
-<i class="fas fa-gifts"></i> Goodie Box with a hoodie, stickers and other fun stuff **shipped to you**
-
-## Enhanced: in-person events in Cascadia
-
-For folks who are vaccinated and interested in participating in an in-person event, we will be hosting in-person satellite events in Seattle WA, Portland OR and Vancouver BC! A ticket to one of our IRL events will include:
-
-<i class="fas fa-file-medical"></i> Must be vaccinated at least two weeks prior to conference
-
-<i class="fas fa-users-class"></i> Watch Party in a central location
-
-<i class="fas fa-coffee"></i> Catering (coffee and snacks)
-
-<i class="fas fa-microphone-stand"></i> Opening and Closing parties (karaoke!)
+Finally, you'll have the option of helping us fund our Scholarship Program. Last year we raised over $2,000 from our community, and we hope to do even better this year!
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Conference Ticket</a></div>
 

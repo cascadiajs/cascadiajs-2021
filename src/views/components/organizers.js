@@ -8,6 +8,7 @@ const organizers = [
     {key: 'greg-bulmash', name: 'Greg Bulmash', pronouns: 'he/him/his',  title: 'New Speaker Support', place: 'Seattle, WA'},
     {key: 'brian-love', name: 'Brian Love', pronouns: 'he/him',  title: 'Portland Lead', place: 'Portland, OR'},
     {key: 'kyle-bjordahl', name: 'Kyle Bjordahl', pronouns: 'he/him',  title: 'Portland Volunteer', place: 'Portland, OR'},
+    {key: 'faddah-wolf', name: 'Faddah Wolf', pronouns: 'he/him/his',  title: 'Portland Volunteer', place: 'Portland, OR'},
     {key: 'jeff-griffiths', name: 'Jeff Griffiths', pronouns: 'he/him',  title: 'Vancouver BC Lead', place: 'Vancouver, BC'},
 ]
 

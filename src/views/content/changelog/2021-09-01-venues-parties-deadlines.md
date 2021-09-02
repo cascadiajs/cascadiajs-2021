@@ -9,19 +9,21 @@ We are **9 weeks out** from CascadiaJS 2021! Here are some important updates on 
 
 ![goodie box](/images/goodie-box-500.png)
 
-In order to ensure that you get your Goodie Box, which will include the best hoodie we've ever designed, you MUST register for your ticket by <span class="alert warning">Sept 17</span>. 
+In order to ensure that you get your Goodie Box, which will include the best hoodie we've ever designed, you MUST register for your ticket by <span class="highlight warning">Sept 17</span>. 
+
+<div class="cta"><a href="/tickets" title="tickets page">Register</a></div>
 
 ## Vancouver, BC venue is UBC Robson Square 🇨🇦
 
-![UBC Robson Square](/images/ubc-front.jpg)
+![UBC Robson Square](/images/conf/ubc-front.jpg)
 
 We're excited to be in such a central and accessible location, and we can't wait to share more about our plans during the day and in the evenings!
 
-[More about the Vancouver hybrid event](/hybrid/vancouver)
+<div class="cta secondary"><a href="/conf/vancouver">More about the Vancouver hybrid event</a></div>
 
 ## Portland Closing Party will be at VoiceBox Karaoke 🎤
 
-![Voicebox Portland SE](/images/hybrid/voicebox-pdx-se.png)
+![Voicebox Portland SE](/images/conf/voicebox-pdx-se.png)
 
 We are doing a **full buy out** of Voicebox Portland SE for our Portland Closing Party. We're excited to have the space completely to ourselves for 3 hours of fun and karaoke!
 

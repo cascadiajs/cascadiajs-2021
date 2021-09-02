@@ -1,5 +1,5 @@
 ---
-title: Workshops
+title: Post-Conf Workshops (Nov 8 - 12)
 excerpt: Join us for a week of awesome workshops from industry experts following the conference!
 image: /images/workshops/instructors.jpg
 ---

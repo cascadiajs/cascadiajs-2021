@@ -273,6 +273,7 @@ span.cta {
 .cta.nope {
 	color: #000;
 	background-color: #ccc;
+    border: 4px solid #666;
 }
 
 .highlight {
@@ -1189,7 +1190,7 @@ input:checked + .slider:before {
     }
 
     #hero {
-        padding: 16px 15% 0 15%;
+        padding: 32px 15% 0 15%;
     }
 
     #hero-copy {

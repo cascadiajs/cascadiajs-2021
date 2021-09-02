@@ -5,7 +5,7 @@ image: /images/vancouver.jpg
 ---
 Everything you need to know about attending the Vancouver, BC hybrid event!
 
-![The front of UBC Robson](/images/ubc-front.jpg)
+![The front of UBC Robson](/images/conf/ubc-front.jpg)
 ## Venue
 
 ```
@@ -30,3 +30,5 @@ Stay Tuned!
 ## Closing Party (Nov 4)
 
 Stay Tuned!
+
+<div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Vancouver Ticket</a></div>

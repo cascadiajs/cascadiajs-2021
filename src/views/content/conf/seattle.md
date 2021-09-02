@@ -5,11 +5,14 @@ image:
 ---
 Everything you need to know about attending the Seattle, WA hybrid event!
 
-## Venue - TBD
+## Venue
 
+*Details TBD*
+## Opening Party
 
-## Opening Party - TBD
+*Details TBD*
+## Closing Party
 
+*Details TBD*
 
-## Closing Party - TBD
-
+<div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Seattle Ticket</a></div>

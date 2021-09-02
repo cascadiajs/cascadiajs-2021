@@ -9,8 +9,8 @@ let OrganizersContainer = require('./components/organizers')
             <h1>CascadiaJS is the Pacific Northwest JavaScript Conference</h1>
             <div id="hero-copy">   
                 <div>
-                    <p>This year's event will be a <em>hybrid</em> event, a virtual conference <em>progressively enhanced</em> with in-person events in Seattle, Portland and Vancouver, BC</p>
-                    <div class="cta"><a href="/tickets">More Info</a></div>
+                    <p>Join us on Nov 3 &amp; 4 for a <em>hybrid</em> event, a virtual conference <em>progressively enhanced</em> with in-person events in Seattle, Portland and Vancouver, BC.</p>
+                    <div class="cta"><a href="/conf">More Info</a></div>
                 </div>
                 <div>
                     <img src="/images/heron-right.png" alt="hero image of a hybrid heron / espresso machine"/>

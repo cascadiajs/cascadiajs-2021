@@ -12,18 +12,10 @@ We will have more specific information about our COVID protocols shortly. All in
 
 In this way, we hope that no matter who you are, where you are located or what your comfort level is with gathering around people, there is a way for you to attend CascadiaJS 2021 this year. 
 
-## Seattle, WA Hybrid Event
-
-[Learn More](/hybrid/seattle)
-
-## Portland, OR Hybrid Event
-
-[Learn More](/hybrid/portland)
-
-## Vancouver, BC Hybrid Event
-
-[Learn More](/hybrid/vancouver)
-
-## Boulder, CO Community Event
-
-[Learn More](/hybrid/boulder)
+<div class="cta secondary"><a href="/conf/seattle">Seattle Info and Tickets</a></div>
+<br/>
+<div class="cta secondary"><a href="/conf/vancouver">Vancouver Info and Tickets</a></div>
+<br/>
+<div class="cta secondary"><a href="/conf/portland">Portland Info and Tickets</a></div>
+<br/>
+<div class="cta secondary"><a href="/conf/boulder">Boulder Info and Tickets</a></div>
