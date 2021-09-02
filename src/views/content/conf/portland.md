@@ -1,7 +1,7 @@
 ---
 title: Portland, OR
 excerpt: Everything you need to know about attending the Portland hybrid event!
-image: /images/hybrid/portland.jpg
+image: /images/conf/portland.jpg
 ---
 Everything you need to know about attending the Portland, OR hybrid event!
 

@@ -1,6 +1,6 @@
 ---
 title: Post-Conf Workshops (Nov 8 - 12)
-excerpt: Join us for a week of awesome workshops from industry experts following the conference!
+excerpt: A week of awesome workshops from industry experts!
 image: /images/workshops/instructors.jpg
 ---
 Join us for a week of awesome workshops from industry experts following the conference!

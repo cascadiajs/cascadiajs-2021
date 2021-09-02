@@ -1,7 +1,7 @@
 ---
 title: Vancouver, BC
 excerpt: Everything you need to know about attending the Vancouver hybrid event!
-image: /images/vancouver.jpg
+image: /images/conf/vancouver.jpg
 ---
 Everything you need to know about attending the Vancouver, BC hybrid event!
 
