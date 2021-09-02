@@ -3,8 +3,10 @@ let parseBody = arc.http.helpers.bodyParser
 let data = require('@begin/data')
 let crypto = require("crypto")
 
-let releaseSlugsForHoodies = ["wmg4ibcq-zk", "uvup7alttr8", "du8rpnvpqeg", "jmdds5wxi4y", "7j-cyjllimi", "h-ksr70mfng"]
-let releaseSlugsForConference = releaseSlugsForHoodies.concat(["6clpkijtmie", "ubizzb4yh9w"])
+// release slugs for tickets that include a hoodie
+let releaseSlugsForHoodies = ["uxxijxoenaw", "j5alov85rse", "gu1wi6hly78", "ds12azaaofu", "v8fofxwnymw"]
+// release slugs for tickets that include conference access, but NO hoodie
+let releaseSlugsForConference = releaseSlugsForHoodies.concat([])
 
 exports.handler = async function(req) {
   // authenticate the token passed in the header
@@ -57,7 +59,8 @@ async function registrationFinished(req) {
   for (let ticket of titoOrder.tickets) {
     // write ticket into DB
     let conference = releaseSlugsForConference.includes(ticket.release_slug) ? 'Y' : 'N'
-    let ticketDoc = await data.set({ table: 'tickets', key: ticket.reference, ticket: ticket.release_title, conference })
+    let number = parseInt(ticket.receipt.number)
+    let ticketDoc = await data.set({ table: 'tickets', key: ticket.reference, ticket: ticket.release_title, number , conference })
     if (releaseSlugsForHoodies.includes(ticket.release_slug)) {
       hoodieTickets.push(ticketDoc)
     }
