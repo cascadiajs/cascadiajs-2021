@@ -11,13 +11,14 @@ src src/views
 @http
 get  /admin
 get  /changelog
-get  /modules/:type/:module
-get  /speakers
-get  /speakers/:key
+post /codes
 post /login
-post /speakers
-post /speakers/:key
+get  /modules/:type/:module
 post /orders
+get  /speakers
+post /speakers
+get  /speakers/:key
+post /speakers/:key
 get /*
 
 @tables
