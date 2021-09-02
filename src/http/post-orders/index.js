@@ -17,7 +17,7 @@ exports.handler = async function(req) {
   let hash = crypto.createHmac("sha256", process.env.TITO_WEBHOOK_KEY).update(decoded).digest("base64")
   // the hash of the POST body and the value of tito sig don't match, this is a bad request
   if (hash !== titoSig) {
-    console.log('ERROR!!! the Tito sig and the calculated hash value did not match ', titoSig, hash)
+    console.log('ERROR!!! the Tito sig and the calculated hash value did not match ', process.env.TITO_WEBHOOK_KEY, titoSig, hash)
     return {
       statusCode: 401,
       body: JSON.stringify({message: "not authorized"})
