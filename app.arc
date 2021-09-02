@@ -11,6 +11,7 @@ src src/views
 @http
 get  /admin
 get  /changelog
+post /code
 post /codes
 post /login
 get  /modules/:type/:module
@@ -19,6 +20,7 @@ get  /speakers
 post /speakers
 get  /speakers/:key
 post /speakers/:key
+post /ticket
 post /tickets
 get /*
 
