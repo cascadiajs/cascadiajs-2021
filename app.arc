@@ -19,6 +19,7 @@ get  /speakers
 post /speakers
 get  /speakers/:key
 post /speakers/:key
+post /tickets
 get /*
 
 @tables

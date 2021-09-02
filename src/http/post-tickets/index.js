@@ -11,16 +11,16 @@ async function auth(req) {
 
 /** write to begin/data */
 async function upload(req) {
-  let codes = req.body
+  let tickets = req.body
 
   // break-up our list of codes into groups of 25 (Begin data limit on batch sets)
   let size = 25
   var grouped = []
-  for(var i = 0; i < codes.length; i += size) {
+  for(var i = 0; i < tickets.length; i += size) {
     grouped.push(
-      codes.slice(i, i+size).map(c => ({
-        table: 'codes',
-        ...c
+      tickets.slice(i, i+size).map(t => ({
+        table: 'tickets',
+        ...t
       }))
     )
   }

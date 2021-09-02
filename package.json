@@ -12,6 +12,7 @@
     "@architect/architect": "^8.7.4",
     "@architect/sandbox": "^3.7.4",
     "@begin/data": "^2.0.1",
+    "csv-parse": "^4.16.2",
     "dotenv": "^10.0.0",
     "eslint": "^7.27.0",
     "node-fetch": "^2.6.1",

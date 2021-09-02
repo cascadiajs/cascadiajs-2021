@@ -1,7 +1,7 @@
 [
-    "aaa",
-    "bbb",
-    "ccc",
-    "ddd",
-    "eee"
+    { "key": "aaa", "ticketRef": "BBBB-4"},
+    { "key": "bbb", "ticketRef": "CCCC-1"},
+    { "key": "ccc" },
+    { "key": "ddd" },
+    { "key": "eee" }
 ]

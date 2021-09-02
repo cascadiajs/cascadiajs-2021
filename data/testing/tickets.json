@@ -1,14 +1,13 @@
 [
     {
       "ticket": "Scholarship Donation",
-      "key": "AAAA-2",
-      "code": "aaa"
+      "key": "AAAA-2"
     },
     {
       "ticket": "Extra Hoodie",
       "key": "BBBB-4",
       "hoodie": "Y",
-      "code": "bbb"
+      "code": "aaa"
     },
     {
       "ticket": "Online Conference Early Bird (Sept 1-2)",
@@ -16,6 +15,6 @@
       "key": "CCCC-1",
       "conference": "Y",
       "hoodie": "Y",
-      "code": "ccc"
+      "code": "bbb"
     }
 ]
