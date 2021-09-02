@@ -61,7 +61,7 @@ async function registrationFinished(req) {
   for (let ticket of titoOrder.tickets) {
     // write ticket into DB
     let conference = releaseSlugsForConference.includes(ticket.release_slug) ? 'Y' : 'N'
-    let number = parseInt(ticket.receipt.number)
+    let number = parseInt(titoOrder.receipt.number)
     let ticketDoc = await data.set({ table: 'tickets', key: ticket.reference, ticket: ticket.release_title, number , conference })
     if (releaseSlugsForHoodies.includes(ticket.release_slug)) {
       hoodieTickets.push(ticketDoc)
