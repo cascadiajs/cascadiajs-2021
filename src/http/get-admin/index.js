@@ -56,6 +56,11 @@ function ticket(t) {
         <input type=text name=code placeholder="Redemption Code" value="${ t.code || '' }">
         <button>Save</button>
       </form>
+      <form action=/ticket method=post>
+        <input type=hidden name=key value="${ t.key }">
+        <input type=hidden name=__delete value="true">
+        <button>Delete</button>
+      </form>
     </details>`
 }
 
