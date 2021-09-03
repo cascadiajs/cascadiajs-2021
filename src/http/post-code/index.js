@@ -11,9 +11,16 @@ async function auth(req) {
 
 /** write to begin/data */
 async function upsert(req) {
+  let code = {
+    key: req.body.key,
+  }
+  if (req.body.ticketRef && req.body.ticketRef !== '') {
+    code.ticketRef = req.body.ticketRef
+  }
+  console.log(req.body)
   await data.set({
     table: 'codes',
-    ...req.body
+    ...code
   })
 
   return { location: '/admin' }
