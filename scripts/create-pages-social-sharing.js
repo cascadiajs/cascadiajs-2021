@@ -63,6 +63,8 @@ async function createImages() {
     files = getAllFiles(source)
   }
 
+  let numCreated = 0
+
   for (const file of files) {
     console.log(file)
     let relativePath = file.split(source).pop().split('.md')[0]
@@ -70,6 +72,7 @@ async function createImages() {
       console.log(`Generating a screen shot for ${ relativePath }`)
       await page.goto(`${ url }/${ relativePath }?social`)
       await page.screenshot({ path: `${dest}/${ relativePath }-share.png` })
+      numCreated++
     }
     else {
       console.log(`${dest}/${ relativePath }-share.png already exists`)
@@ -81,6 +84,8 @@ async function createImages() {
   await browser.close()
   // shut down the sandbox
   await sandbox.end()
+  // return 0 if no images created, 1 otherwise. This will block a `git push` and allow us to add the images before pushing
+  process.exit(numCreated === 0 ? 0 : 1)
 }
 
 createImages()
