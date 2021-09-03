@@ -6,7 +6,8 @@
     "start": "npx sandbox",
     "lint": "eslint src --ignore-pattern node_modules --fix",
     "test": "cross-env NODE_ENV=testing PORT=6666 tape test/*-test.js ./test/**/*-test.js | tap-spec",
-    "social": "node scripts/create-pages-social-sharing"
+    "build": "node scripts/create-pages-social-sharing",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@architect/architect": "^8.7.4",
@@ -15,6 +16,7 @@
     "csv-parse": "^4.16.2",
     "dotenv": "^10.0.0",
     "eslint": "^7.27.0",
+    "husky": "^7.0.2",
     "node-fetch": "^2.6.1",
     "slugify": "^1.6.0",
     "tap-spec": "^5.0.0",
