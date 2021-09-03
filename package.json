@@ -6,7 +6,7 @@
     "start": "npx sandbox",
     "lint": "eslint src --ignore-pattern node_modules --fix",
     "test": "cross-env NODE_ENV=testing PORT=6666 tape test/*-test.js ./test/**/*-test.js | tap-spec",
-    "build": "node scripts/create-pages-social-sharing",
+    "social": "node scripts/create-pages-social-sharing",
     "prepare": "husky install"
   },
   "devDependencies": {
