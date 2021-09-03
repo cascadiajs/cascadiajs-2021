@@ -79,7 +79,7 @@ async function createImages() {
     }
   }
 
-  console.log("Shutting down")
+  console.log(`Shutting down - ${ numCreated } social sharing images created`)
   // shut down te browser
   await browser.close()
   // shut down the sandbox
