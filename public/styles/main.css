@@ -1437,6 +1437,28 @@ input:checked + .slider:before {
         border-left: 1px solid #112378;
     }
 
+    #hoodie-fit {
+        display:flex;
+        justify-content: space-between;
+        width:100%
+    }
+
+    #hoodie-fit>div {
+        width: 45%;
+    }
+
+    #hoodie-fit table {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+
+    #hoodie-fit table td, #hoodie-fit table th {
+        font-size: 16px;
+        padding:4px;
+        margin:0;
+        border: 1px solid #ccc;
+    }
+
 }
 
 @media print {
