@@ -66,9 +66,14 @@ async function createImages() {
   for (const file of files) {
     console.log(file)
     let relativePath = file.split(source).pop().split('.md')[0]
-    console.log(`Generating a screen shot for ${ relativePath }`)
-    await page.goto(`${ url }/${ relativePath }?social`)
-    await page.screenshot({ path: `${dest}/${ relativePath }-share.png` })
+    if (!fs.existsSync(`${dest}/${ relativePath }-share.png`)) {
+      console.log(`Generating a screen shot for ${ relativePath }`)
+      await page.goto(`${ url }/${ relativePath }?social`)
+      await page.screenshot({ path: `${dest}/${ relativePath }-share.png` })
+    }
+    else {
+      console.log(`${dest}/${ relativePath }-share.png already exists`)
+    }
   }
 
   console.log("Shutting down")
