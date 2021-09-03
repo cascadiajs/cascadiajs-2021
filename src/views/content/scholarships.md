@@ -31,4 +31,4 @@ The Opportunity Scholarship Program is open to everyone who is able to attend bo
 
 Please help us in our outreach efforts. Take a moment to share this Scholarship Application with relevant people or organizations. We hope this Scholarship Program can enable you to join us and contribute to our community!
 
-<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrZbEK1MHHDkg5ZW?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="2050" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<div class="cta"><a href="https://airtable.com/shrZbEK1MHHDkg5ZW" target="_scholarship">Apply for a Scholarship</a></div>
