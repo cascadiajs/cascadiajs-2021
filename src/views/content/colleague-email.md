@@ -1,5 +1,7 @@
 ---
 title: Friend and Colleague Email Template
+excerpt: Help us spread the word about CascadiaJS!
+image: /images/cjs19-family.jpg
 ---
 A template to help you explain to a friend or colleague why CascadiaJS is awesome!
 
