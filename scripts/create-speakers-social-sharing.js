@@ -11,6 +11,9 @@ async function createImages() {
   // get env
   let env = process.argv[2]
 
+  // get speaker (optional)
+  let speaker = process.argv[3]
+
   // start the sandbox webserver
   //await sandbox.start()
 
@@ -18,7 +21,13 @@ async function createImages() {
   const data = join(__dirname, "..", "data", env)
 
   // get list of speakers
-  const speakers = JSON.parse(fs.readFileSync(join(data, "speakers.json")).toString())
+  let speakers = JSON.parse(fs.readFileSync(join(data, "speakers.json")).toString())
+
+  // limit the array to just the speaker passed-in as an argument
+  if (speaker) {
+    speakers = speakers.filter(s => s.key === speaker)
+    console.log(speakers)
+  }
 
   // set-up headless browser
   let browser
