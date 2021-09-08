@@ -1085,6 +1085,12 @@ input:checked + .slider:before {
     transform: translateX(26px);
 }
 
+a[target="_blank"]:after {
+    font-family: 'Font Awesome 5 Pro';
+    content: " \f08e";
+}
+
+
 @media only screen and (min-width: 768px) {
 
     #root {
