@@ -24,7 +24,6 @@ module.exports = function Head ({title, socialUrl = 'https://2021.cascadiajs.com
     <link id="dark-scheme-icon" rel="icon" href="/images/logo-green.svg">
     <!--script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ffa37cf28eebc9e75b8558f3b/925e6ccb935f17081158752ba.js");</script-->
     <!--script src="/js/floating.js"></script-->
-    <script src='https://js.tito.io/v2' async></script>
     ${ scripts.map(s => script(s)) }
   </head>
 `
