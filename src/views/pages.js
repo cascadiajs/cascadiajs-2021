@@ -40,7 +40,7 @@ module.exports = async function Page(req) {
 
   // pull out any front-matter key/values
   let { attributes, body } = fm(doc)
-  let title = attributes.title
+  let title = attributes.title || 'The JavaScript Conference for the Pacific Northwest'
   let excerpt = attributes.excerpt
   let html
   let content
