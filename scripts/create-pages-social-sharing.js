@@ -67,7 +67,8 @@ async function createImages() {
 
   for (const file of files) {
     console.log(file)
-    let relativePath = file.split(source).pop().split('.md')[0]
+    // get the relative URL path to this file (really hate how this code is written)
+    let relativePath = file.split(source).pop().split('.md')[0].split('.html')[0]
     if (!fs.existsSync(`${dest}/${ relativePath }-share.png`)) {
       console.log(`Generating a screen shot for ${ relativePath }`)
       await page.goto(`${ url }/${ relativePath }?social`)
