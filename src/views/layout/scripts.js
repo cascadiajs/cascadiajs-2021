@@ -11,7 +11,6 @@ module.exports = function Scripts ({ scripts = [] }) {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-MZZKTFYJ0D');
       </script>
       <!-- Twitter universal website tag code -->
