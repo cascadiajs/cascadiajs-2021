@@ -646,11 +646,6 @@ footer {
 	margin-bottom: 16px;
 }
 
-/*.speaker-photo, .organizer-photo, #social-image {
-    background-size: cover;
-    background-blend-mode:screen;
-}*/
-
 #speaker-list .speaker .speaker-photo, #organizer-list .organizer .organizer-photo {
     height: 250px;
     width: 250px;
@@ -663,11 +658,6 @@ footer {
 
 .page-body .speaker {
     padding-bottom: 16px;
-}
-
-#speaker-list .speaker .speaker-photo:hover {
-    background-color: #112378;
-    background-blend-mode: screen;
 }
 
 #speaker-list .speaker a, #speaker-list .speaker img, #speaker-list .speaker .no-image {
@@ -686,11 +676,6 @@ footer {
 
 #speaker-list .speaker:hover .speaker-info, #speaker-list .speaker:hover .speaker-name, #speaker-list .speaker:hover .speaker-name a, #speaker-list .speaker:hover .speaker-misc {
 	color: #0033FF;
-}
-
-#speaker-list .speaker img:hover {
-    background-color: #112378;
-    background-blend-mode: screen;
 }
 
 #speaker-list .speaker-name, #organizer-list .organizer-name {
@@ -763,6 +748,39 @@ a.js-topic:hover {
 .speaker-links > div {
     margin-bottom: 8px;
 }
+
+
+/* Speaker / Talk Overlay styles */
+
+.speaker-photo {
+    position: relative;
+}
+
+.speaker-photo .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0033FF;
+  }
+  
+.speaker-photo:hover .overlay {
+    opacity: 1;
+}
+  
+.speaker-photo .overlay .text {
+    color: white;
+    font-family: ibm-plex-mono, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    margin: 16px;
+    text-align: left;
+}
+
 
 #attend {
     text-align: left;
