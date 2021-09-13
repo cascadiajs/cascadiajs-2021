@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk')
 const chromium = require('chrome-aws-lambda')
-const baseUrl = require('@architect/shared/base-url')()
+const baseUrl = require('@architect/shared/utils/base-url')()
 
 module.exports = async function screencap({ ticket }) {
     let { number } = ticket
