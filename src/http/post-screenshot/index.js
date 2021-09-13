@@ -14,7 +14,7 @@ async function buildTicket(req) {
     let s3result = await s3
       .putObject({
         Bucket: process.env.ARC_STATIC_BUCKET,
-        Key : fileName,
+        Key : process.env.ARC_STATIC_PREFIX + '/' + fileName,
         ContentType: 'image/png',
         Body: file,
         ACL: 'public-read',
