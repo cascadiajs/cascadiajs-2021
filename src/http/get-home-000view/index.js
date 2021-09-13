@@ -5,7 +5,6 @@ const LoginView = require('@architect/views/home/login')
 const HoodiesView = require('@architect/views/home/hoodies')
 const NotFoundView = require('@architect/views/404')
 const github = require('./github')
-const screenshot = require('./screenshot')
 
 // render the form
 async function unauthenticated(req) {
@@ -38,8 +37,8 @@ async function authenticated(req) {
     let info = await github(req)
     console.log(info)
     await data.set({ table: 'tickets', ...ticket, github: info.login, avatar: info.avatar })
-    let ticketImageUrl = await screenshot({ ticket })
-    console.log(ticketImageUrl)
+    //let ticketImageUrl = await screenshot({ ticket })
+    //console.log(ticketImageUrl)
     return {
       location: '/home/dashboard'
     }
