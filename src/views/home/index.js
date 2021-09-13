@@ -18,9 +18,10 @@ module.exports = async function Index({ ticket }) {
                      <div class="cta"><a href="/home/hoodies">Redeem Goodie Box</a></div>` : '' }
                 <h2>Conference Directory</h2>
                 ${ ticket.github && ticket.github !== ''
-                    ? `<p><img src="${ ticket.avatar }"/></p>`
+                    ? `<p>You have been added to the Conference Directory. Stay tuned, we will be launching this shortly.<p>
+                    <p>We have also generated a <a href="/tickets/${ ticket.number }" target="_blank">virtual ticket</a> that you can share on social media. Anyone who registers via your virtual ticket page gets 10% off!</p>`
                     : `<p>Let folks know you're attending CascadiaJS this year! We use <a href="https://docs.github.com/en/developers/apps/building-github-apps/authenticating-with-github-apps">Github OAuth</a> to retrieve your profile photo and add it to our Conference Directory. We will also generate a customized virtual ticket for you to share on social media!</p>
-                    <div class="cta"><a href="https://github.com/login/oauth/authorize?client_id=${clientID}">Get Info from Github</a></div>`
+                    <div class="cta"><a href="https://github.com/login/oauth/authorize?client_id=${clientID}">Get Added to Directory</a></div>`
                 }
                 <h2>Need Help?</h2>
                 <p>Please contact us in Slack at #help-questions.</p>
