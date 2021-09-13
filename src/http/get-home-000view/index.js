@@ -37,8 +37,10 @@ async function authenticated(req) {
     let info = await github(req)
     console.log(info)
     await data.set({ table: 'tickets', ...ticket, github: info.login, avatar: info.avatar })
-    //let ticketImageUrl = await screenshot({ ticket })
-    //console.log(ticketImageUrl)
+    // fire event to build ticket image and place in s3
+    const name = 'ticket-shared'
+    const payload = { number: ticket.number }
+    await arc.events.publish({ name, payload })
     return {
       location: '/home/dashboard'
     }
