@@ -24,9 +24,9 @@ module.exports = async function screencap({ ticket }) {
       await browser.close()
       const s3 = new AWS.S3()
       let fileName = `ticket-${ number }.png`
-      await s3
+      let s3result = await s3
         .putObject({
-          Bucket: process.env.ARC_S3_BUCKET,
+          Bucket: process.env.ARC_STATIC_BUCKET,
           Key : fileName,
           ContentType: 'image/png',
           Body: file,
@@ -34,11 +34,11 @@ module.exports = async function screencap({ ticket }) {
         })
         .promise()
 
-      return `https://s3-us-west-2.amazonaws.com/${ process.env.ARC_S3_BUCKET }/${ fileName }`
+      return s3result.Location
     } catch (error) {
-      throw new Error(error)
+        console.log(error)
     } finally {
-      if (browser !== null) {
+      if (browser) {
         await browser.close()
       }
     }
