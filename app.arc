@@ -18,7 +18,6 @@ post /home
 post /login
 get  /modules/:type/:module
 post /orders
-post /screenshot
 get  /speakers
 post /speakers
 get  /speakers/:key
