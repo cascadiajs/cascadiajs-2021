@@ -29,7 +29,6 @@
     "esm": "^3.2.25",
     "front-matter": "^4.0.2",
     "marked": "^2.0.6",
-    "puppeteer-core": "^10.2.0",
     "rollup": "^2.56.2",
     "tiny-json-http": "^7.3.0"
   },

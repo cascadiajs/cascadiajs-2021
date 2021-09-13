@@ -55,6 +55,8 @@ function ticket(t) {
         <input type=text name=conference placeholder="Conference (Y/N)" value="${ t.conference || '' }">
         <input type=text name=hoodie placeholder="Hoodie (Y/N)" value="${ t.hoodie || '' }">
         <input type=text name=code placeholder="Redemption Code" value="${ t.code || '' }">
+        <input type=text name=github placeholder="Github username" value="${ t.github || '' }">
+        <input type=text name=avatar placeholder="Github avatar URL" value="${ t.avatar || '' }">
         <button>Save</button>
       </form>
       <form action=/ticket method=post>

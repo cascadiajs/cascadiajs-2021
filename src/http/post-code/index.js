@@ -17,7 +17,7 @@ async function upsert(req) {
   if (req.body.ticketRef && req.body.ticketRef !== '') {
     code.ticketRef = req.body.ticketRef
   }
-  console.log(req.body)
+  //console.log(req.body)
   await data.set({
     table: 'codes',
     ...code
