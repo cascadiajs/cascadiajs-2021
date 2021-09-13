@@ -1,11 +1,12 @@
 let arc = require('@architect/functions')
 let data = require('@begin/data')
 
+// Handles log-in to the /home pages (based on a valid ticketRef)
 exports.handler = arc.http.async(validate)
 
 async function validate(req) {
   let session
-  let location = '/home'
+  let location = '/home/dashboard'
   if (req.body.reset) {
     session = {}
   }
@@ -18,7 +19,7 @@ async function validate(req) {
       session = { ticketRef }
     }
     else {
-      location = '/home?notfound'
+      location = location + '?notfound'
     }
   }
 

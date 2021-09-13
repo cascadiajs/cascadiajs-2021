@@ -25,10 +25,13 @@
   },
   "dependencies": {
     "@architect/functions": "^3.14.1",
+    "chrome-aws-lambda": "^10.1.0",
     "esm": "^3.2.25",
     "front-matter": "^4.0.2",
     "marked": "^2.0.6",
-    "rollup": "^2.56.2"
+    "puppeteer-core": "^10.2.0",
+    "rollup": "^2.56.2",
+    "tiny-json-http": "^7.3.0"
   },
   "engines": {
     "node": "14.x"

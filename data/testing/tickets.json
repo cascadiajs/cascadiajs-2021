@@ -1,20 +1,34 @@
 [
     {
+      "number": 1,
       "ticket": "Scholarship Donation",
       "key": "AAAA-2"
     },
     {
+      "number": 2,
       "ticket": "Extra Hoodie",
       "key": "BBBB-4",
       "hoodie": "Y",
       "code": "aaa"
     },
     {
-      "ticket": "Online Conference Early Bird (Sept 1-2)",
-      "fullName": "Carter Rabasa",
+      "number": 3,
+      "ticket": "Conference Early Bird / Virtual (Nov 3-4)",
+      "fullName": "Foo Bar",
       "key": "CCCC-1",
       "conference": "Y",
       "hoodie": "Y",
       "code": "bbb"
+    },
+    {
+      "number": 4,
+      "ticket": "Conference Early Bird / Portland (Nov 3-4)",
+      "fullName": "Biz Baz",
+      "key": "DDDD-1",
+      "conference": "Y",
+      "hoodie": "Y",
+      "code": "ccc",
+      "github": "crtr0",
+      "avatar": "https://avatars.githubusercontent.com/u/118628?v=4"
     }
 ]

@@ -13,7 +13,7 @@ get  /admin
 get  /changelog
 post /code
 post /codes
-get  /home
+get  /home/:view
 post /home
 post /login
 get  /modules/:type/:module
@@ -22,6 +22,7 @@ get  /speakers
 post /speakers
 get  /speakers/:key
 post /speakers/:key
+get  /tickets/:number
 post /ticket
 post /tickets
 get /*
