@@ -22,7 +22,8 @@ async function Ticket(req) {
       return SocialView({ ticket })
     }
     else {
-      return TicketView({ ticket })
+      let socialUrl = `${ process.env.BEGIN_STATIC_ORIGIN }/ticket-${ ticket.number }.png`
+      return TicketView({ ticket, socialUrl })
     }
   }
   else {
