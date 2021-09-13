@@ -1,5 +1,6 @@
 const AWS = require('aws-sdk')
 const chromium = require('chrome-aws-lambda')
+require('puppeteer-core')
 const baseUrl = require('@architect/shared/utils/base-url')()
 
 module.exports = async function screencap({ ticket }) {
