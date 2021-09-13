@@ -33,8 +33,6 @@ module.exports = async function screencap({ number }) {
       const file = await page.screenshot()
       await browser.close()
       return file
-    } catch (error) {
-        console.log(error)
     } finally {
       if (browser) {
         await browser.close()
