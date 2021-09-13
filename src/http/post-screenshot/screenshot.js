@@ -1,10 +1,21 @@
 
 const chromium = require('chrome-aws-lambda')
 require('puppeteer-core')
-const baseUrl = require('@architect/shared/utils/base-url')()
+
+function getBaseUrl() {
+  let url
+  if (process.env.NODE_ENV === 'testing') {
+      url = 'http://localhost:3333'
+  }
+  else  {
+      url = `https://${ process.env.NODE_ENV === 'staging' ? 'staging.' : '' }2021.cascadiajs.com`
+  }
+  return url
+}
 
 module.exports = async function screencap({ number }) {
     let browser
+    let baseUrl = getBaseUrl()
     // set-up headless browser
     //let height = 628
     //let width = 1200
