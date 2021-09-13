@@ -7,7 +7,6 @@ async function ticketShared (event) {
   let number = event.number
   try {
     let file = await screenshot({ number })
-    console.log(file)
     const s3 = new AWS.S3()
     let fileName = `ticket-${ number }.png`
     await s3

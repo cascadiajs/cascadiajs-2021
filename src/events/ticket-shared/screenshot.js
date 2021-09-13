@@ -31,7 +31,7 @@ module.exports = async function screencap({ number }) {
         ignoreHTTPSErrors: true,
       })
       let page = await browser.newPage()
-      await page.goto(`${ baseUrl }/tickets/${ number }`)
+      await page.goto(`${ baseUrl }/tickets/${ number }?social`)
       const file = await page.screenshot()
       await browser.close()
       return file
