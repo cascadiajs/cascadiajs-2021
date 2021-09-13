@@ -21,7 +21,8 @@ async function buildTicket(req) {
       })
       .promise()
 
-    return { body: JSON.stringify({ ticketImageUrl: s3result.Location }) }
+    console.log(s3result)
+    return { json: { ticketImageUrl: s3result.Location } }
   }
   catch (error) {
     console.log(error)

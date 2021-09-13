@@ -15,9 +15,15 @@ async function upsert_or_delete(req) {
     await data.destroy({table: 'tickets', key: req.body.key })
   }
   else {
+    let ticket = req.body
+    // sanitize input for the DB
+    ticket.number = (ticket.number && ticket.number !== '' ? parseInt(ticket.number) : undefined)
+    ticket.github = (ticket.github && ticket.github !== '' ? ticket.github : undefined)
+    ticket.avatar = (ticket.avatar && ticket.avatar !== '' ? ticket.avatar : undefined)
+    console.log(ticket)
     await data.set({
       table: 'tickets',
-      ...req.body
+      ...ticket
     })
   }
 
