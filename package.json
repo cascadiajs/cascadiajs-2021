@@ -18,6 +18,7 @@
     "eslint": "^7.27.0",
     "husky": "^7.0.2",
     "node-fetch": "^2.6.1",
+    "puppeteer": "file:../../.nvm/versions/node/v14.17.5/lib/node_modules/puppeteer",
     "slugify": "^1.6.0",
     "tap-spec": "^5.0.0",
     "tape": "^5.3.1",
@@ -29,6 +30,7 @@
     "esm": "^3.2.25",
     "front-matter": "^4.0.2",
     "marked": "^2.0.6",
+    "puppeteer-core": "^10.2.0",
     "rollup": "^2.56.2",
     "tiny-json-http": "^7.3.0"
   },
