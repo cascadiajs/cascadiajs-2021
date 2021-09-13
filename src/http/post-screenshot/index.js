@@ -7,7 +7,7 @@ let AWS = require('aws-sdk')
 async function buildTicket(req) {
   let number = req.body.number
   try {
-    let file = screenshot({ number })
+    let file = await screenshot({ number })
     console.log(file)
     const s3 = new AWS.S3()
     let fileName = `ticket-${ number }.png`
