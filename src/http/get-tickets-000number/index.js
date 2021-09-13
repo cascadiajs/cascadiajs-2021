@@ -10,7 +10,7 @@ async function Ticket(req) {
   let ticket
   for (let i in ticketData) {
     let record = ticketData[i]
-    if (record.number === parseInt(number) && record.github) {
+    if (record.number == number && record.github) {
       ticket = record
     }
   }
