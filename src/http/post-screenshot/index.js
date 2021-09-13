@@ -11,7 +11,7 @@ async function buildTicket(req) {
     console.log(file)
     const s3 = new AWS.S3()
     let fileName = `ticket-${ number }.png`
-    let s3result = await s3
+    await s3
       .putObject({
         Bucket: process.env.ARC_STATIC_BUCKET,
         Key : process.env.ARC_STATIC_PREFIX + '/' + fileName,
@@ -21,8 +21,7 @@ async function buildTicket(req) {
       })
       .promise()
 
-    console.log(s3result)
-    return { json: { ticketImageUrl: s3result.Location } }
+    return { json: { ticketImageUrl: process.env.BEGIN_STATIC_ORIGIN + '/' + fileName } }
   }
   catch (error) {
     console.log(error)
