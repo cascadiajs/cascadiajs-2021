@@ -232,7 +232,7 @@ th, td {
 div.cta {
 	font-size: 24px;
     padding: 8px 16px;
-    margin: 8px 0;
+    margin: 16px 0;
     display: inline-block;
 }
 
@@ -873,6 +873,7 @@ a.js-topic:hover {
 #social-image img, .speaker-photo img, .organizer-photo img {
     mix-blend-mode: screen; 
     filter:grayscale(100%);
+    object-fit: cover;
     /*object-fit: cover;*/
 }
 
@@ -889,6 +890,7 @@ a.js-topic:hover {
 #social-header {
     font-family: mono45-headline, monospace;
     text-transform: uppercase;
+    font-weight: 500;
     font-size: 80px;
     line-height: 80px;
     color: #112378;
@@ -906,6 +908,7 @@ a.js-topic:hover {
 #social-footer {
     display: flex;
     align-items: flex-end;
+    font-weight: 500;
 }
 
 #social-event {

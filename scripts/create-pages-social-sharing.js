@@ -66,7 +66,6 @@ async function createImages() {
   let numCreated = 0
 
   for (const file of files) {
-    console.log(file)
     // get the relative URL path to this file (really hate how this code is written)
     let relativePath = file.split(source).pop().split('.md')[0].split('.html')[0]
     if (!fs.existsSync(`${dest}/${ relativePath }-share.png`)) {
@@ -74,9 +73,6 @@ async function createImages() {
       await page.goto(`${ url }/${ relativePath }?social`)
       await page.screenshot({ path: `${dest}/${ relativePath }-share.png` })
       numCreated++
-    }
-    else {
-      console.log(`${dest}/${ relativePath }-share.png already exists`)
     }
   }
 
