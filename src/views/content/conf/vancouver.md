@@ -3,9 +3,7 @@ title: Vancouver BC Hybrid Event
 excerpt: Everything you need to know about attending the Vancouver hybrid event!
 image: /images/conf/vancouver.jpg
 ---
-Everything you need to know about attending the Vancouver, BC hybrid event!
-
-![The front of UBC Robson](/images/conf/ubc-front.jpg)
+![UBC Robson Square](/images/conf/hybrid-vancouver-ubc.jpg)
 ## Venue
 
 ```
@@ -24,10 +22,10 @@ UBC Robson Square is conveniently located on Robson Street by the Vancouver Art 
 
 [More Detailed Information](https://robsonsquare.ubc.ca/contact-directions/)
 
-## Opening Party (Nov 3)
+## Opening After Party
 
 Stay Tuned!
-## Closing Party (Nov 4)
+## Closing After Party
 
 Stay Tuned!
 

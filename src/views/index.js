@@ -19,22 +19,39 @@ let Template = function ({ speakersContainer, changelog, organizersContainer, di
                 </div>
             </div>
         </section>
+        <section id="hybrid" class="landing">
+            <div id="hybrid-container">
+                <div class="hybrid-event">
+                    <p><img src="/images/conf/hybrid-seattle-mopop.jpg" alt="MoPOP"/></p>
+                    <h2>Seattle, WA</h2>
+                    <p>MoPOP</p>
+                    <div class="cta secondary"><a href="/conf/seattle">Seattle Tickets and Info</a></div>
+                </div>
+                <div class="hybrid-event">
+                    <p><img src="/images/conf/hybrid-portland-omsi.jpg" alt="OMSI"/></p>
+                    <h2>Portland, OR</h2>
+                    <p>OMSI</p>
+                    <div class="cta secondary"><a href="/conf/portland">Portland Tickets and Info</a></div>
+                </div>
+                <div class="hybrid-event">
+                    <p><img src="/images/conf/hybrid-vancouver-ubc.jpg" alt="UBC Robson Square"/></p>
+                    <h2>Vancouver, BC</h2>
+                    <p>UBC Robson Square</p>
+                    <div class="cta secondary"><a href="/conf/vancouver">Vancouver Tickets and Info</a></div>
+                </div>
+            </div>
+        </section>
         <section id="changelog" class="landing">
-            <h1>Changelog</h1>
             <div id="changelog-posts">
             ${ changelog.map(post => `
                 <div class="changelog-card">
-                    <p class="changelog-card-date">${ (new Date(post.published)).toDateString() }</p>
-                    <p class="changelog-card-title"><a href="/changelog/${ post.stub }">${ post.title }</a></p>
-                    <!--p style="flex:1">${ post.excerpt }</p>
-                    <div>
-                        <div class="cta secondary"><a href="/changelog/${ post.stub }">Read More</a></div>
-                    </div-->
+                    <div class="changelog-card-date">${ (new Date(post.published)).toLocaleDateString("en-US") }</div>
+                    <div class="changelog-card-title"><a href="/changelog/${ post.stub }">${ post.title }</a></div>
                 </div>
             `).join('')}
             </div>
             <div class="wide">
-                <div class="cta"><a href="/changelog">See Full Changelog</a></div>
+                <div class="cta secondary"><a href="/changelog">See Full Changelog</a></div>
             </div>
         </section>
         <section id="speakers" class="landing">

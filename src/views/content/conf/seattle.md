@@ -3,15 +3,18 @@ title: Seattle Hybrid Event
 excerpt: Everything you need to know about attending the Seattle hybrid event!
 image: /images/conf/seattle.jpg
 ---
-Everything you need to know about attending the Seattle, WA hybrid event!
-
+![MoPOP](/images/conf/hybrid-seattle-mopop.jpg)
 ## Venue
 
-*Details TBD*
-## Opening Party
+```
+MoPOP - Museum of Pop Culture
+325 5th Avenue N
+Seattle, WA 98109
+```
+## Opening After Party
 
 *Details TBD*
-## Closing Party
+## Closing After Party
 
 *Details TBD*
 

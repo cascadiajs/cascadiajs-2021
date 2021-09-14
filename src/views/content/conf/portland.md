@@ -3,11 +3,16 @@ title: Portland Hybrid Event
 excerpt: Everything you need to know about attending the Portland hybrid event!
 image: /images/conf/portland.jpg
 ---
-Everything you need to know about attending the Portland, OR hybrid event!
+![OMSI](/images/conf/hybrid-portland-omsi.jpg)
 
 ## Venue
 
-*Details TBD*
+```
+OMSI - Oregon Museum of Science and Industry
+1945 SE Water Ave
+Portland, OR
+```
+
 ## Opening Party
 
 *Details TBD*
