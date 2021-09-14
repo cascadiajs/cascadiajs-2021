@@ -422,7 +422,7 @@ section .cta {
     display: none;
 }
 
-#sponsors, #changelog {
+#sponsors, #changelog, #organizers {
     background-color: #d1f3e5;
     color: #112378;
 }
@@ -897,19 +897,19 @@ a.js-topic:hover {
     margin-left: 16px;
 }
 
-#attendees-pics {
+#attendee-list {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
 }
 
-#attendees a {
+#attendee-list a {
     display: block;
     margin: 8px;
 }
 
-#attendees img {
+#attendee-list img {
     height: 100px;
 }
 

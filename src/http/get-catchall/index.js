@@ -8,7 +8,8 @@ let PageView = require('@architect/views/pages')
 let NotFoundView = require('@architect/views/404')
 let manifest = require('@architect/shared/static.json')
 let getChangelog = require('@architect/shared/changelog')
-const getSpeakerData = require('@architect/shared/get-speaker-data')
+let getDirectoryData = require('@architect/shared/get-directory-data')
+let getSpeakerData = require('@architect/shared/get-speaker-data')
 
 // return true if the markdown file exists, false otherwise
 function pageExists(path) {
@@ -31,10 +32,11 @@ async function Router (req) {
   // root (/) request, return Index view
   if (req.path === '/') {
       let all = getChangelog()
-      let { speakers } = await getSpeakerData(req)
       // only pass the most recent 3 posts
       let changelog = all.slice(0, 3)
-      return await IndexView({ changelog, speakers })
+      let directory = await getDirectoryData()
+      let { speakers } = await getSpeakerData(req)
+      return await IndexView({ changelog, speakers, directory })
   }
   // the path matches a markdown file in our filesystem
   else if (pageExists(req.path)) {

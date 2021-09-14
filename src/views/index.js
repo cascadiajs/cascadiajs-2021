@@ -2,7 +2,9 @@ let Layout = require('./layout')
 let SpeakersContainer = require('./components/speakers')
 let OrganizersContainer = require('./components/organizers')
 
- let Template = function ({ speakersContainer, changelog, organizersContainer }) {
+
+
+let Template = function ({ speakersContainer, changelog, organizersContainer, directoryContainer }) {
     let content = /*html*/`
     <div id="landing">
         <section id="hero" class="landing">
@@ -43,15 +45,30 @@ let OrganizersContainer = require('./components/organizers')
             <h1>Organizers</h1>
             ${ organizersContainer }
         </section>
+        <section id="directory" class="landing">
+            <h1>Conference Directory</h1>
+            ${ directoryContainer }
+            <div style="margin-top:32px"><i>Learn more about <a href="/directory">how we built this Conference Directory</a> and then <a href="/home/dashboard">get yourself added</a>!</i></div>
+        </section>
     </div>
     `
     return content
-  }
+}
 
-  module.exports = function IndexView ({ changelog, speakers }) {
+let DirectoryContainer = function ({ directory }) {
+    return /*html*/`
+        <div id="attendee-list">
+            ${ directory.map(t => /*html*/`
+                <a target="_github" href="https://github.com/${ t.github }"><img src="${ t.avatar }" alt="avatar image for ${ t.fullName }" /></a>
+                `).join("")}
+        </div>`
+}
+
+module.exports = function IndexView ({ changelog, speakers, directory }) {
     let speakersContainer = SpeakersContainer({ speakers })
     let organizersContainer = OrganizersContainer()
-    let content = Template({ changelog, speakersContainer, organizersContainer })
+    let directoryContainer = DirectoryContainer({ directory })
+    let content = Template({ changelog, speakersContainer, organizersContainer, directoryContainer })
     let html = Layout({ content, title: 'Home' })
     return { html }
-  }
+}
