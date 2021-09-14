@@ -308,6 +308,7 @@ div.highlight {
 
 .changelog-card {
     display: flex;
+    margin-bottom: 16px;
 }
 
 .changelog-card-date, .changelog-card-title {
@@ -320,7 +321,13 @@ div.highlight {
 .changelog-card-date {
     color: #112378;
     font-weight: 300;
-    margin-right: 8px;
+    width: 110px;
+}
+
+.changelog-card-title {
+    color: #112378;
+    font-weight: 300;
+    flex: 1;
 }
 
 .changelog-card-title a, .changelog-card-title a:visited {
@@ -1139,8 +1146,8 @@ a[target="_blank"]:after {
     padding: 16px;
 }
 
-.hybird-event {
-    margin-bottom: 16px;
+.hybrid-event {
+    margin-bottom: 32px;
 }
 
 .hybrid-event h2 {
@@ -1149,7 +1156,6 @@ a[target="_blank"]:after {
     font-weight: 500;
     line-height: 1em;
     font-size: 28px;
-    margin: 0;
     color: #112378;
 }
 
@@ -1259,6 +1265,10 @@ a[target="_blank"]:after {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 16px;
+    }
+
+    .hybrid-event {
+        margin: 0;
     }
 
     #waves {
