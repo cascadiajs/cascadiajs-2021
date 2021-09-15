@@ -19,6 +19,7 @@ post /login
 get  /modules/:type/:module
 post /orders
 get  /organizers/:key
+get  /social
 get  /speakers
 post /speakers
 get  /speakers/:key
