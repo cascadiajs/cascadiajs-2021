@@ -63,8 +63,8 @@ module.exports = async function Page(req) {
       } else {
         content = body
       }
-
-      html = Layout({ title, content, socialUrl: req.path, excerpt })
+      let socialUrl = `/social?path=${ req.path }`
+      html = Layout({ title, content, socialUrl, excerpt })
     }
 
     return { html }
