@@ -1,4 +1,6 @@
-module.exports = function OrganizerContainer (organizers) {
+let organizers = require('../../shared/data/organizers.json')
+
+module.exports = function OrganizerContainer () {
     return /*html*/`
     <div class="person-list">
         ${ organizers.map(o => /*html*/`

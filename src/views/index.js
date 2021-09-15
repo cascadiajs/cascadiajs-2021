@@ -1,4 +1,6 @@
 let Layout = require('./layout')
+let getChangelogData = require('../shared/get-changelog-data')
+let getDirectoryData = require('../shared/get-directory-data')
 let SpeakersContainer = require('./components/speakers')
 let OrganizersContainer = require('./components/organizers')
 
@@ -79,9 +81,13 @@ let DirectoryContainer = function ({ directory }) {
         </div>`
 }
 
-module.exports = function IndexView ({ changelog, speakers, directory, organizers }) {
+module.exports = async function IndexView ({ speakers }) {
+    let changelog = getChangelogData()
+    // only pass the most recent 3 posts
+    changelog = changelog.slice(0, 3)
+    let directory = await getDirectoryData()
     let speakersContainer = SpeakersContainer({ speakers })
-    let organizersContainer = OrganizersContainer(organizers)
+    let organizersContainer = OrganizersContainer()
     let directoryContainer = DirectoryContainer({ directory })
     let content = Template({ changelog, speakersContainer, organizersContainer, directoryContainer })
     let html = Layout({ content, title: 'Home' })

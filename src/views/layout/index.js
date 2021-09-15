@@ -1,6 +1,7 @@
 let head = require('./head')
 let footer = require('./footer')
 let bodyScripts = require('./scripts')
+let SponsorsContainer = require('../components/sponsors')
 
 module.exports = function Layout ({title, content, socialUrl, excerpt, scripts = []}) {
   return /*html*/`
@@ -30,12 +31,7 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
           ${ content }
           <section id="sponsors" class="landing">
             <h1>Our Sponsors</h1>
-            <div class="sponsor-grid">
-                <div><a href="https://circleci.com"><img src="/images/sponsors/circleci.svg" alt=""/></a></div>
-                <div><a href="https://saucelabs.com"><img src="/images/sponsors/saucelabs.png" alt=""/></a></div>
-                <div><a href="https://twilio.com"><img src="/images/sponsors/twilio.svg" alt=""/></a></div>
-                <div><a href="https://auth0.com"><img src="/images/sponsors/auth0.svg" alt=""/></a></div>
-            </div>
+            ${ SponsorsContainer() }
             <div class="cta"><a href="/sponsors">Sponsor Our Event</a></div>
           </section>
         </main>
