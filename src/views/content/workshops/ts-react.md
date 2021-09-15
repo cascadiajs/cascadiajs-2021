@@ -2,7 +2,7 @@
 title: TypeScript for React Developers
 image: /images/workshops/ben-ilegbodu.jpg
 ---
-<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/ben-ilegbodu.jpg" alt="Photo of Ben"/></div></div>
+<div class="person"><div class="person-photo"><img src="/images/workshops/ben-ilegbodu.jpg" alt="Photo of Ben"/></div></div>
 
 * When: Wednesday, Nov 11 (1pm - 4:30pm)
 * Where: Online / Zoom

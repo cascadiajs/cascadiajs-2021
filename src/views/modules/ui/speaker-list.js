@@ -18,7 +18,7 @@ export default function Speakers(props) {
     ${ topics }
     ${ selectedTopics.length > 0 ? `<a id=js-topics-clear class="js-topic" href="?clear">view all</a>` : '' }
   </div>
-  <div id=speaker-list>
+  <div class=person-list>
     ${ speakers }
   </div>
   `

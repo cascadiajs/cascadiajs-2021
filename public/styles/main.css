@@ -656,16 +656,16 @@ footer {
 .carousel > *:nth-of-type(10) { animation-delay: 27.9s;}
 
 
-/*  speaker list components  */
+/*  Person components  */
 
-#speaker-list, #organizer-list {
+.person-list {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
   	justify-content: center;
 }
 
-#speaker-list .speaker, #organizer-list .organizer {
+.person-list .person {
 	width: 250px;
 	display:flex;
 	flex-direction: column;
@@ -673,26 +673,21 @@ footer {
 	margin-bottom: 16px;
 }
 
-#speaker-list .speaker .speaker-photo, #organizer-list .organizer .organizer-photo {
+.person-list .person .person-photo, .person-list .person a, .person-list .person img {
     height: 250px;
     width: 250px;
 }
 
-.speaker .speaker-photo img {
+.person .person-photo img {
     height: 300px;
     width: 300px;
 }
 
-.page-body .speaker {
+.page-body .person {
     padding-bottom: 16px;
 }
 
-#speaker-list .speaker a, #speaker-list .speaker img, #speaker-list .speaker .no-image {
-	height: 250px;
-	width: 250px;
-}
-
-#speaker-list .speaker-info, #organizer-list .organizer-info {
+.person-list .person-info {
     flex: 1;
     text-align: left;
 	padding: 8px;
@@ -701,11 +696,11 @@ footer {
     color: #112378;
 }
 
-#speaker-list .speaker:hover .speaker-info, #speaker-list .speaker:hover .speaker-name, #speaker-list .speaker:hover .speaker-name a, #speaker-list .speaker:hover .speaker-misc {
+.person-list .person:hover .person-info, .person-list .person:hover .person-name, .person-list .person:hover .person-name a, .person-list .person:hover .person-misc {
 	color: #0033FF;
 }
 
-#speaker-list .speaker-name, #organizer-list .organizer-name {
+.person-list .person-name {
     font-family: mono45-headline, monospace;
     font-weight: 500;
     line-height: 1em;
@@ -715,15 +710,66 @@ footer {
 	flex-grow: 1
 }
 
-.speaker-name a, .speaker-name a:visited {
+.person-name a, .person-name a:visited {
     color: #112378;
     text-decoration: none;
 }
 
-#speaker-list .speaker-misc, #organizer-list .organizer-misc {
+.person-list .person-misc, .person-list .person-misc {
     font-size: 16px;
 	color: #112378;
 }
+
+.person h3 {
+    margin: 8px 0 8px 0;
+}
+
+.person .person-photo {	
+	margin-right: 16px;
+    height: 300px;
+    width: 300px;
+}
+
+.person .abstract {
+	margin: 16px 0 16px 0;
+}
+
+.person-links > div {
+    margin-bottom: 8px;
+}
+
+/* Speaker / Talk Overlay styles */
+
+.person-photo {
+    position: relative;
+}
+
+.person-photo .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0033FF;
+  }
+  
+.person-photo:hover .overlay {
+    opacity: 1;
+}
+  
+.person-photo .overlay .text {
+    color: white;
+    font-family: ibm-plex-mono, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    margin: 16px;
+    text-align: left;
+}
+
+/* end */
 
 #topic-list {
     display: flex;
@@ -757,57 +803,6 @@ a.js-topic:hover {
     background-color: #FFD007;
     color: #0033FF;
 }
-
-.speaker h3 {
-    margin: 8px 0 8px 0;
-}
-
-.speaker .speaker-photo {	
-	margin-right: 16px;
-    height: 300px;
-    width: 300px;
-}
-
-.speaker .abstract {
-	margin: 16px 0 16px 0;
-}
-
-.speaker-links > div {
-    margin-bottom: 8px;
-}
-
-
-/* Speaker / Talk Overlay styles */
-
-.speaker-photo {
-    position: relative;
-}
-
-.speaker-photo .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #0033FF;
-  }
-  
-.speaker-photo:hover .overlay {
-    opacity: 1;
-}
-  
-.speaker-photo .overlay .text {
-    color: white;
-    font-family: ibm-plex-mono, sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 20px;
-    margin: 16px;
-    text-align: left;
-}
-
 
 #attend {
     text-align: left;
@@ -862,7 +857,7 @@ a.js-topic:hover {
     border-radius: 30px 0 0 30px;
 }
 
-#social-image, .speaker-photo, .organizer-photo {
+#social-image, .person-photo {
     background: linear-gradient(to bottom left, #112378 50%, #0033ff 100%);
 }
 
@@ -872,16 +867,10 @@ a.js-topic:hover {
 	width: 600px;
 }
 
-.speaker-photo img, .organizer-photo img {
-    height: 250px;
-    width: 250px;
-}
-
-#social-image img, .speaker-photo img, .organizer-photo img {
+#social-image img, .person-photo img {
     mix-blend-mode: screen; 
     filter:grayscale(100%);
     object-fit: cover;
-    /*object-fit: cover;*/
 }
 
 #social-info {
@@ -1309,11 +1298,11 @@ a[target="_blank"]:after {
         width: 600px;
     }
 
-    .speaker-info, .speaker-links {
+    .person-info, .person-links {
         display: flex;
     }
 
-    .speaker-links > div {
+    .person-links > div {
         margin-right: 8px;
     }
     

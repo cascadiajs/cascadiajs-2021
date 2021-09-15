@@ -10,6 +10,7 @@ let manifest = require('@architect/shared/static.json')
 let getChangelog = require('@architect/shared/changelog')
 let getDirectoryData = require('@architect/shared/get-directory-data')
 let getSpeakerData = require('@architect/shared/get-speaker-data')
+let organizers = require('@architect/shared/data/organizers.json')
 
 // return true if the markdown file exists, false otherwise
 function pageExists(path) {
@@ -36,7 +37,7 @@ async function Router (req) {
       let changelog = all.slice(0, 3)
       let directory = await getDirectoryData()
       let { speakers } = await getSpeakerData(req)
-      return await IndexView({ changelog, speakers, directory })
+      return await IndexView({ changelog, speakers, directory, organizers })
   }
   // the path matches a markdown file in our filesystem
   else if (pageExists(req.path)) {

@@ -2,7 +2,7 @@
 title: Advanced Accessibility with JS and Automated Testing
 image: /images/workshops/marcy-sutton.jpg
 ---
-<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/marcy-sutton.jpg" alt="Photo of Marcy"/></div></div>
+<div class="person"><div class="person-photo"><img src="/images/workshops/marcy-sutton.jpg" alt="Photo of Marcy"/></div></div>
 
 * When: Thursday, Nov 11 (9am - noon)
 * Where: Online / Zoom

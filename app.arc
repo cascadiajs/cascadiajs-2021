@@ -18,10 +18,12 @@ post /home
 post /login
 get  /modules/:type/:module
 post /orders
+get  /organizers/:key
 get  /speakers
 post /speakers
 get  /speakers/:key
 post /speakers/:key
+get  /sponsors/:key
 get  /tickets/:number
 post /ticket
 post /tickets

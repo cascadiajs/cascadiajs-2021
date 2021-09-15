@@ -2,7 +2,7 @@
 title: Functional Programming in Node.js
 image: /images/workshops/eve-porcello.jpg 
 ---
-<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/eve-porcello.jpg" alt="Photo of Eve"/></div></div>
+<div class="person"><div class="person-photo"><img src="/images/workshops/eve-porcello.jpg" alt="Photo of Eve"/></div></div>
 
 * When: Monday, Nov 8 (9am - noon)
 * Where: Online / Zoom

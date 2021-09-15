@@ -2,9 +2,25 @@ function script(source) {
   return `<script src=${source} type=module crossorigin></script>`
 }
 
+function getBaseUrl() {
+  let url
+  if (process.env.NODE_ENV === 'testing') {
+      url = 'http://localhost:3333'
+  }
+  else  {
+      url = `https://${ process.env.NODE_ENV === 'staging' ? 'staging.' : '' }2021.cascadiajs.com`
+  }
+  return url
+}
+
 module.exports = function Head ({title, socialUrl = 'https://2021.cascadiajs.com/images/social/conf-share.png', excerpt = null, scripts = []}) {
   // expand title
   title = `CascadiaJS 2021${ title ? ' - ' + title : '' }`
+
+  // convert relative a socialURL to absolute, if necessary
+  if (socialUrl.startsWith("/")) {
+    socialUrl = getBaseUrl() + socialUrl
+  }
 
   return /*html*/`
   <head>

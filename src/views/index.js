@@ -2,8 +2,6 @@ let Layout = require('./layout')
 let SpeakersContainer = require('./components/speakers')
 let OrganizersContainer = require('./components/organizers')
 
-
-
 let Template = function ({ speakersContainer, changelog, organizersContainer, directoryContainer }) {
     let content = /*html*/`
     <div id="landing">
@@ -81,9 +79,9 @@ let DirectoryContainer = function ({ directory }) {
         </div>`
 }
 
-module.exports = function IndexView ({ changelog, speakers, directory }) {
+module.exports = function IndexView ({ changelog, speakers, directory, organizers }) {
     let speakersContainer = SpeakersContainer({ speakers })
-    let organizersContainer = OrganizersContainer()
+    let organizersContainer = OrganizersContainer(organizers)
     let directoryContainer = DirectoryContainer({ directory })
     let content = Template({ changelog, speakersContainer, organizersContainer, directoryContainer })
     let html = Layout({ content, title: 'Home' })

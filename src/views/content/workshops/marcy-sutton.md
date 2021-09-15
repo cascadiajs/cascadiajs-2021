@@ -3,7 +3,7 @@ title: Workshops by Marcy Sutton
 image: /images/workshops/marcy-sutton.jpg
 excerpt: Learn how to make your websites and applications accessible for everyone!
 ---
-<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/marcy-sutton.jpg" alt="Photo of Marcy"/></div></div>
+<div class="person"><div class="person-photo"><img src="/images/workshops/marcy-sutton.jpg" alt="Photo of Marcy"/></div></div>
 
 Marcy Sutton is a freelance web developer and accessibility specialist. Previously, she’s worked as the Head of Learning at Gatsby and on the open source axe-core accessibility testing library. In 2016, O’Reilly gave Marcy a Web Platform Award for her work in accessibility. She’s a founding member of the Accessibility Seattle Foundation, a nonprofit supporting the A11ySea meetup. When away from the keyboard, Marcy can be found hiking with her dog, riding a bicycle, or snowboarding.
 

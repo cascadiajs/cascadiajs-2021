@@ -12,7 +12,7 @@ Oh, and when you bundle a workshop ticket with a conference ticket you save **$5
 
 ## Ben Ilegbodu - Workshops on React and TypeScript
 
-<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/ben-ilegbodu.jpg" alt="Photo of Ben Ilegbodu"/></div></div>
+<div class="person"><div class="person-photo"><img src="/images/workshops/ben-ilegbodu.jpg" alt="Photo of Ben Ilegbodu"/></div></div>
 
 [Ben Ilegbodu](https://twitter.com/benmvp) is a Principal Frontend Engineer at [Stitch Fix](https://www.stitchfix.com). In addition to Ben's [handful of open source projects](https://github.com/benmvp), he loves teaching others to help them grow. He's given [150+ talks and workshops](https://www.benmvp.com/speak/) that have helped thousands all over the world level up their JavaScript, React, and overall frontend skills. Ben is also a [Google Developer Expert](https://developers.google.com/community/experts) and [Microsoft MVP](https://mvp.microsoft.com/).
 
@@ -20,7 +20,7 @@ Oh, and when you bundle a workshop ticket with a conference ticket you save **$5
 
 ## Marcy Sutton - Workshops on Accessibility
 
-<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/marcy-sutton.jpg" alt="Photo of Marcy Sutton"/></div></div>
+<div class="person"><div class="person-photo"><img src="/images/workshops/marcy-sutton.jpg" alt="Photo of Marcy Sutton"/></div></div>
 
 Marcy Sutton is a freelance web developer and accessibility specialist. Marcy has worked on accessibility testing tools, JavaScript frameworks, websites and web applications, always bringing a focus on web accessibility. In 2016, O’Reilly gave Marcy a Web Platform Award for her work. When away from the keyboard, Marcy can be found hiking with her dog, riding a bicycle, or snowboarding.
 
@@ -28,7 +28,7 @@ Marcy Sutton is a freelance web developer and accessibility specialist. Marcy ha
 
 ## Brian Love - a Workshop on Client-Side Performance and Chrome Dev Tools
 
-<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/brian-love.jpg" alt="Photo of Brian Love"/></div></div>
+<div class="person"><div class="person-photo"><img src="/images/workshops/brian-love.jpg" alt="Photo of Brian Love"/></div></div>
 
 Brian is a Principal Architect at [LiveLoveApp](https://liveloveapp.com/) and a Google Developer Expert in Web Technologies and Angular with a passion for learning, writing, speaking, teaching, and mentoring. He regularly speaks at conferences and meetups around the country and teaches workshops on web performance, RxJS, NgRx, and Angular. Brian co-authored “Why Angular for the Enterprise” published by O’Reilly. When not coding, Brian enjoys skiing, hiking, and being in the outdoors.
 
@@ -36,7 +36,7 @@ Brian is a Principal Architect at [LiveLoveApp](https://liveloveapp.com/) and a 
 
 ## Eve Porcello - Workshops on Node.js and GraphQL
 
-<div class="speaker"><div class="speaker-photo"><img src="/images/workshops/eve-porcello.jpg" alt="Photo of Eve Porcello"/></div></div>
+<div class="person"><div class="person-photo"><img src="/images/workshops/eve-porcello.jpg" alt="Photo of Eve Porcello"/></div></div>
 
 Eve Porcello is a software engineer, instructor, author, and co-founder of Moon Highway. Her career started writing technical specifications and creating UX designs for web projects. Since starting Moon Highway in 2012, she has created video content for egghead.io and LinkedIn Learning and has co-authored Learning React and Learning GraphQL for O'Reilly Media. She is also a frequent conference speaker and has presented at conferences including React Rally, GraphQL Summit, and OSCON.
 

@@ -28,14 +28,14 @@ export default function Speaker(props) {
   }
 
   return `
-    <div class="speaker">
+    <div class="person">
     ${ revealed
-      ? `<a href="/speakers/${key}"><div class="speaker-photo"><img src="${ photoUrl }" alt="photo of ${ name }"/><div class="overlay">
+      ? `<a href="/speakers/${key}"><div class="person-photo"><img src="${ photoUrl }" alt="photo of ${ name }"/><div class="overlay">
       <div class="text">${ talk }</div></div></div></a>`
-      : `<div class="speaker-photo"><img src="${ photoUrl }" alt="photo of ${ name }"/></div>` }
-      <div class="speaker-info">
-        <div class="speaker-name">${ revealed ? `<a href="/speakers/${key}">${ name} </a>` : name }</div>
-        <div class="speaker-misc">
+      : `<div class="person-photo"><img src="${ photoUrl }" alt="photo of ${ name }"/></div>` }
+      <div class="person-info">
+        <div class="person-name">${ revealed ? `<a href="/speakers/${key}">${ name} </a>` : name }</div>
+        <div class="person-misc">
           ${ revealed
             ? `${ speaker.company }<br/>${ speaker.location }`
             : ''}

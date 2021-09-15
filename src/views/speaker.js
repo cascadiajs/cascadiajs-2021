@@ -17,7 +17,7 @@ let Template = function(speaker) {
         </div>
         <div class="page-body">
             <!--div class="cta"><a href="http://eepurl.com/dPmCkT">Sign-Up for Updates on CascadiaJS 2022</a></div-->
-            <section class="speaker">
+            <section class="person">
                 <h2>${ title }</h2>
                 <!--div class="video">
                     ${ ytId ?
@@ -37,16 +37,16 @@ let Template = function(speaker) {
                     : `` }
                 </div-->
                 <h2>About ${ name }</h2>
-                <div class="speaker-info"> 
-                    <div class="speaker-photo"><img src="${ assetPath }/${ key }.jpg" alt="photo of ${ name }"/></div>
-                    <div class="speaker-more">
+                <div class="person-info"> 
+                    <div class="person-photo"><img src="${ assetPath }/${ key }.jpg" alt="photo of ${ name }"/></div>
+                    <div class="person-more">
                         ${ pronouns ? `<h3>Pronouns</h3><p>${ pronouns }</p>` : '' }
                         <h3>Location</h3>
                         <p>${ location }</p>
                         <h3>Company</h3>
                         <p>${ company }</p>
                         <h3>Links</h3>
-                        <div class="speaker-links">
+                        <div class="person-links">
                         ${ twitter ? `<div><i class="fab fa-twitter"></i> <a href="https://twitter.com/${ twitter }">@${ twitter }</a></div>` : '' }
                         ${ url ? `<div><i class="fa fa-globe"></i> <a href="${ url }">${ url.split("://")[1] }</a></div>` : '' }
                         </div>
