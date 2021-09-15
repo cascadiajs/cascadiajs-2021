@@ -67,7 +67,7 @@ module.exports = async function Speaker({speaker, social}) {
     }
     else {
         let content = Template(speaker)
-        let socialUrl = `${ assetPath }/${ speaker.key }-social.png`
+        let socialUrl = `/speakers/${ speaker.key }`
         //let socialUrl = `${ baseUrl }/images/speakers/${ speaker.key }-illustration.jpg`
         let title = `${ speaker.name } | ${ speaker.title }`
         html = Layout({ content, title, socialUrl })

@@ -64,8 +64,7 @@ module.exports = async function Page(req) {
         content = body
       }
 
-      let socialUrl = `https://${ process.env.NODE_ENV === 'staging' ? 'staging.' : '' }2021.cascadiajs.com/images/social/${ page }-share.png`
-      html = Layout({ title, content, socialUrl, excerpt })
+      html = Layout({ title, content, socialUrl: req.path, excerpt })
     }
 
     return { html }
