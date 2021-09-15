@@ -5,7 +5,7 @@ module.exports = async function Index({ ticket, socialUrl }) {
     let content = /*html*/ `
         <div class="campaign-container">
             <video autoplay muted loop>
-                <source src="/videos/sizzle.m4v" type="video/mp4">
+                <source src="/videos/sizzle.webm" type="video/webm">
                 Sorry, your browser doesn't support embedded videos.
             </video>        
             <div class="campaign-content">
