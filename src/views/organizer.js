@@ -40,9 +40,9 @@ module.exports = async function Organizer({organizer, social}) {
     }
     else {
         let content = Template(organizer)
-        let socialUrl = `/images/organizers/${ organizer.key }-social.png`
+        //let socialUrl = `/images/organizers/${ organizer.key }-social.png`
         let title = `${ organizer.name } | ${ organizer.role }`
-        html = Layout({ content, title, socialUrl })
+        html = Layout({ content, title })
     }
 
     return { html }
