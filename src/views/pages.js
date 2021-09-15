@@ -40,26 +40,34 @@ module.exports = async function Page(req) {
 
   // pull out any front-matter key/values
   let { attributes, body } = fm(doc)
-  let title = attributes.title || 'The JavaScript Conference for the Pacific Northwest'
-  let excerpt = attributes.excerpt
-  let html
-  let content
-
-  if (social !== undefined) {
-    let image = attributes.image
-    let header = title
-    html = SocialLayout({ image, header, excerpt })
+  // check for re-direct in the font-matter
+  let location = attributes.location
+  if (location) {
+    return { location }
   }
+  // else render content
   else {
-    if (type === 'markdown') {
-      content = MarkdownTemplate({ title, body })
-    } else {
-      content = body
+    let title = attributes.title || 'The JavaScript Conference for the Pacific Northwest'
+    let excerpt = attributes.excerpt
+    let html
+    let content
+
+    if (social !== undefined) {
+      let image = attributes.image
+      let header = title
+      html = SocialLayout({ image, header, excerpt })
+    }
+    else {
+      if (type === 'markdown') {
+        content = MarkdownTemplate({ title, body })
+      } else {
+        content = body
+      }
+
+      let socialUrl = `https://${ process.env.NODE_ENV === 'staging' ? 'staging.' : '' }2021.cascadiajs.com/images/social/${ page }-share.png`
+      html = Layout({ title, content, socialUrl, excerpt })
     }
 
-    let socialUrl = `https://${ process.env.NODE_ENV === 'staging' ? 'staging.' : '' }2021.cascadiajs.com/images/social/${ page }-share.png`
-    html = Layout({ title, content, socialUrl, excerpt })
+    return { html }
   }
-
-  return { html }
 }

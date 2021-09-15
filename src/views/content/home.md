@@ -1,0 +1,3 @@
+---
+location: /home/dashboard
+---
