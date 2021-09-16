@@ -1,6 +1,6 @@
 {
   "name": "cascadiajs-2021",
-  "version": "0.0.83",
+  "version": "0.0.84",
   "description": "The web site & app for CascadiaJS 2021 - https://2021.cascadiajs.com",
   "scripts": {
     "start": "npx sandbox",
