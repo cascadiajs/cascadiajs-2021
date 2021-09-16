@@ -11,7 +11,7 @@ The CascadiaJS organizers are currently monitoring the COVID-19 (Coronavirus) si
 To ensure safety, we plan on taking the following health precautions:
 
 - Vaccination card or passport required for entry into the conference events.
-- Masks recommended while inside the conference venue.
+- Masks will be provided for all attendees.
 - We will work with a health coordinator to ensure all health precautions are followed. 
 - We will have hand sanitizer stationed at the entrance, food stations, rooms and various locations throughout the conference.
 - We will regularly sanitize all surfaces throughout the event space and communicate with the venue to do the same.
