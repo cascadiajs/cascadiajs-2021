@@ -1,5 +1,5 @@
 module.exports = async function Social({ ticket }) {
-    console.log(ticket)
+    //console.log(ticket)
     // pull out location
     let locShort, locLong
     if (ticket.ticket.indexOf('Seattle') > -1) {
@@ -19,12 +19,9 @@ module.exports = async function Social({ ticket }) {
         locLong = 'Virtual Event'
     }
     // brag about early bird!
-    let type
-    if (ticket.ticket.indexOf('Early Bird')) {
+    let type = ''
+    if (ticket.ticket.indexOf('Early Bird') > 0) {
         type = 'Early Bird'
-    }
-    else {
-        type = ''
     }
     let html = /*html*/ `
         <!DOCTYPE html>
