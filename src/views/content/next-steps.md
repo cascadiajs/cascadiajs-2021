@@ -3,8 +3,6 @@ title: Registration Next Steps
 ---
 Thanks for buying a ticket to CascadiaJS 2021. We're so excited that you're going to join us this year!
 
-<span class="highlight warning">Deadline to redeem Goodie Box is Sept 17!</span>
-
 1. [🚨 Redeem your Goodie Box 🚨](/home/dashboard) 
 1. [Add yourself to the Conference Directory](/home/dashboard)
 1. [Help us spread the word](/colleague-email) and offer your friends and colleagues a [10% discount](https://ti.to/event-loop/cascadiajs-2021/discount/BFF) with code **BFF**.

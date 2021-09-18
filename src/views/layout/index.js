@@ -12,9 +12,9 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
     <body>
       <div id="root">
         <header>
-          <section class="alert">
+          <!--section class="alert">
             Deadline to Register and get a Hoodie + Goodie Box is Sept 17th
-          </section>
+          </section-->
           <nav>
             <div class="wide">
               <div id="logo"><a href="/"><img src="/images/logo-green.svg" alt="logo"/></a></div>
