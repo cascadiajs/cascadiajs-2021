@@ -12,9 +12,9 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
     <body>
       <div id="root">
         <header>
-          <!--section class="alert">
-            Deadline to Register and get a Hoodie + Goodie Box is Sept 17th
-          </section-->
+          <section class="alert">
+            RSVP for the FREE <a href="/pre-conf-meetup">CascadiaJS Pre-Conf Meetup</a> on October 17! 
+          </section>
           <nav>
             <div class="wide">
               <div id="logo"><a href="/"><img src="/images/logo-green.svg" alt="logo"/></a></div>
