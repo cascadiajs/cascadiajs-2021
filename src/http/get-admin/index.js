@@ -54,6 +54,7 @@ function ticket(t) {
         <input type=text name=fullName placeholder="Full Name" value="${ t.fullName || '' }">
         <input type=text name=conference placeholder="Conference (Y/N)" value="${ t.conference || '' }">
         <input type=text name=hoodie placeholder="Hoodie (Y/N)" value="${ t.hoodie || '' }">
+        <input type=text name=late_hoodie placeholder="Late Hoodie (Y/N)" value="${ t.late_hoodie || '' }">
         <input type=text name=code placeholder="Redemption Code" value="${ t.code || '' }">
         <input type=text name=github placeholder="Github username" value="${ t.github || '' }">
         <input type=text name=avatar placeholder="Github avatar URL" value="${ t.avatar || '' }">

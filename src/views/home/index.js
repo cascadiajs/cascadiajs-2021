@@ -12,6 +12,9 @@ module.exports = async function Index({ ticket }) {
                     <li><b>Ticket Type:</b> ${ ticket.ticket }</li>
                     <li><b>Conference:</b> ${ ticket.conference == 'Y' ? "Yes" : "No" }</li>
                     <li><b>Goodie Box:</b> ${ ticket.hoodie === 'Y' ? "Yes" : "No" }</li>
+                    ${ ticket.late_hoodie === 'Y'
+                    ? /*html*/`<li><b>In-Person Hoodie:</b> Yes</li>`
+                    : ``}
                 </ul>
                 ${ ticket.hoodie === 'Y'
                     ? `<div class="cta"><a href="/home/hoodies">Redeem Goodie Box</a></div>`

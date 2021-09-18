@@ -3,19 +3,18 @@ let parseBody = arc.http.helpers.bodyParser
 let data = require('@begin/data')
 let crypto = require("crypto")
 
-// release slugs for tickets that include a hoodie
+// release slugs for tickets that include a goodie box / hoodie
 let releaseSlugsForHoodies = ["uxxijxoenaw", "j5alov85rse", "gu1wi6hly78", "ds12azaaofu", "v8fofxwnymw"]
-// release slugs for tickets that include conference access, but NO hoodie
-let releaseSlugsForConference = releaseSlugsForHoodies.concat([])
+// release slugs for in-person tickets that include a best effort hoodie
+let releaseSlugsForLateBird = ["uc1sopmquhq", "ghy26smsdmm", "2m-dsgrlruk"]
+// release slugs for virtual tickets that include conference access, but NO goodie box
+let releaseSlugsForNoBox = ["sfjltkykwbm"]
+// bundle up all these slugs up since they all have conference / live stream access
+let releaseSlugsForConference = releaseSlugsForHoodies.concat(releaseSlugsForLateBird, releaseSlugsForNoBox)
 
 exports.handler = async function(req) {
   // authenticate the token passed in the header
   let titoSig = req.headers['Tito-Signature'] || req.headers['tito-signature']
-  //console.log(titoSig)
-  console.log(req.body)
-  //let decoded = Buffer.from(req.body, 'base64').toString()
-  //console.log(decoded)
-  //console.log(decoded)
   let hash = crypto.createHmac("sha256", process.env.TITO_WEBHOOK_KEY).update(req.body).digest("base64")
   // the hash of the POST body and the value of tito sig don't match, this is a bad request
   if (hash !== titoSig) {
@@ -57,21 +56,20 @@ exports.handler = async function(req) {
 async function registrationFinished(req) {
   let titoOrder = parseBody(req)
 
-  console.log(titoOrder)
-
   // write ticket data to the DB and see if any tickets includes a hoodie
   let hoodieTickets = []
   for (let ticket of titoOrder.tickets) {
     // write ticket into DB
     let conference = releaseSlugsForConference.includes(ticket.release_slug) ? 'Y' : 'N'
+    let late_hoodie = releaseSlugsForLateBird.includes(ticket.release_slug) ? 'Y' : 'N'
     let number = parseInt(titoOrder.receipt.number)
-    let ticketDoc = await data.set({ table: 'tickets', key: ticket.reference, ticket: ticket.release_title, number , conference })
+    let ticketDoc = await data.set({ table: 'tickets', key: ticket.reference, ticket: ticket.release_title, number , conference, late_hoodie })
     if (releaseSlugsForHoodies.includes(ticket.release_slug)) {
       hoodieTickets.push(ticketDoc)
     }
   }
 
-  console.log('tickets that include a free hoodie', hoodieTickets)
+  // console.log('tickets that include a free hoodie', hoodieTickets)
 
   // if so find a redemption code that is free, and assign it to this ticket id
   if (hoodieTickets.length > 0) {
