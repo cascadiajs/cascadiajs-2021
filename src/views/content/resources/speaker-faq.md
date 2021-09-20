@@ -22,8 +22,8 @@ Once you're getting ready to start recording your talk, please review our [video
 
 ## Other Resources
 
-- [Structuring your Talk](https://visme.co/blog/presentation-structure/)
-- [The Art of Talk Design](https://speakerdeck.com/mseckington/the-art-of-talk-design)
-- [The Art of Slide Design](https://speakerdeck.com/mseckington/the-art-of-slide-design)
-- [Virtual Conference Tips](https://medium.com/shiftconf/how-to-prep-for-speaking-at-a-virtual-conference-2bb4ecfc0d30)
+- <a target="_blank" href="https://visme.co/blog/presentation-structure/">Structuring your Talk</a>
+- <a target="_blank" href="https://speakerdeck.com/mseckington/the-art-of-talk-design">The Art of Talk Design</a>
+- <a target="_blank" href="https://speakerdeck.com/mseckington/the-art-of-slide-design">The Art of Slide Design</a>
+- <a target="_blank" href="https://medium.com/shiftconf/how-to-prep-for-speaking-at-a-virtual-conference-2bb4ecfc0d30">Virtual Conference Tips</a>
 
