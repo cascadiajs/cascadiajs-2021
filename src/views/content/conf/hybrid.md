@@ -17,9 +17,3 @@ In this way, we hope that no matter who you are, where you are located or what y
 <div class="cta secondary"><a href="/conf/vancouver">Vancouver Info and Tickets</a></div>
 <br/>
 <div class="cta secondary"><a href="/conf/portland">Portland Info and Tickets</a></div>
-
-## Community Watch Parties
-
-Folks in other communities are starting to spin-up Watch Parties of their own! If you'd like to organize a watch party in your town or city, just [ping us in Slack](https://join.slack.com/t/cascadiajs/shared_invite/zt-rdebpq77-bBqGufxZsn24kSCyrY3ipQ) and we'll help you do it!
-
-<div class="cta secondary"><a href="/conf/boulder">Boulder Info and Tickets</a></div>
