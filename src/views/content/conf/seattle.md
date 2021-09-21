@@ -3,20 +3,32 @@ title: Seattle Hybrid Event
 excerpt: Everything you need to know about attending the Seattle hybrid event!
 image: /images/conf/seattle.jpg
 ---
-![MoPOP](/images/conf/hybrid-seattle-mopop.jpg)
-## Venue
+<div style="display:flex;margin-bottom:16px;">
+    <div style="width:49%;margin-right:2%"><img src="/images/conf/hybrid-seattle-mopop.jpg"/></div>
+    <div style="width:49%"><img src="/images/conf/mopop-theatre.jpg"/></div>
+</div>
 
-```
-MoPOP - Museum of Pop Culture
-325 5th Avenue N
-Seattle, WA 98109
-```
-## Opening After Party
+We are hosting a Hybrid Event in Seattle at MoPop for a limited number of attendees. Capacity will be capped at 150 people and we will provide coffee, snacks and catered lunch during the day.
 
-*Details TBD*
-## Closing After Party
+<p class="highlight warning">In order to attend, attendees will need to provide proof of vaccination and we will require masks while inside.</p>
 
-*Details TBD*
+Here are just a few of the other amazing things we have in store:
+
+<i class="fas fa-gamepad"></i> A pre-conference Hack Event
+
+<i class="fas fa-gifts"></i> A limited-edition conference hoodie
+
+<i class="fas fa-turntable"></i> JavaScript Trivia and a Live Musical Performance
+
+<i class="fas fa-glass-cheers"></i> Opening Party at MoPop
+
+<i class="fas fa-microphone-stand"></i> Closing After Party at Citizen with Karaoke!</p>
+
+<div style="display:flex">
+    <div style="width:33%;margin-right:0.5%"><img src="/images/conf/citizen-bar.jpg"/></div>
+    <div style="width:33%;margin-right:0.5%"><img src="/images/conf/citizen-covered.jpg"/></div>
+    <div style="width:33%"><img src="/images/conf/citizen-needle.jpg"/></div>
+</div>
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Seattle Ticket</a></div>
 

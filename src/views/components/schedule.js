@@ -9,6 +9,109 @@ function renderSpeaker(time, speaker = {}) {
     </div>`
 }
 
+function hallwayTrack({ticket = undefined}) {
+    return /*html*/`
+    <div class="hallway track">
+    <h3>Hallway Track</h3>
+    <p>There are two ways to find your friends (and make new ones) at CascadiaJS: Discord and Gather. Read on for more information on both places!</p>
+    <div class="hallway-option">
+        <div class="hallway-option-header">
+            <div class="hallway-option-title">
+                <h4>Explore and Chat in Gather</h4>
+                <p>a screen cap of the space?</p>
+            </div>
+            ${ ticket && ticket.conference === 'Y'
+                ? `<div><span class="cta"><a href="${ process.env.REMO_DAYONE_URL }" target="_hallway">Join</a></span></div>`
+                : ``}
+        </div>
+        <div class="show-item">       
+            <div class="what">
+                <h5>Day One Raffle</h5>
+                <p>We're giving away exclusive CascadiaJS gear! <a href="/raffle">Learn More!</a></p>
+            </div>
+        </div>
+        <div class="show-item">       
+            <div class="what">
+                <h5>Booth Sponsors</h5>
+                <div class="hallway-sponsors">
+                    <div><img src="/images/sponsors/imgix.png" width="150" alt="Imgix logo"/></div>
+                    <div><img src="/images/sponsors/auth0.svg" width="150" alt="Auth0 logo"/></div>
+                    <div><img src="/images/sponsors/tagboard.png" width="150" alt="Tagboard logo"/></div>
+                    <div><img src="/images/sponsors/ld.svg" width="150" alt="Launch Darkly logo"/></div>
+                </div>
+            </div>
+        </div>
+        <div class="show-item">       
+            <div class="what">
+                <h5>Birds of a Feather Tables</h5>
+                <p><b>Cities</b></p>
+                <p>
+                    <span class="boaf">Seattle, WA</span>
+                    <span class="boaf">Portland, OR</span>
+                    <span class="boaf">Vancouver, BC</span>
+                </p>
+                <p><b>Talks</b></p>
+                <p>
+                    <span class="boaf">Conference Talk Discussion</span>
+                </p>
+                <p><b>Tools</b></p>
+                <p>
+                    <span class="boaf">JavaScript</span>
+                    <span class="boaf">Node.js</span>
+                    <span class="boaf">Deno</span>
+                    <span class="boaf">React.js</span>
+                    <span class="boaf">Vue.js</span>
+                    <span class="boaf">Angular.js</span>
+                </p>
+                <p>
+                    <span class="boaf">TypeScript</span>
+                    <span class="boaf">JAM Stack</span>
+                    <span class="boaf">SVG</span>
+                    <span class="boaf">Canvas</span>
+                    <span class="boaf">Web Components</span>
+                    <span class="boaf">CSS</span>
+                </p>
+                <p>
+                    <span class="boaf">Serverless</span>
+                    <span class="boaf">Open Source</span>
+                    <span class="boaf">APIs</span>
+                    <span class="boaf">IoT</span>
+                    <span class="boaf">Git</span>
+                    <span class="boaf">Hardware</span>
+                </p>
+                <p>
+                    <span class="boaf">Databases</span>
+                    <span class="boaf">DevOps</span>
+                    <span class="boaf">Performance</span>
+                    <span class="boaf">UI / Design</span>
+                    <span class="boaf">Mobile</span>
+                    <span class="boaf">Accessibility</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="hallway-option">      
+        <div class="hallway-option-header">
+            <div class="hallway-option-title">
+                <h4>Audio Chat in Rambly</h4>
+                <p>Open all the time!</p>
+            </div>
+            ${ ticket && ticket.conference === 'Y'
+                ? `<div><span class="cta"><a href="${ process.env.RAMBLY_URL }" target="_hallway">Join</a></span></div>`
+                : ``}
+        </div>
+        <div class="show-item">
+            <div class="what">
+                <p>Rambly is an 8-bit universe where you pick an avatar and walk around having audio-only conversations.</p>
+                <p>The volume for each participants is dependent on how close you are to them, so listen for the murmurs of a group and wander over to join them!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    `
+}
+
 function DayZero({ ticket = undefined }) {
     return /*html*/`
     <div class="day">
@@ -96,111 +199,8 @@ function DayOne({ speakers, ticket = undefined }) {
                     <div class="what"><div class="title"><i class="fas fa-turntable"></i> <a href="/opening-party">Live Visuals &amp; Music Show</a></div></div>
                 </div>
             </div>
-            <div class="hallway track">
-                <h3>Hallway Track</h3>
-                <p>There are two ways to spend time when you're not watching the talks: our virtual event space in Gather and . Read on for more information on both places!</p>
-                <div class="hallway-option">
-                    <div class="hallway-option-header">
-                        <div class="hallway-option-title">
-                            <h4>Video Chat in Remo</h4>
-                            <p>Open from 10:00 - 15:00</p>
-                        </div>
-                        ${ ticket && ticket.conference === 'Y'
-                            ? `<div><span class="cta"><a href="${ process.env.REMO_DAYONE_URL }" target="_hallway">Join</a></span></div>`
-                            : ``}
-                    </div>
-                    <div class="show-item">       
-                        <div class="what">
-                            <h5>Day One Raffle</h5>
-                            <p>We're giving away an Arduino IoT kit and exclusive CascadiaJS gear! <a href="/raffle">Learn More!</a></p>
-                        </div>
-                    </div>
-                    <div class="show-item">       
-                        <div class="what">
-                            <h5>Booth Sponsors</h5>
-                            <div class="hallway-sponsors">
-                                <div><img src="/images/sponsors/imgix.png" width="150" alt="Imgix logo"/></div>
-                                <div><img src="/images/sponsors/auth0.svg" width="150" alt="Auth0 logo"/></div>
-                                <div><img src="/images/sponsors/tagboard.png" width="150" alt="Tagboard logo"/></div>
-                                <div><img src="/images/sponsors/ld.svg" width="150" alt="Launch Darkly logo"/></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="show-item">       
-                        <div class="what">
-                            <h5>Birds of a Feather Tables</h5>
-                            <p><b>All Floors</b></p>
-                            <p>
-                                <span class="boaf">Seattle, WA</span>
-                                <span class="boaf">Portland, OR</span>
-                                <span class="boaf">Vancouver, BC</span>
-                                <span class="boaf">Bend, OR</span>
-                            </p>
-                            <p><b>2nd Floor</b></p>
-                            <p>
-                                <span class="boaf">Day One Talks Discussion</span>
-                            </p>
-                            <p><b>3rd Floor</b></p>
-                            <p>
-                                <span class="boaf">Day One Talks Discussion</span>
-                            </p>
-                            <p><b>4th Floor</b></p>
-                            <p>
-                                <span class="boaf">JavaScript</span>
-                                <span class="boaf">Node.js</span>
-                                <span class="boaf">Deno</span>
-                                <span class="boaf">React.js</span>
-                                <span class="boaf">Vue.js</span>
-                                <span class="boaf">Angular.js</span>
-                            </p>
-                            <p><b>5th Floor</b></p>
-                            <p>
-                                <span class="boaf">TypeScript</span>
-                                <span class="boaf">JAM Stack</span>
-                                <span class="boaf">SVG</span>
-                                <span class="boaf">Canvas</span>
-                                <span class="boaf">Web Components</span>
-                                <span class="boaf">CSS</span>
-                            </p>
-                            <p><b>6th Floor</b></p>
-                            <p>
-                                <span class="boaf">Serverless</span>
-                                <span class="boaf">Open Source</span>
-                                <span class="boaf">APIs</span>
-                                <span class="boaf">IoT</span>
-                                <span class="boaf">Git</span>
-                                <span class="boaf">Hardware</span>
-                            </p>
-                            <p><b>7th Floor</b></p>
-                            <p>
-                                <span class="boaf">Databases</span>
-                                <span class="boaf">DevOps</span>
-                                <span class="boaf">Performance</span>
-                                <span class="boaf">UI / Design</span>
-                                <span class="boaf">Mobile</span>
-                                <span class="boaf">Accessibility</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="hallway-option">      
-                    <div class="hallway-option-header">
-                        <div class="hallway-option-title">
-                            <h4>Audio Chat in Rambly</h4>
-                            <p>Open all the time!</p>
-                        </div>
-                        ${ ticket && ticket.conference === 'Y'
-                            ? `<div><span class="cta"><a href="${ process.env.RAMBLY_URL }" target="_hallway">Join</a></span></div>`
-                            : ``}
-                    </div>
-                    <div class="show-item">
-                        <div class="what">
-                            <p>Rambly is an 8-bit universe where you pick an avatar and walk around having audio-only conversations.</p>
-                            <p>The volume for each participants is dependent on how close you are to them, so listen for the murmurs of a group and wander over to join them!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            ${ hallwayTrack({ticket})}
 
             <div class="workshops track">
                 <h3>Workshop Track</h3>
@@ -298,111 +298,9 @@ function DayTwo({ speakers, ticket = undefined }) {
                     </div>
                 </div>
             </div>
-            <div class="hallway track">
-                <h3>Hallway Track</h3>
-                <p>There are two ways to spend time when you're not watching the talks: small group video chat in Remo and audio-only chat in Rambly. Read on for more information on both places!</p>
-                <div class="hallway-option">
-                    <div class="hallway-option-header">
-                        <div class="hallway-option-title">
-                            <h4>Video Chat in Remo</h4>
-                            <p>Open from 10:00 - 15:00</p>
-                        </div>
-                        ${ ticket && ticket.conference === 'Y'
-                            ? `<div><span class="cta"><a href="${ process.env.REMO_DAYTWO_URL }" target="_hallway">Join</a></span></div>`
-                            : ``}
-                    </div>
-                    <div class="show-item">       
-                        <div class="what">
-                            <h5>Day Two Raffle</h5>
-                            <p>We're giving away an Arduino IoT kit and exclusive CascadiaJS gear! <a href="/raffle">Learn More!</a></p>
-                        </div>
-                    </div>
-                    <div class="show-item">       
-                        <div class="what">
-                            <h5>Booth Sponsors</h5>
-                            <div class="hallway-sponsors">
-                                <div><img src="/images/sponsors/imgix.png" width="150" alt="Imgix logo"/></div>
-                                <div><img src="/images/sponsors/auth0.svg" width="150" alt="Auth0 logo"/></div>
-                                <div><img src="/images/sponsors/tagboard.png" width="150" alt="Tagboard logo"/></div>
-                                <div><img src="/images/sponsors/ld.svg" width="150" alt="Launch Darkly logo"/></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="show-item">       
-                        <div class="what">
-                            <h5>Birds of a Feather Tables</h5>
-                            <p><b>All Floors</b></p>
-                            <p>
-                                <span class="boaf">Seattle, WA</span>
-                                <span class="boaf">Portland, OR</span>
-                                <span class="boaf">Vancouver, BC</span>
-                                <span class="boaf">Bend, OR</span>
-                            </p>
-                            <p><b>2nd Floor</b></p>
-                            <p>
-                                <span class="boaf">Day Two Talks Discussion</span>
-                            </p>
-                            <p><b>3rd Floor</b></p>
-                            <p>
-                                <span class="boaf">Day Two Talks Discussion</span>
-                            </p>
-                            <p><b>4th Floor</b></p>
-                            <p>
-                                <span class="boaf">JavaScript</span>
-                                <span class="boaf">Node.js</span>
-                                <span class="boaf">Deno</span>
-                                <span class="boaf">React.js</span>
-                                <span class="boaf">Vue.js</span>
-                                <span class="boaf">Angular.js</span>
-                            </p>
-                            <p><b>5th Floor</b></p>
-                            <p>
-                                <span class="boaf">TypeScript</span>
-                                <span class="boaf">JAM Stack</span>
-                                <span class="boaf">SVG</span>
-                                <span class="boaf">Canvas</span>
-                                <span class="boaf">Web Components</span>
-                                <span class="boaf">CSS</span>
-                            </p>
-                            <p><b>6th Floor</b></p>
-                            <p>
-                                <span class="boaf">Serverless</span>
-                                <span class="boaf">Open Source</span>
-                                <span class="boaf">APIs</span>
-                                <span class="boaf">IoT</span>
-                                <span class="boaf">Git</span>
-                                <span class="boaf">Hardware</span>
-                            </p>
-                            <p><b>7th Floor</b></p>
-                            <p>
-                                <span class="boaf">Databases</span>
-                                <span class="boaf">DevOps</span>
-                                <span class="boaf">Performance</span>
-                                <span class="boaf">UI / Design</span>
-                                <span class="boaf">Mobile</span>
-                                <span class="boaf">Accessibility</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="hallway-option">      
-                    <div class="hallway-option-header">
-                        <div class="hallway-option-title">
-                            <h4>Audio Chat in Rambly</h4>
-                            <p>Open all the time!</p>
-                        </div>
-                        ${ ticket && ticket.conference === 'Y'
-                            ? `<div><span class="cta"><a href="${ process.env.RAMBLY_URL }" target="_hallway">Join</a></span></div>`
-                            : ``}
-                    </div>
-                    <div class="show-item">
-                        <div class="what">
-                            <p>Rambly is an 8-bit universe where you pick an avatar and walk around having audio-only conversations.</p>
-                            <p>The volume for each participants is dependent on how close you are to them, so listen for the murmurs of a group and wander over to join them!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            ${ hallwayTrack({ticket})}
+
             <div class="workshops track">
                 <h3>Workshop Track</h3>
                 <div class="show-item">       

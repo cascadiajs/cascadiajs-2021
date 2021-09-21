@@ -27,14 +27,12 @@ The virtual event builds on our successful virtual event from last year, and wil
 
 ## Hybrid In-Person Events
 
-For folks who are vaccinated and interested in participating in an in-person event, we will be hosting in-person hybrid events in Seattle WA, Portland OR and Vancouver BC! A ticket to one of our IRL events will include:
+For folks who interested in participating in an in-person event, we will be hosting in-person hybrid events in Seattle WA, Portland OR and Vancouver BC! 
 
-<i class="fas fa-file-medical"></i> Must be vaccinated at least two weeks prior to conference
+<p class="highlight warning">In order to attend, attendees will need to provide proof of vaccination and we will require masks while inside.</p>
 
-<i class="fas fa-users-class"></i> Watch Party in a central location
-
-<i class="fas fa-coffee"></i> Catering (coffee, snacks and lunch)
-
-<i class="fas fa-microphone-stand"></i> Opening and Closing after parties (7pm+ PT)
-
-<div class="cta secondary"><a href="/conf/hybrid" aria-label="Learn more about hybrid events">More Hybrid Event Info</a></div>
+<div class="cta secondary"><a href="/conf/seattle">Seattle Info and Tickets</a></div>
+<br/>
+<div class="cta secondary"><a href="/conf/vancouver">Vancouver Info and Tickets</a></div>
+<br/>
+<div class="cta secondary"><a href="/conf/portland">Portland Info and Tickets</a></div>
