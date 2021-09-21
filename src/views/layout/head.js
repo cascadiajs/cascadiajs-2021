@@ -13,7 +13,7 @@ function getBaseUrl() {
   return url
 }
 
-module.exports = function Head ({title, socialUrl = 'https://2021.cascadiajs.com/images/social/conf-share.png', excerpt = null, scripts = []}) {
+module.exports = function Head ({title, socialUrl = 'https://2021.cascadiajs.com/images/conf-social.png', excerpt = null, scripts = []}) {
   // expand title
   title = `CascadiaJS 2021${ title ? ' - ' + title : '' }`
 
