@@ -15,10 +15,12 @@ post /code
 post /codes
 get  /home/:view
 post /home
+get  /live
 post /login
 get  /modules/:type/:module
 post /orders
 get  /organizers/:key
+get  /schedule
 get  /social
 get  /speakers
 post /speakers
