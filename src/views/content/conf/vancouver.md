@@ -1,32 +1,33 @@
 ---
-title: Vancouver BC Hybrid Event
-excerpt: Everything you need to know about attending the Vancouver hybrid event!
-image: /images/conf/vancouver.jpg
+title: Join us in Vancouver at UBC for CascadiaJS!
+image: /images/conf/hybrid-vancouver-ubc.jpg
 ---
-![UBC Robson Square](/images/conf/hybrid-vancouver-ubc.jpg)
-## Venue
+<div style="display:flex;margin-bottom:16px;">
+    <div style="width:49%;margin-right:2%"><img src="/images/conf/hybrid-vancouver-ubc.jpg"/></div>
+    <div style="width:49%"><img src="/images/conf/ubc-inside.jpg"/></div>
+</div>
+CascadiaJS is the premier JavaScript conference in the Pacific Northwest and is being held on Nov 3-4. This year's event will bring together an amazing group of web developers from across the Pacific Northwest (and beyond).
 
-```
-UBC Robson Square
-800 Robson Street
-Vancouver, BC Canada V6Z 3B7
-```
+We are hosting a Hybrid Event in Vancouver, BC at UBC Robson Square for a limited number of attendees. Capacity will be capped at 120 people and we will provide coffee, snacks and catered lunch for all attendees.
 
-[Google Maps Link](https://goo.gl/maps/TpEYenysDKrbR2fQ9)
+<p class="highlight warning">In order to attend, attendees will need to provide proof of vaccination.</p>
 
-## Getting to the Venue
+Here are just a few of the other amazing things we have in store for CascadiaJS 2021:
 
-UBC Robson Square is conveniently located on Robson Street by the Vancouver Art Gallery, and within walking distance of three SkyTrain stations.
+<i class="fas fa-gamepad"></i> A pre-conference Hack Event
 
-![Diagram of entrances to UBC Robson](https://robsonsquare.ubc.ca/files/2018/02/map-780x780.jpg)
+<i class="fas fa-gifts"></i> A limited-edition conference hoodie
 
-[More Detailed Information](https://robsonsquare.ubc.ca/contact-directions/)
+<i class="fas fa-turntable"></i> JavaScript Trivia and a Live Musical Performance
 
-## Opening After Party
+<i class="fas fa-glass-cheers"></i> Opening and Closing Parties
 
-Stay Tuned!
-## Closing After Party
-
-Stay Tuned!
+<div style="display:flex">
+    <div style="width:33%;margin-right:0.5%"><img src="/images/conf/cjs-party1.jpg"/></div>
+    <div style="width:33%;margin-right:0.5%"><img src="/images/conf/cjs-party2.jpg"/></div>
+    <div style="width:33%"><img src="/images/conf/cjs-party3.jpg"/></div>
+</div>
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Vancouver Ticket</a></div>
+
+<div class="cta secondary"><a href="https://ti.to/event-loop/cascadiajs-2021/with/0ok59belchq" title="Seattle ticket upgrade">Vancouver In-Person Upgrade</a></div>

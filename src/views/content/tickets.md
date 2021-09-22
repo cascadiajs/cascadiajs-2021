@@ -2,16 +2,39 @@
 title: Tickets
 excerpt: Join us for a very hyrbid, very awesome CascadiaJS 2021!
 ---
+The CascadiaJS conference is taking place on Nov 3 & 4 and folks have the option to attending **Virtually** or **In-Person**.
+
+## The Virtual Event
+
+The virtual event builds on our [successful virtual event](#highlights-from-cascadiajs-2020) from last year, and will include:
+
+<i class="fas fa-tv-retro"></i> Live streamed talks (9am - 5pm PT)
+
+<i class="fas fa-handshake"></i> Hallway Track and Expo Hall in both [Gather](https://gather.town) and Discord
+
+<i class="fas fa-gamepad"></i> Our first ever pre-conference [Hack Event](/hack-day)!
+
+<i class="fas fa-turntable"></i> JavaScript Trivia Night and a Live Musical Performance (5pm - 6pm PT)
+
+<i class="fas fa-gifts"></i> Goodie Box with a [hoodie](/hoodie-fit-guide), stickers and other fun stuff **shipped to you**
+
+## Hybrid In-Person Events
+
+For folks who interested in participating in an in-person event, we will be hosting in-person hybrid events in Seattle WA, Portland OR and Vancouver BC! 
+
+<p class="highlight warning">In order to attend, attendees will need to provide proof of vaccination and we will require masks while inside.</p>
+
+<div class="cta secondary"><a href="/conf/seattle">Seattle Info and Tickets</a></div>
+<br/>
+<div class="cta secondary"><a href="/conf/vancouver">Vancouver Info and Tickets</a></div>
+<br/>
+<div class="cta secondary"><a href="/conf/portland">Portland Info and Tickets</a></div>
+
 ## Ticket Options
 
-When you buy a ticket to CascadiaJS 2021, you have the option of purchasing a ticket to:
+When you purchase a ticket, you will have the option of adding one or more [workshops](/workshops) to your order, which will all take place the week after the conference. When you purchase a workshop ticket bundled with a conference ticket, you save <span class="highlight warning">$50</span> for half-day workshops and <span class="highlight warning">$100</span> for full-day workshops.
 
-- The virtual event (modeled after last year's fully virtual conference, [which was awesome](#highlights-from-cascadiajs-2020)) 
-- An in-person hybrid event in Seattle, Portland or Vancouver, BC
-
-No matter what ticket you purchase, you will have the option of adding one or more [workshops](/workshops) to your order, which will all take place the week after the conference. When you purchase a workshop ticket bundled with a conference ticket, you save <span class="highlight warning">$50</span> for half-day workshops and <span class="highlight warning">$100</span> for full-day workshops.
-
-Finally, you'll have the option of helping us fund our Scholarship Program. Last year we raised over $2,000 from our community, and we hope to do even better this year!
+You'll also have the option of helping us fund our Scholarship Program. Last year we raised over $2,000 from our community, and we hope to do even better this year!
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Conference Ticket</a></div>
 

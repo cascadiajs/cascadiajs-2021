@@ -1,7 +1,6 @@
 ---
-title: Seattle Hybrid Event
-excerpt: Everything you need to know about attending the Seattle hybrid event!
-image: /images/conf/seattle.jpg
+title: Join us in Seattle at MoPop for CascadiaJS!
+image: /images/conf/hybrid-seattle-mopop.jpg
 ---
 <div style="display:flex;margin-bottom:16px;">
     <div style="width:49%;margin-right:2%"><img src="/images/conf/hybrid-seattle-mopop.jpg"/></div>

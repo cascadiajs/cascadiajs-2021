@@ -1,14 +1,19 @@
 let Layout = require('./layout')
 
 module.exports = function changelogIndex (list) {
-    // Return 404
-    let content = `<section>
+    let content = /*html*/`
+    <div id="page">
+      <div class="page-title">
+          <div class="wide"><h1>Changelog</h1></div>
+      </div>
+      <div class="page-body wide">
       <ul>
-        ${ list.map(item => `
-          <li><a href="/changelog/${ item.stub }">${ (new Date(item.published)).toDateString() } - ${ item.title }</a></li>
-          `).join('') }
+      ${ list.map(item => `
+        <li><a href="/changelog/${ item.stub }">${ (new Date(item.published)).toLocaleDateString("en-US") } - ${ item.title }</a></li>
+        `).join('') }
       </ul>
-    </section>`
+      </div>
+    </div>`
     let html = Layout({ content })
     return {
       html,
