@@ -356,6 +356,38 @@ div.highlight {
     object-fit: fill;
 }
 
+.tier-wrap {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+.tier-inner {
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.tier-wrap:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-top: 1px solid #112378;
+    width: 100%;
+    transform: translateY(-50%);
+    opacity: 0.2;
+}
+
+.tier {
+    height: 20px;
+    padding: 8px;
+    background: #d1f3e5;
+    color: #112378;
+    display:inline-block;
+}
+
 .platinum div, .gold div, .silver div, .bronze div {
     height: 100px;
     margin: 32px;
@@ -1304,11 +1336,11 @@ a[target="_blank"]:after {
     }
     
     .gold div {
-        height: 160px;
+        height: 150px;
     }
     
     .silver div {
-        height: 120px;
+        height: 100px;
     }
     
     .bronze div {
