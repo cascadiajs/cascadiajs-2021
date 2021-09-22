@@ -28,17 +28,13 @@ We may revise the CascadiaJS COVID Procedures in order to remain in compliance w
 
 ## Seattle, WA
 
-Masks are [not required](https://www.doh.wa.gov/Emergencies/COVID19/ClothFaceCoveringsandMasks) for indoor private gatherings and outdoor events with fewer than 500 people, where physical distancing is possible.
+Masks are [required](https://www.doh.wa.gov/Emergencies/COVID19/ClothFaceCoveringsandMasks) for indoor private gatherings and outdoor events with fewer than 500 people, where physical distancing is not possible.
 
 Physical distancing will not be possible at MoPop, so masks will be necessary except when eating and drinking.
-
-We will have more information about the After Parties once we finalize those venues.
 
 ## Portland, OR
 
 Masks are [currently required](https://www.travelportland.com/plan/coronavirus-faq/) for all people in all public indoor settings, as well as crowded outdoor public spaces where physical distancing is not possible, except while actively eating or drinking in food establishments. This statewide mandate applies to everyone age 5 and older, regardless of vaccination status.
-
-We will have more information about the After Parties once we finalize those venues.
 
 ## Vancouver, BC
 
