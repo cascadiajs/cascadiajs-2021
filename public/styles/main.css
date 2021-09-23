@@ -464,7 +464,7 @@ section .cta {
     display: none;
 }
 
-#sponsors, #changelog, #organizers {
+#sponsors, #highlights, #organizers {
     background-color: #d1f3e5;
     color: #112378;
 }
@@ -1245,6 +1245,16 @@ a[target="_blank"]:after {
 
     section.landing {
         text-align: center;
+    }
+
+    #highlights {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 16px;
+    }
+
+    #highlights div {
+        margin: 0;
     }
 
     #changelog-posts {

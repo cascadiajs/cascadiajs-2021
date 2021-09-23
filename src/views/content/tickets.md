@@ -30,15 +30,21 @@ For folks who interested in participating in an in-person event, we will be host
 <br/>
 <div class="cta secondary"><a href="/conf/portland">Portland Info and Tickets</a></div>
 
-## Ticket Options
+## Buying a Conference Ticket
 
 When you purchase a ticket, you will have the option of adding one or more [workshops](/workshops) to your order, which will all take place the week after the conference. When you purchase a workshop ticket bundled with a conference ticket, you save <span class="highlight warning">$50</span> for half-day workshops and <span class="highlight warning">$100</span> for full-day workshops.
 
 You'll also have the option of helping us fund our Scholarship Program. Last year we raised over $2,000 from our community, and we hope to do even better this year!
 
-<div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Conference Ticket</a></div>
+<div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy a Conference Ticket</a></div>
 
-## Apply for a Scholarship
+## Post-Conference Expert Workshops
+
+Following the conference, we have organized a week of awesome workshops being run by industry experts covering everything from Node.js to Accessibility to React!
+
+<div class="cta"><a href="/workshops">Buy Workshop Tickets</a></div>
+
+## Applying for a Scholarship
 
 The Opportunity Scholarship Program is open to everyone who is able to attend both days of the conference and meet *one* of the following requirements:
 

@@ -1,10 +1,10 @@
 let Layout = require('./layout')
-let getChangelogData = require('../shared/get-changelog-data')
+//let getChangelogData = require('../shared/get-changelog-data')
 let getDirectoryData = require('../shared/get-directory-data')
 let SpeakersContainer = require('./components/speakers')
 let OrganizersContainer = require('./components/organizers')
 
-let Template = function ({ speakersContainer, changelog, organizersContainer, directoryContainer }) {
+let Template = function ({ speakersContainer, organizersContainer, directoryContainer }) {
     let content = /*html*/`
     <div id="landing">
         <section id="hero" class="landing">
@@ -12,7 +12,6 @@ let Template = function ({ speakersContainer, changelog, organizersContainer, di
             <div id="hero-copy">   
                 <div>
                     <p>Join us on Nov 3 &amp; 4 for a <em>hybrid</em> event, a virtual conference <em>progressively enhanced</em> with in-person events in Seattle, Portland and Vancouver, BC.</p>
-                    <div class="cta"><a href="/conf">More Info</a></div>
                 </div>
                 <div>
                     <img src="/images/heron-right.png" alt="hero image of a hybrid heron / espresso machine"/>
@@ -41,17 +40,18 @@ let Template = function ({ speakersContainer, changelog, organizersContainer, di
                 </div>
             </div>
         </section>
-        <section id="changelog" class="landing">
-            <div id="changelog-posts">
-            ${ changelog.map(post => `
-                <div class="changelog-card">
-                    <div class="changelog-card-date">${ (new Date(post.published)).toLocaleDateString("en-US") }</div>
-                    <div class="changelog-card-title"><a href="/changelog/${ post.stub }">${ post.title }</a></div>
-                </div>
-            `).join('')}
+        <section id="highlights" class="landing">
+            <div>
+                <p><img src="/images/hackday/cascadiajs-cup-med.png"/></p>
+                <div class="cta secondary"><a href="/hackday">Pre-Conf Hack Day (Nov 1)</a></div>
             </div>
-            <div class="wide">
-                <div class="cta secondary"><a href="/changelog">See Full Changelog</a></div>
+            <div>
+                <p><img src="/images/cjs20-family.jpg"/></p>
+                <div class="cta secondary"><a href="/tickets">Conference (Nov 3 &amp; 4)</a></div>
+            </div>
+            <div>
+                <p><img src="/images/workshops/instructors-wide.jpg"/></p>
+                <div class="cta secondary"><a href="/workshops">Post-Conf Workshops (Nov 8 - 12)</a></div>
             </div>
         </section>
         <section id="speakers" class="landing">
@@ -82,14 +82,14 @@ let DirectoryContainer = function ({ directory }) {
 }
 
 module.exports = async function IndexView ({ speakers }) {
-    let changelog = getChangelogData()
+    //let changelog = getChangelogData()
     // only pass the most recent 3 posts
-    changelog = changelog.slice(0, 3)
+    //changelog = changelog.slice(0, 3)
     let directory = await getDirectoryData()
     let speakersContainer = SpeakersContainer({ speakers })
     let organizersContainer = OrganizersContainer()
     let directoryContainer = DirectoryContainer({ directory })
-    let content = Template({ changelog, speakersContainer, organizersContainer, directoryContainer })
+    let content = Template({ speakersContainer, organizersContainer, directoryContainer })
     let html = Layout({ content, title: 'Home' })
     return { html }
 }

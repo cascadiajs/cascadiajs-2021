@@ -5,7 +5,7 @@ function template({ confSchedule }) {
     return /*html*/`
         <div id="page">
             <div class="page-title">
-                <div class="wide"><h1>Conference Schedule</h1></div>
+                <div class="wide"><h1>Schedule</h1></div>
             </div>
             <div class="page-body wide">
                 ${ confSchedule }
