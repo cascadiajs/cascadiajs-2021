@@ -27,6 +27,7 @@ module.exports = function Head ({title, socialUrl = 'https://2021.cascadiajs.com
     <meta charset=utf-8>
     <title>${ title }</title>
     <link rel="stylesheet" href="https://use.typekit.net/emp6mcu.css">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
     <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="stylesheet" href="/styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
