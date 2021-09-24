@@ -1,16 +1,15 @@
 {
   "name": "cascadiajs-2021",
-  "version": "0.0.104",
+  "version": "0.0.105",
   "description": "The web site & app for CascadiaJS 2021 - https://2021.cascadiajs.com",
   "scripts": {
     "start": "npx sandbox",
     "lint": "eslint src --ignore-pattern node_modules --fix",
-    "test": "cross-env NODE_ENV=testing PORT=6666 tape test/*-test.js ./test/**/*-test.js | tap-spec",
+    "test": "NODE_ENV=testing PORT=6666 tape test/*-test.js ./test/**/*-test.js | tap-spec",
     "social": "npm link puppeteer --save-dev && node scripts/create-pages-social-sharing ; npm unlink puppeteer --save-dev",
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@architect/architect": "^8.7.4",
     "@architect/sandbox": "^3.7.4",
     "@begin/data": "^2.0.1",
     "dotenv": "^10.0.0",
