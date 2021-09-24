@@ -1150,7 +1150,7 @@ a[target="_blank"]:after {
     padding: 16px;
 }
 
-.hybrid-event {
+.hybrid-event, #highlights div {
     margin-bottom: 32px;
 }
 
