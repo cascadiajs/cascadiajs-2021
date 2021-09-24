@@ -38,8 +38,6 @@ Masks are [currently required](https://www.travelportland.com/plan/coronavirus-f
 
 ## Vancouver, BC
 
-Masks [are required](https://www2.gov.bc.ca/gov/content/covid-19/info/restrictions) in all public indoor settings for all people born in 2009 or earlier (12+). 
+Public Health Orders require all attendees be fully vaccinated ( two doses ), and all attendees will need to present both their [vaccination passport](https://www2.gov.bc.ca/gov/content/covid-19/vaccine/proof) as well as government-issued ID in order to attend in person. As well, masks [are required](https://www2.gov.bc.ca/gov/content/covid-19/info/restrictions) in all public indoor settings for all people born in 2009 or earlier (12+). 
 
-Note: The order will be reassessed when proof of vaccination and B.C.'s vaccine card are fully implemented. 
-
-We will have more information about the After Parties once we finalize those venues.
+More information about the After Parties once we finalize those venues.
