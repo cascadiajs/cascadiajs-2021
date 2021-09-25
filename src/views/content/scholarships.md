@@ -18,8 +18,7 @@ The Opportunity Scholarship Program is open to everyone who is able to attend bo
 ## How it works
 
 - Apply for a scholarship
-- If you meet the requirements, you will be offered a Scholarship Ticket at the discounted rate of $49
-- You must purchase your Scholarship Ticket by <span class="highlight warning">Sept 17</span> in order to receieve a Goodie Box in the mail
+- If you meet the requirements, you will be offered a Scholarship Ticket at the discounted rate of $29
 - If you cannot afford this ticket, that's ok! You can request Financial Aid and we'll be in touch
 
 ## Attending In-Person
