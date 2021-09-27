@@ -23,7 +23,7 @@ We're excited to be in such a central and accessible location, and we can't wait
 
 ## Portland Closing Party will be at VoiceBox Karaoke 🎤
 
-![Voicebox Portland SE](/images/conf/voicebox-pdx-se.png)
+![Voicebox Portland SE](/images/conf/voicebox-pdx-se.jpg)
 
 We are doing a **full buy out** of Voicebox Portland SE for our Portland Closing Party. We're excited to have the space completely to ourselves for 3 hours of fun and karaoke!
 
