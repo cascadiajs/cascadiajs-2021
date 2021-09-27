@@ -1,8 +1,13 @@
 # cascadiajs-2021
 
-- will need to install puppeteer global and then link it in this project
+## Setup
 
 ```
-npm i puppeteer -g
-npm link puppeteer
+npm i
+```
+
+## Local Development
+
+```
+npm start
 ```
