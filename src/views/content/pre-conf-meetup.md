@@ -1,6 +1,7 @@
 ---
-title: October Pre-Conf Meetup (Oct 14)
-excerpt: Hangout with friends and get excited for CascadiaJS 2021! 
+title: Pre-Conf Meetup (Oct 14)
+excerpt: Hangout with friends and get excited for CascadiaJS 2021!
+image: /images/cjs19-family.jpg
 ---
 Join us for a very special CascadiaJS pre-conference meetup! Hangout with fellow conference attendees, enjoy some awesome lightning ⚡️ talks and start to get excited for CascadiaJS 2021!
 
