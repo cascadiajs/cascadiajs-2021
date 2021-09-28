@@ -698,6 +698,10 @@ footer {
     width: 300px;
 }
 
+.person-more {
+    flex: 1;
+}
+
 .page-body .person {
     padding-bottom: 16px;
 }
@@ -797,8 +801,7 @@ footer {
 
 .js-topic {
     display: inline-block;
-    background-color:#0033FF;
-    color: #fff;
+    background-color: #CFD3E4;
     text-decoration: none;
     margin:3px;
     padding:8px;

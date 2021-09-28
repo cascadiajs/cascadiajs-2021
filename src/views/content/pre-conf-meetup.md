@@ -12,7 +12,7 @@ Join us for a very special CascadiaJS pre-conference meetup! Hangout with fellow
 
 * 18:00 - Virtual Doors Open
 * 18:30 - Greetings & Kick-off
-* 18:45 - Lightning ⚡️ #1
+* 18:45 - [DevOps and CI/CD demystified for Javascript](#jeremy) by Jeremy Meiss
 * 19:00 - Lightning ⚡️ #2
 * 19:15 - Lightning ⚡️ #3
 * 19:30 - Back to fun times
@@ -25,3 +25,22 @@ Interest in SPEAKING at this event? Submit a lightning talk idea to the [Pan-Cas
 <div class="cta"><a href="https://ti.to/event-loop/cjs21-oct-meetup">RSVP to Meetup</a></div>
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021/">Buy Conference Ticket</a></div>
+
+## Lightning Talks
+
+<h3 id="jeremy">DevOps and CI/CD demystified for Javascript</h3>
+
+<div class="person">
+    <div class="person-info">
+        <div class="person-photo"><img src="https://dl.airtable.com/.attachmentThumbnails/0f22d23e497b96bbefa44079803336ad/2af52d0d" alt="Photo of Jeremy Meiss"/></div>
+        <div class="person-more">
+            <p>CI/CD enables teams to establish processes that increase velocity, collaboration, and quality of their codebase. Learn the fundamentals of CI/CD and DevOps for Javascript developers.</p>
+            <aside>
+                <div class="js-topic">devops</div>
+                <div class="js-topic">javascript</div>
+                <div class="js-topic">ci/cd</div>
+            </aside>
+        </div>
+    </div>
+</div>
+
