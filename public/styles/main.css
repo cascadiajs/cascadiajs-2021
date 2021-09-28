@@ -490,6 +490,7 @@ section .cta {
 
 .day h2.day-date {
     font-size: 28px;
+    font-weight: 500;
     line-height: 1em;
     margin: 0 16px 0 0;
 }
