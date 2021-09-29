@@ -12,13 +12,21 @@ excerpt: Everything you need to deliver an A+ talk at the conference.
 - 👟 10/15: 2nd run through completed
 - 🥳 10/22: Video file due
 
+## Talk Videos
+
+- 1080p (or at least 720p)
+- 16:9 aspect ratio
+- 25 minutes long (max)
+
 ## New Speakers
 
 If you are a new speaker, please review these [5 tips to get started](/resources/new-speakers). 
 
 ## All Speakers
 
-Once you're getting ready to start recording your talk, please review our [video recording guide](/resources/recording-talks). We would like all speakers to standardize on Loom and we have purchased a Pro account that we can add you to so that you have access to all of Loom's features.
+Once you're getting ready to start recording your talk, please review our [video recording guide](/resources/recording-talks). 
+
+We would like all speakers to standardize on Loom and we have purchased a Pro account that we can add you to so that you have access to all of Loom's features.
 
 ## Other Resources
 

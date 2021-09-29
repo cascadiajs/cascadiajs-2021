@@ -17,6 +17,7 @@ However, the choice is yours. So long as you record a video that meets our requi
 
 ## Recording Output
 
+- 25 minutes in length (maximum)
 - Record your video in 1080P (if possible) or at least 720P.
 - If possible, a 16:9 aspect ratio is ideal.
 
