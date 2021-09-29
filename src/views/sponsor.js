@@ -3,7 +3,7 @@ let Layout = require('./layout')
 let SocialLayout = require('./layout/social')
 
 let Template = function(sponsor) {
-    const { name, logo, url, description } = sponsor
+    const { name, logo, url, jobs, description } = sponsor
 
     return /*html*/`
     <div id="page">
@@ -17,6 +17,8 @@ let Template = function(sponsor) {
                 <p><img src="/images/sponsors/${ logo }" alt="logo of ${ name }"/></p>
                 <p>${ md(description) }</p>
                 <p><a target="_blank" href="${ url }">Learn More</a></p>
+                ${ jobs ? /*html*/`<h2>${ name } is Hiring!</h2>
+                <p><a target="_blank" href="${ jobs }">Open Jobs</a></p>` : '' }
             </section>
         </div>
     </div>

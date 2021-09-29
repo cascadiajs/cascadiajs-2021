@@ -1,15 +1,100 @@
 [
-    {"key": "circle-ci", "tier": "silver", "name": "CircleCI", "url": "https://circleci.com", "logo": "circleci.svg", "description": "The world’s best software teams use CircleCI to deliver quality code with confidence. As the largest continuous integration and delivery (CI/CD) platform, CircleCI empowers engineers to seamlessly take ideas to execution, at scale. Our platform is optimized for developer productivity, speed, and confidence.We understand how engineering teams work and how their code runs. Companies like Intuit, Apple, and Spotify use CircleCI to improve productivity, release better products, and get to market faster. We’ve been named a leader in cloud-native continuous integration by Forrester in 2019 and 2017, and rank #242 on Deloitte’s Technology Fast 500™."},
-    {"key": "courier", "tier": "silver", "name": "Courier", "url": "http://courier.com", "logo": "courier.png", "description": "Notifications are hard. They require infrastructure that is reliable, scalable and observable as well as an end user experience that is helpful and respectful. That's why we built Courier. Courier is a complete notification system that allows you to design and send notifications across all channels, orchestrate your workflow, and collect real-time insights."},
-    {"key": "sauce-labs", "tier": "silver", "name": "SauceLabs", "url": "https://saucelabs.com", "logo": "saucelabs.png", "description": "Sauce Labs is the platform developers trust to help them deliver better software, faster. Our continuous testing cloud accelerates CI/CD without compromising quality, and delivers a 360-degree view of your customers’ application experience, ensuring apps work exactly as they should on every browser, OS, and device. And with support for a wide range of JavaScript test automation frameworks, Sauce Labs helps teams scale cross-browser testing with speed and insights. Learn more at [saucelabs.com](https://saucelabs.com)."},
-    {"key": "hasura", "tier": "bronze", "name": "Hasura", "url": "https://hasura.com", "logo": "hasura.png", "description": "Hasura is an open source product that accelerates API development by 10x by giving you GraphQL or REST APIs with built in authorization on your data, instantly."},
-    {"key": "auth0", "tier": "bronze", "name": "Auth0", "url": "https://a0.to/cascadiajs", "logo": "auth0.svg", "description": "Auth0 is the first identity management platform for application builders, and the only identity solution needed for custom-built applications. With a mission to secure the world’s identities so innovators can innovate, Auth0 provides the simplicity, extensibility, and expertise to scale and protect identities in any application, for any audience. Auth0 secures more than 100 million logins each day, giving enterprises the confidence to deliver trusted and elegant digital experiences to their customers around the world."},
-    {"key": "instabase", "tier": "bronze", "name": "Instabase", "url": "https://instabase.com", "logo": "instabase.png", "description": "Instabase is a platform for businesses to build customizable apps for automating different parts of their business. The platform comes equipped with the tools for reading documents, data extraction and classification, natural language processing, and optical character recognition. It is designed to enable creators, developers, and organizations to quickly build complex business applications based on their needs."},
-    {"key": "fission", "tier": "silver", "name": "Fission", "url": "https://fission.codes", "logo": "fission.png", "description": "Build the future of web apps at the edge."},
-    {"key": "new-relic", "tier": "platinum", "name": "New Relic", "url": "https://trynewrelic.com", "logo": "new-relic.svg", "description": "New Relic helps software engineers measure the performance of their systems and provides comprehensive visibility across the entire stack in one unified experience. Your users will tell you it's broken, New Relic will tell you why."},
-    {"key": "twilio", "tier": "bronze", "name": "Twilio", "url": "https://twilio.com", "logo": "twilio.svg", "description": "Twilio powers the future of business communications. Enabling phones, VoIP, and messaging to be embedded into web, desktop, and mobile software. Twilio has democratized communications channels like voice, text, chat, video, and email by virtualizing the world’s communications infrastructure through APIs that are simple enough for any developer to use, yet robust enough to power the world’s most demanding applications. By making communications a part of every software developer’s toolkit, Twilio is enabling innovators across every industry — from emerging leaders to the world’s largest organizations — to reinvent how companies engage with their customers."},
-    {"key": "t-mobile", "tier": "silver", "name": "T-Mobile", "url": "https://www.t-mobile.com/marketing-solutions", "logo": "tmobile.png", "description": "Advertising, meet the Un-carrier. We’re standing up for Consumers and Advertisers to redefine an industry. Again. Ever feel like relevant, engaging, and safe advertising is an impossible ask?  We are working to change that. We are a small, fast moving team of master generalists;  that build, run,  and operate the Magenta Marketing Platform. If you enjoy writing full stack code one day, working on a data pipeline the next and wrapping up your week writing infrastructure as code to deploy changes to the cloud we want to talk to you. We are looking for team members who can critically analyze a problem, collaborate with product management to find a solution, and own the delivery of that solution to the end customer."},
-    {"key": "unbounce", "tier": "bronze", "name": "Unbounce", "url": "https://unbounce.com/", "logo": "unbounce.png", "description": "Unbounce is a drag-and-drop builder that lets you create and publish your own landing pages, without needing a developer to code ‘em. It’s an easier and faster way to get more conversions from your traffic.As one of Canada’s fastest-growing tech companies, with a world wide team of remote Unbouncers and offices in both Vancouver and Berlin, we’ve powered over 1.5 billion conversions to date for our customers worldwide."},
-    {"key": "dolby-io", "tier": "silver", "name": "Dolby.io", "url": "https://dolby.io/?&utm_medium=event&utm_campaign=cascadiajs2021&utm_source=landing-page", "logo": "dolby.svg", "description": "Meet Dolby.io. The API platform to transform media and communications. With decades of expertise in sound signal processing under our belt, we know a thing or two about high-quality audio and video. Whether you’re looking to build a communications app, solve for poor audio quality in your recordings, or convert digital media formats, we have the best-in-class APIs to match your needs. From virtual concerts to e-learning to podcasting, there’s no limit to what developers can build."}
-
+  {
+    "key": "circle-ci",
+    "tier": "silver",
+    "name": "CircleCI",
+    "url": "https://circleci.com",
+    "logo": "circleci.svg",
+    "description": "The world’s best software teams use CircleCI to deliver quality code with confidence. As the largest continuous integration and delivery (CI/CD) platform, CircleCI empowers engineers to seamlessly take ideas to execution, at scale. Our platform is optimized for developer productivity, speed, and confidence.We understand how engineering teams work and how their code runs. Companies like Intuit, Apple, and Spotify use CircleCI to improve productivity, release better products, and get to market faster. We’ve been named a leader in cloud-native continuous integration by Forrester in 2019 and 2017, and rank #242 on Deloitte’s Technology Fast 500™."
+  },
+  {
+    "key": "courier",
+    "tier": "silver",
+    "name": "Courier",
+    "url": "http://courier.com",
+    "logo": "courier.png",
+    "description": "Notifications are hard. They require infrastructure that is reliable, scalable and observable as well as an end user experience that is helpful and respectful. That's why we built Courier. Courier is a complete notification system that allows you to design and send notifications across all channels, orchestrate your workflow, and collect real-time insights."
+  },
+  {
+    "key": "sauce-labs",
+    "tier": "silver",
+    "name": "SauceLabs",
+    "url": "https://saucelabs.com",
+    "logo": "saucelabs.png",
+    "description": "Sauce Labs is the platform developers trust to help them deliver better software, faster. Our continuous testing cloud accelerates CI/CD without compromising quality, and delivers a 360-degree view of your customers’ application experience, ensuring apps work exactly as they should on every browser, OS, and device. And with support for a wide range of JavaScript test automation frameworks, Sauce Labs helps teams scale cross-browser testing with speed and insights. Learn more at [saucelabs.com](https://saucelabs.com)."
+  },
+  {
+    "key": "hasura",
+    "tier": "bronze",
+    "name": "Hasura",
+    "url": "https://hasura.com",
+    "logo": "hasura.png",
+    "description": "Hasura is an open source product that accelerates API development by 10x by giving you GraphQL or REST APIs with built in authorization on your data, instantly."
+  },
+  {
+    "key": "auth0",
+    "tier": "bronze",
+    "name": "Auth0",
+    "url": "https://a0.to/cascadiajs",
+    "logo": "auth0.svg",
+    "description": "Auth0 is the first identity management platform for application builders, and the only identity solution needed for custom-built applications. With a mission to secure the world’s identities so innovators can innovate, Auth0 provides the simplicity, extensibility, and expertise to scale and protect identities in any application, for any audience. Auth0 secures more than 100 million logins each day, giving enterprises the confidence to deliver trusted and elegant digital experiences to their customers around the world."
+  },
+  {
+    "key": "instabase",
+    "tier": "bronze",
+    "name": "Instabase",
+    "url": "https://instabase.com",
+    "logo": "instabase.png",
+    "jobs": "https://instabase.com/careers/?gh_jid=4857106002",
+    "description": "Instabase is a platform for businesses to build customizable apps for automating different parts of their business. The platform comes equipped with the tools for reading documents, data extraction and classification, natural language processing, and optical character recognition. It is designed to enable creators, developers, and organizations to quickly build complex business applications based on their needs."
+  },
+  {
+    "key": "fission",
+    "tier": "silver",
+    "name": "Fission",
+    "url": "https://fission.codes",
+    "logo": "fission.png",
+    "description": "Build the future of web apps at the edge."
+  },
+  {
+    "key": "new-relic",
+    "tier": "platinum",
+    "name": "New Relic",
+    "url": "https://trynewrelic.com",
+    "logo": "new-relic.svg",
+    "description": "New Relic helps software engineers measure the performance of their systems and provides comprehensive visibility across the entire stack in one unified experience. Your users will tell you it's broken, New Relic will tell you why."
+  },
+  {
+    "key": "twilio",
+    "tier": "bronze",
+    "name": "Twilio",
+    "url": "https://twilio.com",
+    "logo": "twilio.svg",
+    "description": "Twilio powers the future of business communications. Enabling phones, VoIP, and messaging to be embedded into web, desktop, and mobile software. Twilio has democratized communications channels like voice, text, chat, video, and email by virtualizing the world’s communications infrastructure through APIs that are simple enough for any developer to use, yet robust enough to power the world’s most demanding applications. By making communications a part of every software developer’s toolkit, Twilio is enabling innovators across every industry — from emerging leaders to the world’s largest organizations — to reinvent how companies engage with their customers."
+  },
+  {
+    "key": "t-mobile",
+    "tier": "silver",
+    "name": "T-Mobile",
+    "url": "https://www.t-mobile.com/marketing-solutions",
+    "logo": "tmobile.png",
+    "jobs": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25779&siteid=5149&Areq=167817BR#jobDetails=678143_5149",
+    "description": "Advertising, meet the Un-carrier. We’re standing up for Consumers and Advertisers to redefine an industry. Again. Ever feel like relevant, engaging, and safe advertising is an impossible ask?  We are working to change that. We are a small, fast moving team of master generalists;  that build, run,  and operate the Magenta Marketing Platform. If you enjoy writing full stack code one day, working on a data pipeline the next and wrapping up your week writing infrastructure as code to deploy changes to the cloud we want to talk to you. We are looking for team members who can critically analyze a problem, collaborate with product management to find a solution, and own the delivery of that solution to the end customer."
+  },
+  {
+    "key": "unbounce",
+    "tier": "bronze",
+    "name": "Unbounce",
+    "url": "https://unbounce.com/",
+    "logo": "unbounce.png",
+    "description": "Unbounce is a drag-and-drop builder that lets you create and publish your own landing pages, without needing a developer to code ‘em. It’s an easier and faster way to get more conversions from your traffic.As one of Canada’s fastest-growing tech companies, with a world wide team of remote Unbouncers and offices in both Vancouver and Berlin, we’ve powered over 1.5 billion conversions to date for our customers worldwide."
+  },
+  {
+    "key": "dolby-io",
+    "tier": "silver",
+    "name": "Dolby.io",
+    "url": "https://dolby.io/?&utm_medium=event&utm_campaign=cascadiajs2021&utm_source=landing-page",
+    "logo": "dolby.svg",
+    "description": "Meet Dolby.io. The API platform to transform media and communications. With decades of expertise in sound signal processing under our belt, we know a thing or two about high-quality audio and video. Whether you’re looking to build a communications app, solve for poor audio quality in your recordings, or convert digital media formats, we have the best-in-class APIs to match your needs. From virtual concerts to e-learning to podcasting, there’s no limit to what developers can build."
+  }
 ]

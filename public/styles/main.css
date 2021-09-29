@@ -1167,6 +1167,14 @@ a[target="_blank"]:after {
     color: #112378;
 }
 
+.job-listing {
+    margin-bottom: 32px;
+}
+
+.job-listing img {
+    height: 100px;
+}
+
 @media only screen and (min-width: 768px) {
 
     #root {
