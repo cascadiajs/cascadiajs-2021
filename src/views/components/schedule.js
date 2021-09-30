@@ -172,7 +172,7 @@ function DayOne({ speakers, ticket = undefined }) {
             <div class="workshops track">
                 <h3>Workshop Track</h3>
                 <div class="show-item">       
-                    <div class="when">10:30</div>
+                    <div class="when">10:00</div>
                     <div class="what">
                         <div class="title"><a href="/workshops/courier">Ghostifications - Messages from the Afterlife</a></div>
                         <div class="speaker">

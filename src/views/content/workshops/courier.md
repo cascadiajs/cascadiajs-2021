@@ -2,7 +2,16 @@
 title: Ghostifications - Messages from the Afterlife
 image: https://giddy-epoch-c56.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd2cb91e3-d685-4544-8813-7e8297c7416f%2Fprofile_(1).png?table=block&id=ff02c7db-13cf-44ec-aeed-58c95852d3ff&spaceId=917ca4d2-a678-45f1-ae86-60915dc9f05a&width=2000&userId=9675823b-070c-4b4c-9d37-57630c4faec4&cache=v2
 ---
+*This virtual workshop is available for free to registered attendees of CascadiaJS 2021!*
+
 ## Overview
+
+- Date: Nov 3, 2021
+- Time: 10am PT
+- Length: 1 hour
+- Venue: Online (Link to RSVP in attendee Dashboard)
+
+## About this Workshop
 
 Early stage startups can require building complex notification systems into their product to improve communication with users and increase user engagement, which can be a time consuming and expensive process.
 
@@ -15,8 +24,6 @@ Courier offers a fast and cost-effective solution for developers to build notifi
 - How to integrate cross-channel notifications in minutes
 - How to build effective communication for developers-to-user engagement
 - How to start sending 10,000 messages/month for free
-
-<div class="cta"><a href="https://bit.ly/2Y0p9Cy">RSVP</a></div>
 
 <section class="person">
     <h2>About Shreya Gupta</h2>
