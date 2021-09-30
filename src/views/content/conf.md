@@ -17,7 +17,7 @@ The virtual event builds on our successful virtual event from last year, and wil
 
 <i class="fas fa-handshake"></i> Hallway Track and Expo Hall in both [Gather](https://gather.town) and Discord
 
-<i class="fas fa-gamepad"></i> Our first ever pre-conference [Hack Event](/hack-day)!
+<i class="fas fa-gamepad"></i> Our first ever pre-conference [Hack Event](/hackday)!
 
 <i class="fas fa-turntable"></i> Opening and Closing virtual parties (5pm - 6pm PT)
 
