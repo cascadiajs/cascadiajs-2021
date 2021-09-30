@@ -20,9 +20,9 @@ Here are just a few of the other amazing things we have in store for CascadiaJS 
 
 <i class="fas fa-turntable"></i> JavaScript Trivia and a Live Musical Performance
 
-<i class="fas fa-glass-cheers"></i> Opening Party at OMSI
+<i class="fas fa-glass-cheers"></i> Opening Party at OMSI with drinks, games and a <a target="_blank" href="https://omsi.edu/planetarium">Planetarium</a> tour!
 
-<i class="fas fa-microphone-stand"></i> Closing After Party at VoiceBox SE with Karaoke!
+<i class="fas fa-microphone-stand"></i> Closing After Party at <a target="_blank" href="https://voiceboxkaraoke.com/locations/southeast-portland/">VoiceBox SE</a> with Karaoke!
 
 <div style="display:flex">
     <div style="width:33%;margin-right:0.5%"><img src="/images/conf/voicebox-iphone.jpg"/></div>
@@ -31,5 +31,8 @@ Here are just a few of the other amazing things we have in store for CascadiaJS 
 </div>
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Portland Ticket</a></div>
+
+<br/>
+If you have already purchased a Virtual ticket, you are welcome to upgrade to In-Person using the link below!
 
 <div class="cta secondary"><a href="https://ti.to/event-loop/cascadiajs-2021/with/wntqklq-kk" title="Portland ticket upgrade">Portland In-Person Upgrade</a></div>

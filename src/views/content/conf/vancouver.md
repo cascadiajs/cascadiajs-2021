@@ -30,4 +30,7 @@ Here are just a few of the other amazing things we have in store for CascadiaJS 
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Vancouver Ticket</a></div>
 
+<br/>
+If you have already purchased a Virtual ticket, you are welcome to upgrade to In-Person using the link below!
+
 <div class="cta secondary"><a href="https://ti.to/event-loop/cascadiajs-2021/with/0ok59belchq" title="Seattle ticket upgrade">Vancouver In-Person Upgrade</a></div>

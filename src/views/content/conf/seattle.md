@@ -19,9 +19,9 @@ Here are just a few of the other amazing things we have in store:
 
 <i class="fas fa-turntable"></i> JavaScript Trivia and a Live Musical Performance
 
-<i class="fas fa-glass-cheers"></i> Opening Party at MoPop
+<i class="fas fa-glass-cheers"></i> Opening Party at <a target="_blank" href="https://www.collectiveseattle.com">The Collective Seattle</a>
 
-<i class="fas fa-microphone-stand"></i> Closing After Party at Citizen with Karaoke!</p>
+<i class="fas fa-microphone-stand"></i> Closing After Party at <a target="_blank" href="https://www.citizencampfire.com/">Citizen Campfire</a> with Karaoke by <a target="_blank" href="https://babyketten.com/">Baby Ketten</a>!</p>
 
 <div style="display:flex">
     <div style="width:33%;margin-right:0.5%"><img src="/images/conf/citizen-bar.jpg"/></div>
@@ -30,5 +30,8 @@ Here are just a few of the other amazing things we have in store:
 </div>
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021">Buy Seattle Ticket</a></div>
+
+<br/>
+If you have already purchased a Virtual ticket, you are welcome to upgrade to In-Person using the link below!
 
 <div class="cta secondary"><a href="https://ti.to/event-loop/cascadiajs-2021/with/ocoqz2cqwbq" title="Seattle ticket upgrade">Seattle In-Person Upgrade</a></div>
