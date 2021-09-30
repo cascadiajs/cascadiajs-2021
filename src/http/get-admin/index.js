@@ -32,14 +32,16 @@ async function authenticated(req) {
     return { json: speakerData }
   }
   else {
-    let codeData = await data.get( {table: 'codes', limit: 1000 })
-    let ticketData = await data.get( {table: 'tickets', limit: 1000 })
+    let linkData = await data.get( {table: 'links', limit: 100 })
+    let newLink = link()
+    let linksSection = `<h2>Private Links</h2>${ linkData.map(link).join('') + newLink }`
     let newSpeaker = speaker()
-    let speakers =  speakerData.map(speaker).join('')
-    let speakersSection = `<h2>Speakers</h2>${ newSpeaker + speakers }`
+    let speakersSection = `<h2>Speakers</h2>${ newSpeaker + speakerData.map(speaker).join('') }`
+    let ticketData = await data.get( {table: 'tickets', limit: 1000 })
     let ticketsSection = `<h2>Tickets</h2>${ ticketData.map(ticket).join('') }`
+    let codeData = await data.get( {table: 'codes', limit: 1000 })
     let codesSection = `<h2>Redemption Codes</h2>${ codeData.map(code).join('') }`
-    let html = layout(speakersSection + ticketsSection + codesSection)
+    let html = layout(linksSection + speakersSection + ticketsSection + codesSection)
     return { html }
   }
 }
@@ -102,4 +104,16 @@ function speaker(person) {
   <button>Delete</button>
   </form>
 </details>`
+}
+
+function link(l) {
+  return `<details>
+      <summary>${ l ? l.label : 'New Link' }</summary>
+      <form action=/links/${ l ? l.key : 'new' } method=post>
+        <input type=${ l ? 'hidden' : 'text' } name=key placeholder="key" value="${ l ? l.key : '' }">
+        <input type=text name=label placeholder="Label" value="${ l ? l.label : '' }">
+        <input type=text name=url placeholder="https://foo.com/bar" value="${ l ? l.url : '' }">
+        <button>Save</button>
+      </form>
+    </details>`
 }

@@ -15,6 +15,7 @@ post /code
 post /codes
 get  /home/:view
 post /home
+post /links/:key
 get  /live
 post /login
 get  /modules/:type/:module

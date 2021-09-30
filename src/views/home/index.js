@@ -1,8 +1,8 @@
 let Layout = require('../layout')
 
-module.exports = async function Index({ ticket }) {
+module.exports = async function Index({ ticket, links }) {
     let clientID = process.env.GITHUB_CLIENT_ID
-    //let redirectURL = process.env.GITHUB_REDIRECT
+    let courier = links.find(l => l.key === 'courier')
     let content = /*html*/`
         <div id=page>
             <div class=page-title><div><h1>Hello${ ticket.fullName ? ', ' + ticket.fullName : '' }!</h1></div></div>
@@ -16,6 +16,10 @@ module.exports = async function Index({ ticket }) {
                     ? /*html*/`<li><b>In-Person Hoodie:</b> Yes</li>`
                     : ``}
                 </ul>
+                <h2>Workshop Track</h2>
+                <table>
+                    ${ courier ? `<tr><td>Nov 3 @ 10am PDT</td><td><a href="/workshops/courier">${ courier.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ courier.url }">Register</a></span></td></tr>` : '' }
+                </table>
                 ${ ticket.conference === 'Y'
                 ? /*html*/`<h2>Conference Directory</h2>
                 ${ ticket.github && ticket.github !== ''

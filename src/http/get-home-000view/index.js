@@ -28,7 +28,8 @@ async function authenticated(req) {
     return LoginView({ message })
   }
   else if (view === 'dashboard') {
-    return HomeView({ ticket })
+    let links = await data.get( {table: 'links', limit: 100 })
+    return HomeView({ ticket, links })
   }
   else if (view === 'hoodies') {
     return HoodiesView({ ticket })
