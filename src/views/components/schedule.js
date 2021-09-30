@@ -174,9 +174,10 @@ function DayOne({ speakers, ticket = undefined }) {
                 <div class="show-item">       
                     <div class="when">10:30</div>
                     <div class="what">
-                        <div class="title">Workshop #1</div>
+                        <div class="title"><a href="/workshops/courier">Ghostifications - Messages from the Afterlife</a></div>
                         <div class="speaker">
-                            <p>More info coming soon!</p>
+                            <p>Early stage startups can require building complex notification systems into their product to improve communication with users and increase user engagement, which can be a time consuming and expensive process.</p>
+                            <p>This workshop demonstrates how you can use the Courier API to start sending notifications in seconds, across all channels. Learn how you can get started with sending 10,000 messages per month with the Free Tier.</p>
                         </div>
                     </div>
                 </div>
