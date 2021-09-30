@@ -86,7 +86,7 @@ function DayZero({ ticket = undefined }) {
         </div>
         <div class="day-content">
             <div class="show track">   
-                <h3><a href="/">BattleSnake Hack Day</a></h3>
+                <h3><a href="/hackday">BattleSnake Hack Day</a></h3>
                 <div class="show-item">       
                     <div class="when">9:30</div>
                     <div class="what"><div class="title"><i class="fas fa-door-open"></i> Doors Open</div></div>

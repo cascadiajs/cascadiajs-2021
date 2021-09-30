@@ -12,7 +12,7 @@ The virtual event builds on our [successful virtual event](#highlights-from-casc
 
 <i class="fas fa-handshake"></i> Hallway Track and Expo Hall in both [Gather](https://gather.town) and Discord
 
-<i class="fas fa-gamepad"></i> Our first ever pre-conference [Hack Event](/hack-day)!
+<i class="fas fa-gamepad"></i> Our first ever pre-conference [Hack Event](/hackday)!
 
 <i class="fas fa-turntable"></i> JavaScript Trivia Night and a Live Musical Performance (5pm - 6pm PT)
 
