@@ -45,7 +45,7 @@ module.exports = async function Hoodie({ ticket }) {
                 <p>Sizes are unisex. Measurements in inches. Chest is measured across the chest one inch below armholes when laid flat. Length is measured from high point shoulder to finished hem at back.</p>
                 <p><b>Please review sizing and fit information carefully before you select a size. Exchanges and refunds will not be provided.</b></p>
                 <div style="width:100%;text-align:center;margin-top:32px;">
-                    <div class="cta"><a href="https://stores.kotisdesign.com/cascadiajs/products?redemption_code=${ ticket.code }">Order Your Hoodie!</a></div>
+                    <div class="cta"><a target="_blank" href="https://stores.kotisdesign.com/cascadiajs/products?redemption_code=${ ticket.code }">Order Your Hoodie!</a></div>
                 </div>
             </div>
         </div>

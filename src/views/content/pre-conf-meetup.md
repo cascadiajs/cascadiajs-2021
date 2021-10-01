@@ -23,7 +23,7 @@ This meetup is FREE to attend, but if you choose to pay for a ticket, **ALL PROC
 
 Interest in SPEAKING at this event? Submit a lightning talk idea to the [Pan-Cascadia JS Meetup CFP](https://airtable.com/shrGGbCkeuJkesM2p).
 
-<div class="cta"><a href="https://ti.to/event-loop/cjs21-oct-meetup">RSVP to Meetup</a></div>
+<div class="cta"><a target="_blank" href="https://ti.to/event-loop/cjs21-oct-meetup">RSVP to Meetup</a></div>
 
 <div class="cta"><a href="https://ti.to/event-loop/cascadiajs-2021/">Buy Conference Ticket</a></div>
 
