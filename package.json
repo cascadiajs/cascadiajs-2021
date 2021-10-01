@@ -5,7 +5,6 @@
   "scripts": {
     "start": "npx sandbox",
     "lint": "eslint src --ignore-pattern node_modules --fix",
-    "test": "NODE_ENV=testing PORT=6666 tape test/*-test.js ./test/**/*-test.js | tap-spec",
     "social": "npm link puppeteer --save-dev && node scripts/create-pages-social-sharing ; npm unlink puppeteer --save-dev",
     "prepare": "husky install"
   },
@@ -17,8 +16,6 @@
     "husky": "^7.0.2",
     "node-fetch": "^2.6.1",
     "slugify": "^1.6.0",
-    "tap-spec": "^5.0.0",
-    "tape": "^5.3.1",
     "tiny-json-http": "^7.3.0"
   },
   "dependencies": {
