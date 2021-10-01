@@ -14,7 +14,7 @@ Join us for a very special CascadiaJS pre-conference meetup! Hangout with fellow
 * 18:00 - Virtual Doors Open
 * 18:30 - Greetings & Kick-off
 * 18:45 - [DevOps and CI/CD demystified for Javascript](#jeremy) by Jeremy Meiss
-* 19:00 - Lightning ⚡️ #2
+* 19:00 - [Temporal: React Suspense for the Backend](#swyx) by Shawn Swyx Wang
 * 19:15 - Lightning ⚡️ #3
 * 19:30 - Back to fun times
 * 20:30 - End
@@ -44,4 +44,23 @@ Interest in SPEAKING at this event? Submit a lightning talk idea to the [Pan-Cas
         </div>
     </div>
 </div>
+
+<h3 id="swyx">Temporal: React Suspense for the Backend</h3>
+
+<div class="person">
+    <div class="person-info">
+        <div class="person-photo"><img src="https://dl.airtable.com/.attachmentThumbnails/ac2cce4d6a6f265c009945eba4d752c5/38aba73a" alt="Photo of Swyx"/></div>
+        <div class="person-more">
+            <p>React helped lead a revolution in frontend frameworks toward reusable, predictable components. However the backend is still a wild hairball of microservices and serverless components. What would React-ifying the backend look like?</p>
+            <aside>
+                <div class="js-topic">node.js</div>
+                <div class="js-topic">react</div>
+                <div class="js-topic">serverless</div>
+                <div class="js-topic">microservices</div>
+                <div class="js-topic">async programming</div>
+            </aside>
+        </div>
+    </div>
+</div>
+
 
