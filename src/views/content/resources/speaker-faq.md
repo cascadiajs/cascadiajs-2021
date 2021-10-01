@@ -27,8 +27,6 @@ If you are a new speaker, please review these [5 tips to get started](/resources
 
 Once you're getting ready to start recording your talk, please review our [video recording guide](/resources/recording-talks). 
 
-We would like all speakers to standardize on Loom and we have purchased a Pro account that we can add you to so that you have access to all of Loom's features.
-
 ### Other Talk Resources
 
 - <a target="_blank" href="https://visme.co/blog/presentation-structure/">Structuring your Talk</a>

@@ -27,10 +27,18 @@ However, the choice is yours. So long as you record a video that meets our requi
 
 # General Recording Tips
 
-- Try to have a change on screen happen every 30 seconds or so. This helps keep the viewer engaged. Examples:
-- - Have bullets in slides appear one at a time
-- - Have an arrow appear and point at the line of code you are talking about
-- - Gifs of functionality or demos
-- Use callouts (e.g. arrows, boxes, etc) to draw the viewers eyes to what you want them to be paying attention to
-- If you’re trying to communicate a complicated idea, write a little script for yourself that explains it exactly the way you want. Nobody will know you’re reading a couple pre-written paragraphs :) 
+- Keep the talk moving, try to have a change on screen happen every 30 seconds or so.
+    - Have bullets in slides appear one at a time.
+    - Have an arrow appear and point at the line of code you are talking about.
+    - Gifs of functionality or demos.
+- Use callouts (e.g. arrows, boxes, etc) to draw the viewers eyes to what you want them to be paying attention to.
+- If you’re trying to communicate a complicated idea, write a little script for yourself that explains it exactly the way you want.
+- Be patient with yourself! No ones gets it all right in the first take.
 
+# Project Speakeasy
+
+CascadiaJS speakers are invited to the early access program for Project Speakeasy, an AI-powered tool to help you practice your upcoming presentation without the pressure of an audience. 
+
+You can view a [demo video](https://www.youtube.com/watch?v=TLqLqdEK4ck) and can practice with the tool live on [www.projectspeakeasy.com](http://www.projectspeakeasy.com) (note that it only works on Google Chrome browsers on laptop/desktop views). 
+
+If you have questions or feedback, please feel free to reach out to Varun, the developer, at projectspeakeasy1@gmail.com or leave feedback on the site itself.
