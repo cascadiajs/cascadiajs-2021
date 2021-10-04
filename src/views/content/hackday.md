@@ -11,6 +11,8 @@ Leading up to CascadiaJS we are going to partner with Victoria, BC based [Battle
 
 Players will learn how to code their Battlesnake using any stack or technology they like and then we will pit these 64 robo-snakes against each other in amazing tournament that will be live streamed on Twitch! The final four snakes will face-off against each other in a battle that will be streamed during CascadiaJS!
 
-<div class="cta nope">Registration Coming Soon</div>
+*You must be a registered attendee of CascadiaJS 2021 to participate in this Hack Day.*
+
+<div class="cta"><a href="/tickets">Buy Conference Ticket</a></div>
 
 
