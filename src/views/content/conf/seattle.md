@@ -35,3 +35,18 @@ Here are just a few of the other amazing things we have in store:
 If you have already purchased a Virtual ticket, you are welcome to upgrade to In-Person using the link below!
 
 <div class="cta secondary"><a href="https://ti.to/event-loop/cascadiajs-2021/with/ocoqz2cqwbq" title="Seattle ticket upgrade">Seattle In-Person Upgrade</a></div>
+
+## Hotel
+
+![The Maxwell](https://d29n1a057lku1t.cloudfront.net/staypineapple.com-1418433281/cms/cache/v2/592717dd71ec1.jpg/1920x1080/resize/80/5914181b178057924ea8fa68719484e1.jpg)
+
+* The Maxwell Hotel
+* 300 Roy Street, Seattle, WA, 98109
+* (206) 286-0629
+
+Attendees of CascadiaJS who are in from out of town are invited to book their stay at The Maxwell for the discounted rate of $109/night, with the $25/night amenity fee waived.
+
+You MUST book your stay on or before **Tuesday, October 12, 2021**
+
+To book, you ca call 866.866.7977 and reference “CascadiaJS 2021” to receive the group rate. Reservations may also be made at using this [special booking link](https://be.synxis.com/?chain=26225&hotel=40432&arrive=11-02-21&depart=11-05-21&group=CASJS&configcode=rate&utm_source=cascadiajs-2021&utm_medium=referral&utm_campaign=group-sales-tmh). 
+
