@@ -4,15 +4,13 @@
   "description": "The web site & app for CascadiaJS 2021 - https://2021.cascadiajs.com",
   "scripts": {
     "start": "npx sandbox",
-    "lint": "eslint src --ignore-pattern node_modules --fix",
-    "social": "npm link puppeteer --save-dev && node scripts/create-pages-social-sharing ; npm unlink puppeteer --save-dev",
+    "eslint": "eslint src --ignore-pattern node_modules --fix",
     "prepare": "husky install"
   },
   "devDependencies": {
     "@architect/sandbox": "^3.7.4",
     "@begin/data": "^2.0.1",
     "dotenv": "^10.0.0",
-    "eslint": "^7.27.0",
     "husky": "^7.0.2",
     "node-fetch": "^2.6.1",
     "slugify": "^1.6.0",

@@ -6,6 +6,10 @@
 npm i
 ```
 
+```
+npm i eslint -g
+```
+
 ## Local Development
 
 ```
