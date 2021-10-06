@@ -15,7 +15,7 @@ Join us for a very special CascadiaJS pre-conference meetup! Hangout with fellow
 * 18:30 - Greetings & Kick-off
 * 18:45 - [DevOps and CI/CD demystified for Javascript](#jeremy) by Jeremy Meiss
 * 19:00 - [Temporal: React Suspense for the Backend](#swyx) by Shawn Swyx Wang
-* 19:15 - Lightning ⚡️ #3
+* 19:15 - [The Bright Side of ShadowRealms](#jdd) by John-David Dalton
 * 19:30 - Back to fun times
 * 20:30 - End
 
@@ -33,8 +33,9 @@ Interest in SPEAKING at this event? Submit a lightning talk idea to the [Pan-Cas
 
 <div class="person">
     <div class="person-info">
-        <div class="person-photo"><img src="https://dl.airtable.com/.attachmentThumbnails/0f22d23e497b96bbefa44079803336ad/2af52d0d" alt="Photo of Jeremy Meiss"/></div>
+        <div class="person-photo"><img src="https://dl.airtable.com/.attachmentThumbnails/0f22d23e497b96bbefa44079803336ad/2af52d0d" alt="Photo of Jeremy Meiss" height="300" width="300"/></div>
         <div class="person-more">
+            <p><a target="_blank" href="http://twitter.com/IAmJerdog">Jeremy Meiss</a></p>
             <p>CI/CD enables teams to establish processes that increase velocity, collaboration, and quality of their codebase. Learn the fundamentals of CI/CD and DevOps for Javascript developers.</p>
             <aside>
                 <div class="js-topic">devops</div>
@@ -49,8 +50,9 @@ Interest in SPEAKING at this event? Submit a lightning talk idea to the [Pan-Cas
 
 <div class="person">
     <div class="person-info">
-        <div class="person-photo"><img src="https://dl.airtable.com/.attachmentThumbnails/ac2cce4d6a6f265c009945eba4d752c5/38aba73a" alt="Photo of Swyx"/></div>
+        <div class="person-photo"><img src="https://dl.airtable.com/.attachmentThumbnails/ac2cce4d6a6f265c009945eba4d752c5/38aba73a" alt="Photo of Swyx" height="300" width="300"/></div>
         <div class="person-more">
+            <p><a target="_blank" href="http://twitter.com/swyx">Shawn Swyx Wang</a></p>
             <p>React helped lead a revolution in frontend frameworks toward reusable, predictable components. However the backend is still a wild hairball of microservices and serverless components. What would React-ifying the backend look like?</p>
             <aside>
                 <div class="js-topic">node.js</div>
@@ -58,6 +60,22 @@ Interest in SPEAKING at this event? Submit a lightning talk idea to the [Pan-Cas
                 <div class="js-topic">serverless</div>
                 <div class="js-topic">microservices</div>
                 <div class="js-topic">async programming</div>
+            </aside>
+        </div>
+    </div>
+</div>
+
+<h3 id="jdd">The Bright Side of ShadowRealms</h3>
+
+<div class="person">
+    <div class="person-info">
+        <div class="person-photo"><img src="https://dl.airtable.com/.attachmentThumbnails/aff449a814193d19e55040ac4771a0f1/77bf0e21" alt="Photo of JDD" height="300" width="300"/></div>
+        <div class="person-more">
+            <p><a target="_blank" href="http://twitter.com/jdalton">John-David Dalton</a></p>
+            <p>ShadowRealms are Stage 3 and coming to a canary/nightly browser near you! In this lighting talk I'll cover what ShadowRealms are and why they are totally awesome!</p>
+            <aside>
+                <div class="js-topic">ShadowRealms</div>
+                <div class="js-topic">ECMAScript</div>
             </aside>
         </div>
     </div>
