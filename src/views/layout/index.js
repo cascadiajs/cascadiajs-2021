@@ -20,9 +20,10 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
               <div id="logo"><a href="/"><img src="/images/logo-green.svg" alt="logo"/></a></div>
               <div><span><a href="/">CascadiaJS 2021</a></span></div>
               <div class="push"><a href="/covid-19">COVID-19</a></div>
-              <div class="spacer"><a href="/accessibility">Accessibility</a></div>
+              <div class="spacer"><a href="/accessibility">A11Y</a></div>
               <div class="spacer"><a href="/schedule">Schedule</a></div>
               <div class="spacer"><a href="/changelog">Changelog</a></div>
+              <div class="spacer"><a href="/workshops">Workshops</a></div>
               <div class="spacer"><a href="/tickets" class="buy">Tickets</a></div>
             </div>
           </nav>
