@@ -113,7 +113,7 @@ function DayZero({ ticket = undefined }) {
 `
 }
 
-function DayOne({ speakers, ticket = undefined }) {
+function DayOne({ speakers = [], ticket = undefined }) {
     return /*html*/`
     <div class="day">
         <div class="day-header">
@@ -244,7 +244,7 @@ function DayTwo({ speakers, ticket = undefined }) {
                     <div class="when">17:00</div>
                     <div class="what">
                         <div class="evening title">
-                            <div><i class="fas fa-guitar-electric"></i> Live Music Performance</div>
+                            <div><i class="fas fa-guitar-electric"></i> <a href="/conf/closing-party">Live Music Performance</a></div>
                         </div>
                     </div>
                 </div>

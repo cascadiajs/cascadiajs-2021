@@ -1,6 +1,6 @@
 let arc = require('@architect/functions')
 const data = require('@begin/data')
-let getSpeakerData = require('@architect/shared/data/get-speaker-data')
+let getSpeakerData = require('@architect/shared/get-speaker-data')
 const LiveView = require('@architect/views/live')
 
 // check for session
