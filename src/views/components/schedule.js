@@ -159,7 +159,7 @@ function DayOne({ speakers, ticket = undefined }) {
                 </div>
                 <div class="show-item">       
                     <div class="when">17:00</div>
-                    <div class="what"><div class="title"><i class="fas fa-question-circle"></i> <a href="/opening-party">JavaScript Trivia Night</a></div></div>
+                    <div class="what"><div class="title"><i class="fas fa-question-circle"></i> <a href="/conf/opening-party">JavaScript Trivia Night</a></div></div>
                 </div>
                 <div class="show-item">       
                     <div class="when">18:00</div>
