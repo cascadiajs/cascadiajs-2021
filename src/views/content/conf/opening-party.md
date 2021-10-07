@@ -6,9 +6,9 @@ excerpt: Following Day One, get ready for a massive multiplayer JS Trivia Night!
 
 ## Details
 
-* Date: Wednesdau, Nov 3
+* Date: Wednesday, Nov 3
 * Time: 5pm PT
-* Where: Cyberspace
+* Where: Live Stream
 
 ## About Trivia Night
 
