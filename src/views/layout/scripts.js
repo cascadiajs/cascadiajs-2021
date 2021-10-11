@@ -5,7 +5,6 @@ function script(source) {
 module.exports = function Scripts ({ scripts = [] }) {
   return /*html*/`
       <!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZZKTFYJ0D"></script>
       <script>
         window.dataLayer = window.dataLayer || [];

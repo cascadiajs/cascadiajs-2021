@@ -3,7 +3,7 @@ let footer = require('./footer')
 let bodyScripts = require('./scripts')
 
 module.exports = function Layout ({title = 'CascadiaJS 2021 - Live Stream', content, socialUrl }) {
-  let scripts = ['/js/live.js', 'https://cascadiajs-emote-server.herokuapp.com/emote.js']
+  let scripts = ['/js/live.js', 'https://unpkg.com/@cascadiajs/discord-mirror/dist/discord-mirror/discord-mirror.esm.js']
   return /*html*/`
   <!doctype html>
   <html lang=en>

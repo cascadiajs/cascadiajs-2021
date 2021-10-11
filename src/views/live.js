@@ -42,7 +42,7 @@ module.exports = async function Live({ speakers, ticket }) {
         <section id="chat" class="slack-view-true">
             <h2>Discord View</h2>
             <div id="chat-slackview">
-                <pre>Discord chat will go here</pre>
+                <discord-mirror id="discord-mirror" url="https://cjs21-discord-mirror-default-rtdb.firebaseio.com/"></discord-mirror>
             </div>
         </section>
     </div>
