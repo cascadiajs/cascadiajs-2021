@@ -471,6 +471,12 @@ section .cta {
 
 /* Schedule styles */
 
+
+#conf-schedule .sponsor {
+    width: 150px;
+    margin: 8px 0;
+}
+
 #landing .day {
     text-align: left;
 }
@@ -537,15 +543,6 @@ aside.day-timezone {
 .day .track h5 {
     margin: 0 0 16px 0;
     font-size: 20px;
-}
-
-.hallway-sponsors {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.hallway-sponsors>div {
-    margin: 16px;
 }
 
 .day-header {
@@ -1034,38 +1031,10 @@ a.js-topic:hover {
     margin-bottom: 8px;
 }
 
-/* Slackview styles */
+/* Discord View styles */
 
-.sv-message {
-    margin-bottom: 4px;
-    background-color: #fff;
-    padding: 4px;
-    border-radius: 4px;
-}
-
-.sv-img-wrapper {
-
-}
-
-.sv-name {
-
-}
-
-.sv-timestamp {
-
-}
-
-.sv-body {
-
-}
-
-.sv-powered-wrap {
-    padding: 0px 5px 0px 10px; 
-    font-size: 42%; 
-    position: absolute; 
-    top: 0px; 
-    right: 0px;
-    height: 25px;
+#chat-slackview {
+    font-size: 1em;
 }
 
 table.profiles {

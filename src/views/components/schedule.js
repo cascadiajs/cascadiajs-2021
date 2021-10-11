@@ -55,7 +55,7 @@ function hallwayTrack({ticket = undefined}) {
             <div class="title">Connect with Experts</div><br/>
             <p>Connect with experts at some of the top developer tooling companies in our industry.</p>
             <div class="hallway-sponsors">
-                <div><a href="/sponsors/new-relic"><img src="/images/sponsors/new-relic.svg" width="150" alt="New Relic logo"/></a></div>
+                <div class="sponsor"><a href="/sponsors/new-relic"><img src="/images/sponsors/new-relic.svg" alt="New Relic logo"/></a></div>
             </div>
         </div>
     </div>
@@ -176,6 +176,7 @@ function DayOne({ speakers = [], ticket = undefined }) {
                     <div class="what">
                         <div class="title"><a href="/workshops/courier">Ghostifications - Messages from the Afterlife</a></div>
                         <div class="speaker">
+                            <div class="sponsor"><img src="/images/sponsors/courier.png" alt="Courier logo"/></div>
                             <p>Early stage startups can require building complex notification systems into their product to improve communication with users and increase user engagement, which can be a time consuming and expensive process.</p>
                             <p>This workshop demonstrates how you can use the Courier API to start sending notifications in seconds, across all channels. Learn how you can get started with sending 10,000 messages per month with the Free Tier.</p>
                         </div>
@@ -184,7 +185,7 @@ function DayOne({ speakers = [], ticket = undefined }) {
                 <div class="show-item">       
                     <div class="when">14:00</div>
                     <div class="what">
-                        <div class="title">Workshop #2</div>
+                        <div class="title">Workshop #3</div>
                         <div class="speaker">
                             <p>More info coming soon!</p>
                         </div>
@@ -261,9 +262,10 @@ function DayTwo({ speakers, ticket = undefined }) {
                 <div class="show-item">       
                     <div class="when">10:30</div>
                     <div class="what">
-                        <div class="title"><a href="/">Workshop #3</a></div>
+                        <div class="title"><a href="/workshops/dolbyio">Dolby.io Workshop</a></div>
                         <div class="speaker">
-                            <p>More info coming soon!</p>
+                            <div class="sponsor"><img src="/images/sponsors/dolby.svg" alt="Dolby.io logo"/></div>
+                            <p>In this workshop we'll learn how to build a fun geospatial video conferencing app using Dolby.io's Communications APIs.  We'll explain the concepts behind Dolby Voice® audio processing which includes spatial audio, noise suppression, dynamic leveling, and more.  These advanced audio features are made available out-of-the-box to give high-quality and better end-user experiences.</p>
                         </div>
                     </div>
                 </div>
