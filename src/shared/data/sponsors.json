@@ -24,14 +24,6 @@
     "description": "Sauce Labs is the platform developers trust to help them deliver better software, faster. Our continuous testing cloud accelerates CI/CD without compromising quality, and delivers a 360-degree view of your customers’ application experience, ensuring apps work exactly as they should on every browser, OS, and device. And with support for a wide range of JavaScript test automation frameworks, Sauce Labs helps teams scale cross-browser testing with speed and insights. Learn more at [saucelabs.com](https://saucelabs.com)."
   },
   {
-    "key": "hasura",
-    "tier": "bronze",
-    "name": "Hasura",
-    "url": "https://hasura.com",
-    "logo": "hasura.png",
-    "description": "Hasura is an open source product that accelerates API development by 10x by giving you GraphQL or REST APIs with built in authorization on your data, instantly."
-  },
-  {
     "key": "auth0",
     "tier": "bronze",
     "name": "Auth0",
