@@ -10,7 +10,7 @@ CascadiaJS is the premier JavaScript conference in the Pacific Northwest and is 
 
 We are hosting a Hybrid Event in Vancouver, BC at UBC Robson Square for a limited number of attendees. Capacity will be capped at 120 people and we will provide coffee, snacks and catered lunch for all attendees.
 
-<p class="highlight warning">In order to attend, attendees will need to provide proof of vaccination.</p>
+<p class="highlight warning">In order to attend, attendees will need to provide proof of vaccination and we will require masks while inside.</p>
 
 Here are just a few of the other amazing things we have in store for CascadiaJS 2021:
 
