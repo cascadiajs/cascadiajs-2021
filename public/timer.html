@@ -1,0 +1,228 @@
+
+<!doctype html>
+<html class="no-js" lang="en_GB">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Countdown</title>
+        <meta name="description" content="">
+        <meta name="obs-width" content="800">
+        <meta name="obs-height" content="600">
+        <meta name="obs-fps" content="30">
+        <meta name="obs-shutdown" content="true">
+        <meta name="obs-refresh" content="true">
+        <link rel="stylesheet" href="https://use.typekit.net/emp6mcu.css">
+        <!--meta name="viewport" content="width=device-width, initial-scale=1" -->
+        <!--link rel="stylesheet" href="countdown.css"-->
+
+        <style>
+            body { background: #17C37B; }
+
+            /* .countdown {} */
+            #countdown #title {
+                font-size: 65px;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 0;
+            }
+
+            #countdown .counter {
+                font-size: 65px;
+                text-align: center;
+            }
+
+            #countdown .counter span {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <section id="countdown">
+            <h1 id="title"></h1>
+            <div class="counter">
+                <span id="days"></span>
+                <span class="spacer">:</span>
+                <span id="hours"></span>
+                <span class="spacer">:</span>
+                <span id="minutes"></span>
+                <span class="spacer">:</span>
+                <span id="seconds"></span>
+            </div>
+        </section>
+
+        <script
+                src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+                crossorigin="anonymous">
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+
+        <script>
+            /**
+             *
+             */
+            function Countto(title, to, color) {
+                //
+                this.interval = null;
+                this.title = title;
+                this.to = to;
+                this.color = color;
+                this.days = 0;
+                this.hours = 0;
+                this.minutes = 0;
+                this.seconds = 0;
+
+                //
+                this.$title = $("#title");
+                this.$spacers = $(".spacer");
+                this.$days = $("#days");
+                this.$hours = $("#hours");
+                this.$minutes = $("#minutes");
+                this.$seconds = $("#seconds");
+
+                // - - -
+
+                // set title
+                this.setTitle();
+                // set initial time values
+                this.getValues();
+                this.setValues();
+                //
+                this.applyColor();
+
+                this.interval = setInterval(() => {
+                    // get the diff from now to the given date
+                    const now = new Date().getTime();
+                    const ts = this.to.getTime();
+                    //
+                    this.getValues();
+
+                    // console.log("%s:%s:%s:%s", this.days, this.hours, this.minutes, this.seconds);
+
+                    // target date reached
+                    if (ts - now <= 0 || (this.days <= 0 && this.hours <= 0 && this.minutes <= 0 && this.seconds <= 0)) {
+                        //
+                        this.days = 0;
+                        this.hours = 0;
+                        this.minutes = 0;
+                        this.seconds = 0;
+
+                        clearInterval(this.interval);
+                    }
+
+                    //
+                    this.setValues();
+                }, 1000);
+            }
+
+            /**
+             *
+             */
+            Countto.prototype.format = function(input) {
+                //
+                if (input >= 10) return input;
+
+                return "0" + input;
+            };
+
+            /**
+             *
+             */
+            Countto.prototype.setTitle = function() {
+                // remove the title element if not set
+                if (!this.title) {
+                    this.$title.remove();
+                    return;
+                }
+
+                this.$title.html(this.title);
+            };
+
+            /**
+             *
+             */
+            Countto.prototype.getValues = function() {
+                // get the diff from now to the given date
+                const now = new Date().getTime();
+                const ts = this.to.getTime();
+                let diff = Math.abs(ts - now) / 1000;
+
+                // get the number of days
+                this.days = Math.floor(diff / 86400);
+                diff -= this.days * 86400;
+                // get the number of hours
+                this.hours = Math.floor(diff / 3600) % 24;
+                diff -=  this.hours * 3600;
+                // get the number of minutes
+                this.minutes = Math.floor(diff / 60) % 60;
+                diff -=  this.minutes * 60;
+                // get the number of seconds
+                this.seconds = Math.floor(diff % 60);
+            };
+
+            /**
+             *
+             */
+            Countto.prototype.setValues = function() {
+                //
+                this.$days.html(this.format(this.days));
+                this.$hours.html(this.format(this.hours));
+                this.$minutes.html(this.format(this.minutes));
+                this.$seconds.html(this.format(this.seconds));
+            };
+
+            /**
+             *
+             */
+            Countto.prototype.applyColor = function() {
+                //
+                this.$title.css("color", this.color);
+                this.$spacers.css("color", this.color);
+                this.$days.css("color", this.color);
+                this.$hours.css("color", this.color);
+                this.$minutes.css("color", this.color);
+                this.$seconds.css("color", this.color);
+            };
+        </script>
+
+        <script>
+            //
+            $(document).ready(() => {
+                //
+                const params = new URLSearchParams(window.location.search);
+                //
+                const title = params.get("title") !== null ? params.get("title") : "";
+                const to = params.get("to") !== null ? new Date(params.get("to")) : null;
+                const color = params.get("color") !== null ? "#" + params.get("color") : "#ffffff";
+                const font = params.get("font") !== null ? params.get("font") : "ibm-plex-mono";
+
+                //
+                if (Object.prototype.toString.call(to) !== "[object Date]" || isNaN(to.getTime())) {
+                    //
+                    $(".spacer").hide();
+                    //
+                    const $err = $("<p/>")
+                        .css("background", "red")
+                        .css("padding", "15px 30px")
+                        .css("max-width", "100%")
+                        .css("margin", "0 auto")
+                        .css("text-transform", "uppercase")
+                        .html("Check your configuration!");
+
+                    //
+                    const $el = $("#countdown");
+                    $el.append($err);
+                } else {
+                    $("body").css("font-family", "ibm-plex-mono");
+                    new Countto(title, to, color);
+                }
+            });
+        </script>
+    </body>
+
+</html>
