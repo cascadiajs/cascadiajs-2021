@@ -5,7 +5,7 @@ This guide provides details on how to use these tools and get the most of your C
 
 - [Downloading your Digital Swag](#digital-swag)
 - [Watching the the Live Stream](#watching-the-talks)
-- [Explore the Virtual Hallway Track in Gather](#virtual-space-powered-by-gather)
+- [Explore the Virtual Hallway Track in Gather](/conf/gather)
 - [Chat in our Discord](#chat-powered-by-discord)
 - [Participate in the Trivia Night](#trivia-night)
 
@@ -68,24 +68,7 @@ Each talk has an associated illustration created by [Mind's Eye Creative](https:
 
 A copy of the schedule is below the Live Stream. It's a bit hidden due to auto-sizing of the page. Just use the vertical scrollbar to scroll down to the schedule.
 
-## Virtual Space powered by Gather
 
-Gather is the platform we are using for face-to-face video chat in our Hallway Track. The link to join this virtual space is located on the [Dashboard](/home/dashboard).
-
-Here's what you can expect:
-
-- A fully digital space that you can walk around in, with the freedom to come and go as you please.
-- The ability to chat in groups of up to 6 people based on proximity.
-- "Private" tables with limited seating, for those personal 1:1 conversations.
-- Common interest areas, including things like "React.js", "Portland, OR" and "Junior Devs"
-- An Expo Hall where you can meet and greet our wonderful sponsors.
-- A theatre where you can enjoy watching the Live Stream.
-
-Here is a list of [supported desktop browsers](https://help.remo.co/support/solutions/articles/63000241111-checklist-before-attending-a-remo-event) and [supported mobile browsers](https://help.remo.co/support/solutions/articles/63000250999-what-mobile-devices-and-browsers-are-supported-on-remo-conference-) for Remo.
-
-### Tips on using Gather
-
-Coming Soon
 
 ## Chat powered by Discord
 
