@@ -5,6 +5,7 @@ let md = require('marked')
 let fm = require('front-matter')
 let join = require('path').join
 let Layout = require('./layout')
+let ThinLayout = require('./layout/thin')
 let SocialLayout = require('./layout/social')
 
 function MarkdownTemplate({ title, body }) {
@@ -24,7 +25,7 @@ function MarkdownTemplate({ title, body }) {
  */
 module.exports = async function Page(req) {
   let page = req.path.substr(1)
-  let { social } = req.queryStringParameters
+  let { social, thin } = req.queryStringParameters
   let type = 'markdown'
   let doc = join(__dirname, 'content', `${page}.md`)
   if (!exists(doc)) {
@@ -65,7 +66,7 @@ module.exports = async function Page(req) {
         content = body
       }
       let socialUrl = `/social?path=${ req.path }`
-      html = Layout({ title, content, socialUrl, excerpt })
+      html = (thin === undefined ? Layout({ title, content, socialUrl, excerpt }) : ThinLayout({ title, content, socialUrl, excerpt }))
     }
 
     return { html }
