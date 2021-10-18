@@ -2,6 +2,10 @@
 title: Making a User Interface for DApps
 image: https://pbs.twimg.com/profile_images/1409978237749444610/O6fZPhmp_400x400.jpg
 ---
+![Media Jams](/images/sponsors/media-jams.svg)
+
+*This virtual workshop is available for free to registered attendees of CascadiaJS 2021!*
+
 As much of a buzz term as blockchain has become, it's still a great technology. To take some of the magic out of it, blockchain is essentially a distributed database. A blockchain is made of blocks that contain data and those blocks are chained together across multiple machines, which make up the distributed network.
 
 In this workshop, we'll build a distributed app in the Redwood framework that handles video data. We'll make a smart contract to handle our blockchain interactions. Then we'll set up the Redwood distributed app that will work with the blockchain.

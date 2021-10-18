@@ -88,5 +88,13 @@
     "url": "https://dolby.io/?&utm_medium=event&utm_campaign=cascadiajs2021&utm_source=landing-page",
     "logo": "dolby.svg",
     "description": "Meet Dolby.io. The API platform to transform media and communications. With decades of expertise in sound signal processing under our belt, we know a thing or two about high-quality audio and video. Whether you’re looking to build a communications app, solve for poor audio quality in your recordings, or convert digital media formats, we have the best-in-class APIs to match your needs. From virtual concerts to e-learning to podcasting, there’s no limit to what developers can build."
+  },
+  {
+    "key": "media-james",
+    "tier": "bronze",
+    "name": "MediaJams",
+    "url": "https://mediajams.dev",
+    "logo": "media-jams.svg",
+    "description": "Search your technology stack and find code demo's of different use cases around programmable media (images, video, audio). Whether you are trying to optimize media, make it more accessible, or transform your media assets, we have it all (or at least will have it all). Check it out!"
   }
 ]

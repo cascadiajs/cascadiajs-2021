@@ -3,6 +3,8 @@ title: Ghostifications
 image: https://pbs.twimg.com/profile_images/1415012129409691650/KIhz6eHn_400x400.jpg
 excerpt: Teach Boo the ghost how to use the Courier API to send notifications in seconds, across all channels.
 ---
+![Courier](/images/sponsors/courier.png)
+
 *This virtual workshop is available for free to registered attendees of CascadiaJS 2021!*
 
 ## Overview
