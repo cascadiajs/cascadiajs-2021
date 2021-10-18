@@ -7,7 +7,7 @@ Here's what you can expect:
 
 - A fully digital space that you can walk around in, with the freedom to come and go as you please.
 - The ability to chat in groups based on proximity.
-- 1:1 tables for those personal 1:1 conversations.
+- Tables for those personal 1:1 conversations, that are "private spaces"
 - Common interest areas, including things like "React.js", "Portland, OR" and "Junior Devs"!
 - An Expo Hall where you can meet and greet our wonderful sponsors!
 - A theatre where you can enjoy watching the Live Stream!
