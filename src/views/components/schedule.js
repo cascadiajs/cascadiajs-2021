@@ -185,9 +185,10 @@ function DayOne({ speakers = [], ticket = undefined }) {
                 <div class="show-item">       
                     <div class="when">14:00</div>
                     <div class="what">
-                        <div class="title">Workshop #3</div>
+                        <div class="title"><a href="/workshops/dapps">Making a User Interface for DApps</a></div>
                         <div class="speaker">
-                            <p>More info coming soon!</p>
+                            <p>As much of a buzz term as blockchain has become, it's still a great technology. To take some of the magic out of it, blockchain is essentially a distributed database. A blockchain is made of blocks that contain data and those blocks are chained together across multiple machines, which make up the distributed network.</p>
+                            <p>In this workshop, we'll build a distributed app in the Redwood framework that handles video data. We'll make a smart contract to handle our blockchain interactions. Then we'll set up the Redwood distributed app that will work with the blockchain.</p>
                         </div>
                     </div>
                 </div>
@@ -272,7 +273,7 @@ function DayTwo({ speakers, ticket = undefined }) {
                 <div class="show-item">       
                     <div class="when">14:00</div>
                     <div class="what">
-                        <div class="title">Workshop #4</div>
+                        <div class="title">Generated TypeScript Tooling with Hasura</div>
                         <div class="speaker">
                             <p>More info coming soon!</p>
                         </div>

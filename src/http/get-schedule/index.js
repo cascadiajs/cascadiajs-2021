@@ -7,8 +7,9 @@ const getSpeakerData = require('@architect/shared/get-speaker-data')
  */
 
 async function Schedule (req) {
-  let { speakers, selectedTopics, topics } = await getSpeakerData(req)
-  return await ScheduleView({ speakers, selectedTopics, topics })
+  let { speakers } = await getSpeakerData(req)
+  let { thin } = req.queryStringParameters
+  return await ScheduleView({ speakers, thin })
 }
 
 exports.handler = arc.http.async(Schedule)
