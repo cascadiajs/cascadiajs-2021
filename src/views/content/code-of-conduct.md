@@ -5,33 +5,62 @@ image: https://begin-static-p6uw2-production.s3.us-west-2.amazonaws.com/forest-1
 ---
 ![pronoun stickers](https://begin-static-p6uw2-production.s3.us-west-2.amazonaws.com/forest-1dg/images/2018-pronoun-stickers.jpg)
 
-CascadiaJS is dedicated to providing a harassment-free conference for all attendees, regardless of gender identity, sex, race, ethnicity, sexual orientation, religion, age, disability, physical appearance, or body size. Harassment includes: prejudicial verbal or written comments, sexual imagery in public spaces or inappropriate use of nudity (including in presentation slides), deliberate intimidation, stalking or following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+CascadiaJS is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity, gender expression, sexual orientation, disability, physical appearance, body size, race, ability, ethnicity, socioeconomic status, or religion (or lack thereof). CascadiaJS does not tolerate harassment of conference participants or staff at any time nor in any form.
 
-## Who does the Code of Conduct apply to?
+All communication throughout the conference (both online and in-person) should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery is not appropriate for any part of the conference, particularly when interfacing with any chat features built in to the conference experience. Please be kind to others. Do not insult or put down other attendees and behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for CascadiaJS.
 
-Everyone - including attendees, sponsors, speakers, and organizers - is required to agree to and follow this Code of Conduct. Inappropriate behavior or harassment of any kind is not tolerated. Organizers will enforce this code with any event involvement, including, but not limited to: online engagement (Twitter/Slack), any CascadiaJS hosted online-event.
+Anyone violating these guidelines may be removed from the conference at our sole sole discretion and will not have a right to a refund if applicable.
 
-## What constitutes a Code of Conduct violation?
+Thank you for helping make CascadiaJS a welcoming, friendly event for all.
 
-Unacceptable behaviors include: intimidating, harassing, abusive, discriminatory, derogatory or demeaning speech or actions by any participant. This includes in our community online, at all related events, and in one-on-one communications carried out in the context of community business. Community event venues may be shared with members of the public; please be respectful to all patrons of these locations.
+## Purpose
 
-Sponsors and speakers should not use sexualized or inappropriate images, activities, or other material in their advertisements or talks. Booth staff, including volunteers, should not use sexualized clothing/uniforms/costumes or otherwise create a sexualized environment. We reserve the right to review all materials and remove them from distribution if they are determined to be inappropriate.
+A primary goal of CascadiaJS is to be inclusive to the largest number of attendees, with the most varied and diverse backgrounds possible. As such, CascadiaJS is committed to providing a friendly, safe and welcoming virtual environment for all, regardless of gender, gender identity, gender expression, sexual orientation, disability, physical appearance, body size, race, ability, ethnicity, socioeconomic status, or religion (or lack thereof). CascadiaJS does not tolerate harassment of conference attendees in any form.
 
-Finally, anything that would make someone think "Hmmm, that's inappropriate" may also be unacceptable behavior.
+This Code of Conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
 
-Any participant asked to stop any harassing behavior is expected to **comply immediately**. We expect all participants to follow these rules at conference and workshop venues, as well as conference-related social events.
+Please help us create a safe and positive experience for everyone who attends.
 
-## Reporting
+## Expected Behavior
 
-If you feel uncomfortable, are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately through a private message. We want to hear about the problem, we will handle it privately with respect to all people involved and not publicly shaming anyone (through Slack, Twitter, etc).
+Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
 
-For immediate help, please contact us in Slack. Send a DM to one of the following Organizers:
+- Exercise consideration and respect in your speech and actions.
+- Attempt collaboration before conflict.
+- Refrain from demeaning, discriminatory, or harassing comments.
+- Be mindful of your fellow attendees and alert an Organizer if you notice a dangerous situation, someone in distress, or someone violating this Code of Conduct, even if they seem inconsequential.
 
-- Carter (Organizer) [he/him]
-- Jessica (Organizer) [she/her]
+## Unacceptable Behavior
 
-## Enforcement
+Unacceptable behaviors include intimidating, harassing, abusive, discriminatory, derogatory or demeaning speech and comments, at all related events and in one-on-one communications carried out in the context of CascadiaJS.
 
-If a participant is asked to stop harassing or inappropriate behavior, they are expected to do so immediately. If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate; this may include warning the participant, immediate expulsion from the conference with no refund, and/or banning from any future CascadiaJS conferences or associated events.
+Harassment includes, but is not limited to, harmful or prejudicial verbal or written comments related to gender, gender identity, gender expression, sexual orientation, race, religion (or lack thereof), disability, inappropriate use of nudity and/or sexual images (including presentation slides), deliberate intimidation, stalking or following, harassing photography or recording, sustained disruption of talks or other events, inappropriate contact, and unwelcome sexual attention.
 
-Our foremost concern is the safety and comfort of all our participants. We will evaluate any possible sanctions with regard to whether or not they provide the safety needed.
+## Consequences of Unacceptable Behavior
+
+CascadiaJS will not tolerate any unacceptable behavior from any attendee or other participant, including sponsors, speakers, and those with decision-making authority.
+
+Anyone asked to stop unacceptable behavior is expected to comply immediately.
+
+If an attendee or other participant engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from CascadiaJS without warning (and without refund if applicable).
+
+## If You Witness or Are Subject to Unacceptable Behavior
+
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify an Organizer immediately in-person or on either Slack (year-round) or Discord (during the conference):
+
+- Channel #help-questions
+- Direct DM to Carter Rabasa
+
+If you are experiencing a life threatening emergency, dial 9-1-1.
+
+## Scope
+
+CascadiaJS expects all participants (attendees, sponsors, speakers, organizers and volunteers) to abide by this Code of Conduct throughout the conference and at any events or on any platforms related to CascadiaJS.
+
+## Contact Information
+
+If you have any questions about this document or would like to reach us, please email: info@cascadiajs.com
+
+## License and Attribution
+
+This Code of Conduct is distributed under a Creative Commons Attribution-ShareAlike license.
