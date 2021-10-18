@@ -32,7 +32,7 @@ module.exports = async function Live({ speakers, ticket }) {
         <section id="stream"> 
             <div class="inner">            
                 <div id="stream-video" class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YMJ3pAX_0_U?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y331U1tK6VQ?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div id="stream-text" class="stream-text-true">
                     <pre>Captions will go here</pre>
