@@ -22,7 +22,7 @@ module.exports = async function Index({ ticket, links }) {
                     <p>Start getting excited for the first ever <a href="/hackday">Battlesnake CascadiaJS Cup</a>! We are limiting entries to 64 players, so don't miss your chance to use your knowledge of HTTP and webhooks to win prizes and glory!</p>
                     <div class="cta secondary"><a href="${ battlesnake?.url }">Register for Hack Day</a></div>
                     <h2>Workshop Track</h2>
-                    <table>
+                    <table id="workshop-rsvp">
                         ${ courier ? `<tr><td>Nov 3 @ 10am PDT</td><td><a href="/workshops/courier">${ courier.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ courier.url }">Register</a></span></td></tr>` : '' }
                         ${ dolbyio ? `<tr><td>Nov 4 @ 10am PDT</td><td><a href="/workshops/dolbyio">${ dolbyio.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ dolbyio.url }">Register</a></span></td></tr>` : '' }
                     </table>

@@ -218,6 +218,10 @@ th, td {
     padding: 8px;
 }
 
+#workshop-rsvp td {
+    padding: 16px;
+}
+
 #root svg.svg-inline--fa {
     width: 25px;
 }
