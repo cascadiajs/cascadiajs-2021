@@ -2,8 +2,9 @@ let Layout = require('../layout')
 
 module.exports = async function Index({ ticket, links }) {
     let clientID = process.env.GITHUB_CLIENT_ID
-    let courier = links.find(l => l.key === 'courier')
     let battlesnake = links.find(l => l.key === 'battlesnake')
+    let courier = links.find(l => l.key === 'courier')
+    let dapps = links.find(l => l.key === 'dapps')
     let dolbyio = links.find(l => l.key === 'dolbyio')
     let content = /*html*/`
         <div id=page>
@@ -24,6 +25,7 @@ module.exports = async function Index({ ticket, links }) {
                     <h2>Workshop Track</h2>
                     <table id="workshop-rsvp">
                         ${ courier ? `<tr><td>Nov 3 @ 10am PDT</td><td><a href="/workshops/courier">${ courier.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ courier.url }">Register</a></span></td></tr>` : '' }
+                        ${ dapps ? `<tr><td>Nov 3 @ 2pm PDT</td><td><a href="/workshops/dapps">${ dapps.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ dapps.url }">Register</a></span></td></tr>` : '' }
                         ${ dolbyio ? `<tr><td>Nov 4 @ 10am PDT</td><td><a href="/workshops/dolbyio">${ dolbyio.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ dolbyio.url }">Register</a></span></td></tr>` : '' }
                     </table>
                     <h2>Hallway Track</h2>
