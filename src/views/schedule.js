@@ -9,7 +9,7 @@ function template({ confSchedule }) {
                 <div class="wide"><h1>Schedule</h1></div>
             </div>
             <div class="page-body wide">
-                <p><i class="fas fa-calendar-alt"></i> <a href="https://airtable.com/shrFhMryCHcGdGLdW/iCal?timeZone=America%2FLos_Angeles&userLocale=en">Subscribe to the Calendar</a></p>
+                <p><i class="fas fa-calendar-alt"></i> <a href="https://airtable.com/shrFhMryCHcGdGLdW/iCal?timeZone=America%2FLos_Angeles&userLocale=en">Subscribe to the Live Stream Calendar</a></p>
                 ${ confSchedule }
             </div>
         </div>

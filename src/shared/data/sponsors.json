@@ -96,5 +96,13 @@
     "url": "https://mediajams.dev",
     "logo": "media-jams.svg",
     "description": "Search your technology stack and find code demo's of different use cases around programmable media (images, video, audio). Whether you are trying to optimize media, make it more accessible, or transform your media assets, we have it all (or at least will have it all). Check it out!"
+  },
+  {
+    "key": "hasura",
+    "tier": "bronze",
+    "name": "Hasura",
+    "url": "https://hasura.com",
+    "logo": "hasura.png",
+    "description": "Hasura is an open source product that accelerates API development by 10x by giving you GraphQL or REST APIs with built in authorization on your data, instantly."
   }
 ]

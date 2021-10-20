@@ -1,5 +1,5 @@
 ---
-title: Making a User Interface for DApps
+title: Making a User Interface for DApps Workshop
 image: https://pbs.twimg.com/profile_images/1409978237749444610/O6fZPhmp_400x400.jpg
 ---
 ![Media Jams](/images/sponsors/media-jams.svg)

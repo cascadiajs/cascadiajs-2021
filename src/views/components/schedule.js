@@ -174,7 +174,7 @@ function DayOne({ speakers = [], ticket = undefined }) {
                 <div class="show-item">       
                     <div class="when">10:00</div>
                     <div class="what">
-                        <div class="title"><a href="/workshops/courier">Ghostifications - Messages from the Afterlife</a></div>
+                        <div class="title"><a href="/workshops/courier">Ghostifications Workshop</a></div>
                         <div class="speaker">
                             <div class="sponsor"><img src="/images/sponsors/courier.png" alt="Courier logo"/></div>
                             <p>Early stage startups can require building complex notification systems into their product to improve communication with users and increase user engagement, which can be a time consuming and expensive process.</p>
@@ -185,7 +185,7 @@ function DayOne({ speakers = [], ticket = undefined }) {
                 <div class="show-item">       
                     <div class="when">14:00</div>
                     <div class="what">
-                        <div class="title"><a href="/workshops/dapps">Making a User Interface for DApps</a></div>
+                        <div class="title"><a href="/workshops/dapps">Making a User Interface for DApps Workshop</a></div>
                         <div class="speaker">
                             <div class="sponsor"><img src="/images/sponsors/media-jams.svg" alt="MediaJams logo"/></div>
                             <p>As much of a buzz term as blockchain has become, it's still a great technology. To take some of the magic out of it, blockchain is essentially a distributed database. A blockchain is made of blocks that contain data and those blocks are chained together across multiple machines, which make up the distributed network.</p>
@@ -274,9 +274,10 @@ function DayTwo({ speakers, ticket = undefined }) {
                 <div class="show-item">       
                     <div class="when">14:00</div>
                     <div class="what">
-                        <div class="title">Generated TypeScript Tooling with Hasura</div>
+                        <div class="title"><a href="/workshops/hasura">Generated TypeScript Tooling with Hasura Workshop</a></div>
                         <div class="speaker">
-                            <p>More info coming soon!</p>
+                            <div class="sponsor"><img src="/images/sponsors/hasura.png" alt="Hasura logo"/></div>
+                            <p>Imagine owning a sports car but never making it into top gear. That’s a little like using strongly typed GraphQL without a strongly typed front-end language. This workshop will give you the background you need to get the best of both worlds without the headache and second-guessing.</p>
                         </div>
                     </div>
                 </div-->

@@ -1,7 +1,7 @@
 ---
-title: Ghostifications
+title: Ghostifications Workshop
 image: https://pbs.twimg.com/profile_images/1415012129409691650/KIhz6eHn_400x400.jpg
-excerpt: Teach Boo the ghost how to use the Courier API to send notifications in seconds, across all channels.
+excerpt: Learn how to use the Courier API to send notifications in seconds, across all channels.
 ---
 ![Courier](/images/sponsors/courier.png)
 
