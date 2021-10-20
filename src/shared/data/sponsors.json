@@ -104,5 +104,11 @@
     "url": "https://hasura.com",
     "logo": "hasura.png",
     "description": "Hasura is an open source product that accelerates API development by 10x by giving you GraphQL or REST APIs with built in authorization on your data, instantly."
+  },
+  {
+    "key": "salesforcedevs",
+    "tier": "bronze",
+    "name": "Salesforce Developers",
+    "logo": "salesforcedevs.png"
   }
 ]
