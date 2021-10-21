@@ -6,6 +6,7 @@ module.exports = async function Index({ ticket, links }) {
     let courier = links.find(l => l.key === 'courier')
     let dapps = links.find(l => l.key === 'dapps')
     let dolbyio = links.find(l => l.key === 'dolbyio')
+    let hasura = links.find(l => l.key === 'hasura')
     let content = /*html*/`
         <div id=page>
             <div class=page-title><div><h1>Hello${ ticket.fullName ? ', ' + ticket.fullName : '' }!</h1></div></div>
@@ -27,6 +28,7 @@ module.exports = async function Index({ ticket, links }) {
                         ${ courier ? `<tr><td>Nov 3 @ 10am PDT</td><td><a href="/workshops/courier">${ courier.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ courier.url }">Register</a></span></td></tr>` : '' }
                         ${ dapps ? `<tr><td>Nov 3 @ 2pm PDT</td><td><a href="/workshops/dapps">${ dapps.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ dapps.url }">Register</a></span></td></tr>` : '' }
                         ${ dolbyio ? `<tr><td>Nov 4 @ 10am PDT</td><td><a href="/workshops/dolbyio">${ dolbyio.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ dolbyio.url }">Register</a></span></td></tr>` : '' }
+                        ${ hasura ? `<tr><td>Nov 4 @ 2pm PDT</td><td><a href="/workshops/hasura">${ hasura.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ hasura.url }">Register</a></span></td></tr>` : '' }
                     </table>
                     <h2>Hallway Track</h2>
                     <h3>Conference Directory</h3>
