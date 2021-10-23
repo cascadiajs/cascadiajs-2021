@@ -17,8 +17,6 @@ Straight from the help desk of Gather, "Gather works best for users who have hi-
 Use the same email used to enter the main conference platform. Select “Send magic link”. (Do NOT Sign in with Google). You will receive an email with a link. Click on it and it will take you to a new browser page where you can successfully sign in. Close that browser window and go back to the original browser window that had the Welcome to Gather box in it and join the Gathering. Unfortunately, every time you enter into the system you will have to take these steps.
 
 ## Tips on using Gather 
-#### (most of these are found in the [Gather 101 guide](https://support.gather.town/help/movement-and-basics) or the [Gather 102 Guide](https://support.gather.town/help/gather-102)) 
-
 ### Search for a specific attendee
 You can search for a specific person by name in the “Participants” panel on the left, and click their name to find or chat with them
 
@@ -28,4 +26,9 @@ If you need to get some head's down work done, but don't want to leave the space
 ### Ghost Mode
 If someone wants to walk through a Space without disrupting other people's conversations, they can use Ghost Mode (press or hold "g"). In Ghost Mode, you can simply walk through people (this is also handy if an entrance is clogged when heading to or from a meeting). 
 
-## **[Gather Troubleshooting](https://support.gather.town/help/troubleshooting-checklist)**
+### More Resources
+
+* <a target="_blank" href="https://support.gather.town/help/movement-and-basics">Gather 101 guide</a>
+* <a target="_blank" href="https://support.gather.town/help/gather-102">Gather 102 Guide</a>
+* <a target="_blank" href="https://support.gather.town/help/troubleshooting-checklist">Gather Troubleshooting</a>
+

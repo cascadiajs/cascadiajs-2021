@@ -35,14 +35,16 @@ module.exports = async function Live({ speakers, ticket }) {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Y331U1tK6VQ?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div id="stream-text" class="stream-text-true">
-                    <pre>Captions will go here</pre>
+                <iframe id="stFrame" 
+                src="//www.streamtext.net/player/?event=CascadiaJS&header=true&footer=false&scroll=false&chat=false" 
+                style="width:100%;height:95%" frameborder="0"></iframe>
                 </div>
             </div>
         </section>
         <section id="chat" class="slack-view-true">
             <h2>Discord View</h2>
-            <div id="chat-slackview">
-                <discord-mirror id="discord-mirror" url="https://cjs21-discord-mirror-default-rtdb.firebaseio.com/"></discord-mirror>
+            <div id="chat-discordview">
+                <discord-mirror id="discord-mirror" url="https://cjs21-discord-mirror-default-rtdb.firebaseio.com/" use-styles="false"></discord-mirror>
             </div>
         </section>
     </div>

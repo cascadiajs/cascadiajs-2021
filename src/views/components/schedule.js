@@ -131,28 +131,28 @@ function DayOne({ speakers = [], ticket = undefined }) {
                     <div class="when">09:00</div>
                     <div class="what"><div class="title"><i class="fas fa-door-open"></i> Conference Opens</div></div>
                 </div>
-                ${ renderSpeaker("09:15", speakers.find(s => s.key === 'james-steinbach'))}
-                ${ renderSpeaker("09:43", speakers.find(s => s.key === 'jessica-campos'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'james-steinbach'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'jessica-campos'))}
                 <div class="show-item">       
-                    <div class="when">10:15</div>
+                    <div class="when">10:10</div>
                     <div class="what"><div class="title"><i class="fas fa-coffee"></i> Break</div></div>
                 </div>
                 ${ renderSpeaker("10:45", speakers.find(s => s.key === 'leonardo-faria'))}
-                ${ renderSpeaker("11:13", speakers.find(s => s.key === 'andrew-hao'))}
-                ${ renderSpeaker("11:41", speakers.find(s => s.key === 'aaron-turner'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'andrew-hao'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'aaron-turner'))}
                 <div class="show-item">       
-                    <div class="when">12:12</div>
+                    <div class="when">12:00</div>
                     <div class="what"><div class="title"><i class="fas fa-taco"></i> Lunch</div></div>
                 </div>
                 ${ renderSpeaker("13:40", speakers.find(s => s.key === 'clair-byrd'))}
-                ${ renderSpeaker("14:08", speakers.find(s => s.key === 'michelle-bakels'))}
-                ${ renderSpeaker("14:36", speakers.find(s => s.key === 'romello-goodman'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'michelle-bakels'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'romello-goodman'))}
                 <div class="show-item">       
-                    <div class="when">15:08</div>
+                    <div class="when">15:00</div>
                     <div class="what"><div class="title"><i class="fas fa-popcorn"></i> Break</div></div>
                 </div>
-                ${ renderSpeaker("15:41", speakers.find(s => s.key === 'ceora-ford'))}
-                ${ renderSpeaker("16:09", speakers.find(s => s.key === 'kyle-shevlin'))}
+                ${ renderSpeaker("15:40", speakers.find(s => s.key === 'ceora-ford'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'kyle-shevlin'))}
                 <div class="show-item">       
                     <div class="when">16:50</div>
                     <div class="what"><div class="title">Day One Wrap</div></div>
@@ -217,28 +217,28 @@ function DayTwo({ speakers, ticket = undefined }) {
                     <div class="when">09:00</div>
                     <div class="what"><div class="title"><i class="fas fa-door-open"></i> Conference Opens</div></div>
                 </div>
-                ${ renderSpeaker("09:15", speakers.find(s => s.key === 'charlie-gerard'))}
-                ${ renderSpeaker("09:43", speakers.find(s => s.key === 'lizzie-siegle'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'charlie-gerard'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'lizzie-siegle'))}
                 <div class="show-item">       
-                    <div class="when">10:16</div>
+                    <div class="when">10:00</div>
                     <div class="what"><div class="title"><i class="fas fa-coffee"></i> Break</div></div>
                 </div>
                 ${ renderSpeaker("10:45", speakers.find(s => s.key === 'brooklyn-zelenka'))}
-                ${ renderSpeaker("11:13", speakers.find(s => s.key === 'ian-sutherland'))}
-                ${ renderSpeaker("11:41", speakers.find(s => s.key === 'jacques-favreau'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'ian-sutherland'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'jacques-favreau'))}
                 <div class="show-item">       
-                    <div class="when">12:11</div>
+                    <div class="when">12:00</div>
                     <div class="what"><div class="title"><i class="fas fa-burger-soda"></i> Lunch</div></div>
                 </div>
                 ${ renderSpeaker("13:40", speakers.find(s => s.key === 'josh-goldberg'))}
-                ${ renderSpeaker("14:08", speakers.find(s => s.key === 'daria-caraway'))}
-                ${ renderSpeaker("14:36", speakers.find(s => s.key === 'derek-hurley'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'daria-caraway'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'derek-hurley'))}
                 <div class="show-item">       
-                    <div class="when">15:08</div>
+                    <div class="when">15:00</div>
                     <div class="what"><div class="title"><i class="fas fa-pie"></i> Break</div></div>
                 </div>
-                ${ renderSpeaker("15:40", speakers.find(s => s.key === 'garann-means'))}
-                ${ renderSpeaker("16:08", speakers.find(s => s.key === 'feross-aboukhadijeh'))}
+                ${ renderSpeaker("15:50", speakers.find(s => s.key === 'garann-means'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'feross-aboukhadijeh'))}
                 <div class="show-item">       
                     <div class="when">16:45</div>
                     <div class="what"><div class="title">Day Two Wrap</div></div>

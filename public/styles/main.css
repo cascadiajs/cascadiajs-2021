@@ -987,7 +987,7 @@ a.js-topic:hover {
     margin: 0 10px 0 10px;
 }
 
-#settings-label-slackview, #settings-switch-slackview, #graphic-recording, #q-and-a, #chat {
+#settings-label-discordview, #settings-switch-discordview, #graphic-recording, #q-and-a, #chat {
     display: none;
 }
 
@@ -1037,8 +1037,27 @@ a.js-topic:hover {
 
 /* Discord View styles */
 
-#chat-slackview {
+#chat-discordview {
+    padding: 8px;
     font-size: 1em;
+}
+
+discord-mirror::part(message) {
+    margin-bottom: 8px;
+}
+
+discord-mirror::part(username) {
+    font-weight: 500;
+    width: 80px;
+}
+
+discord-mirror::part(message-body) {
+    flex: 1;
+}
+
+discord-mirror::part(image) {
+    width: 100%;
+    height: auto;
 }
 
 table.profiles {
@@ -1360,7 +1379,7 @@ a[target="_blank"]:after {
     }
 
 
-    #graphic-recording, #q-and-a, #stream-text, #chat, #settings-label-slackview, #settings-switch-slackview {
+    #graphic-recording, #q-and-a, #stream-text, #chat, #settings-label-discordview, #settings-switch-discordview {
         display: block;
     }
 
@@ -1382,7 +1401,7 @@ a[target="_blank"]:after {
     }
 
     #q-and-a {
-        flex: 1;
+        flex-grow: 1;
         min-height: 140px;
     }
     
@@ -1456,10 +1475,10 @@ a[target="_blank"]:after {
         position:relative;
     }
 
-    #chat-slackview {
+    #chat-discordview {
         display: block;
-        flex: 1;
         background-color: #fff;
+        flex: 1;
         overflow-y: scroll;
     }
     

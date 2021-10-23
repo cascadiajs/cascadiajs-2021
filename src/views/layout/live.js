@@ -18,8 +18,8 @@ module.exports = function Layout ({title = 'CascadiaJS 2021 - Live Stream', cont
             <div id="handbook-link">
               <span class="cta"><a href="/conf/handbook" target="_handbook">Handbook</a></span>
             </div>
-            <div id="settings-label-slackview" class="label">Discord View</div>
-            <div id="settings-switch-slackview">
+            <div id="settings-label-discordview" class="label">Discord View</div>
+            <div id="settings-switch-discordview">
               <label class="switch">
                 <input id="slack-view-button" type="checkbox" checked>
                 <span class="slider"></span>
@@ -47,26 +47,7 @@ module.exports = function Layout ({title = 'CascadiaJS 2021 - Live Stream', cont
         ${ footer() }
       </div>
       ${ bodyScripts({ scripts })}
-      <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
 
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-          apiKey: "AIzaSyBHkheP0kQXmKORe7DG4X45hSHGXyp1qm4",
-          authDomain: "cascadiajs-2021-schedule.firebaseapp.com",
-          databaseURL: "https://cascadiajs-2021-schedule-default-rtdb.firebaseio.com",
-          projectId: "cascadiajs-2021-schedule",
-          storageBucket: "cascadiajs-2021-schedule.appspot.com",
-          messagingSenderId: "580950881593",
-          appId: "1:580950881593:web:3afd3f2fbd5ef6b71b64e8"
-        };
-
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-      </script>
     </body>
   </html>
 `
