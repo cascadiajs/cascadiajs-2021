@@ -23,12 +23,9 @@ Attendees will learn how to code their Battlesnake using any stack or technology
 
 *The CascadiaJS Cup is open to everyone!*
 
-1. Create a [Battlesnake Account](https://play.battlesnake.com/register/)
-2. Register for the [CascadiaJS Cup](https://play.battlesnake.com/competitions/cascadiajs-cup-2021/) event on the Battlesnake website
-3. Attend the Battlesnake workshop on Nov 1st
-4. Build your Battlesnake using the [Battlesnake Getting Started Guide](https://docs.battlesnake.com/guides/getting-started)
-
-<div class="cta"><a href="/tickets">Buy Conference Ticket</a></div>
+1. Register for the [CascadiaJS Cup](https://play.battlesnake.com/competitions/cascadiajs-cup-2021/) event on the Battlesnake website
+2. Attend the Battlesnake workshop on Nov 1st
+3. Build your Battlesnake using the [Battlesnake Getting Started Guide](https://docs.battlesnake.com/guides/getting-started)
 
 ## Battlesnake Resources
 
