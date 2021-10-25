@@ -24,6 +24,7 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
               <div class="spacer"><a href="/schedule">Schedule</a></div>
               <div class="spacer"><a href="/changelog">Changelog</a></div>
               <div class="spacer"><a href="/workshops">Workshops</a></div>
+              <div class="spacer"><a href="/sponsors/jobs">Jobs</a></div>
               <div class="spacer"><a href="/tickets" class="buy">Tickets</a></div>
             </div>
           </nav>
