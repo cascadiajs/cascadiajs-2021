@@ -1429,7 +1429,7 @@ a[target="_blank"]:after {
         display: block;
         position: absolute;
         z-index: 10;
-        left: 0;
+        left: 16px;
         bottom: 0;
     }
 

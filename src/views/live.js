@@ -10,7 +10,7 @@ module.exports = async function Live({ speakers, ticket }) {
                 <h2>Talk Illustrations</h2>
                 <div class="video-container">
                     <iframe
-                        src="https://player.twitch.tv/?channel=cascadiajs&parent=localhost&parent=2020.cascadiajs.com"
+                        src="https://player.twitch.tv/?channel=cascadiajs&parent=localhost&parent=2021.cascadiajs.com"
                         height="100%"
                         width="100%"
                         frameborder="no"
@@ -26,7 +26,7 @@ module.exports = async function Live({ speakers, ticket }) {
                 </div>
             </div>
             <div id="emote">
-                <emote-widget talk-id="cjs20-test" position="bottom-left" open="false"></emote-widget>
+                <emote-widget talk-id="cjs21-test" open="false"></emote-widget>
             </div>
         </section>
         <section id="stream"> 
@@ -36,7 +36,7 @@ module.exports = async function Live({ speakers, ticket }) {
                 </div>
                 <div id="stream-text" class="stream-text-true">
                 <iframe id="stFrame" 
-                src="//www.streamtext.net/player/?event=CascadiaJS&header=true&footer=false&scroll=false&chat=false" 
+                src="//www.streamtext.net/player/?event=IHaveADream&header=true&footer=false&scroll=false&chat=false" 
                 style="width:100%;height:95%" frameborder="0"></iframe>
                 </div>
             </div>

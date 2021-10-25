@@ -114,11 +114,11 @@ document.addEventListener(
         );
     };
 
-    /*document.querySelector("emote-widget").onEmote((event) => {
+    document.querySelector("emote-widget").onEmote((event) => {
       if (CLAPPABLE.includes(event.data) && state.clapping) {
         audioClap();
       }
-    });*/
+    });
 
     document.getElementById("clapping-audio-button").onclick = () =>
       toggleAudio();
