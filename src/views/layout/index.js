@@ -13,7 +13,7 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
       <div id="root">
         <header>
           <section class="alert">
-            RSVP for the FREE <a href="/pre-conf-meetup">CascadiaJS Pre-Conf Meetup</a> on October 14! 
+            Register for the FREE <a href="/hackday">Pre-Conf Hack Day</a> on November 1 and earn a ticket <i class="fas fa-ticket-alt"></i> to the Conference! 
           </section>
           <nav>
             <div class="wide">
