@@ -13,7 +13,7 @@ Battlesnake is a multi-player programming game based on the classic game 'Snake'
 
 ## No prior experience required!
 
-Participants should have a base-level comfort writing code in at least one programming language. Starter project templates, free hosting options, and a tutorial session are all provided! Winners will receive giftcards to the [Battlesnake Merch Store](https://store.battlesnake.com/)!
+Participants should have a base-level comfort writing code in at least one programming language. Starter project templates, free hosting options, and a tutorial session are all provided! Winners will receive a ticket to CascadiaJS, exclusive CascadiaJS swag and giftcards to the [Battlesnake Merch Store](https://store.battlesnake.com/)!
 
 Battlesnake is a *fun and accessible way for anyone to become a better programmer*. Use Battlesnake to learn new technologies, improve your programing skills, and have fun with friends, family, and colleagues.
 
@@ -21,11 +21,12 @@ Attendees will learn how to code their Battlesnake using any stack or technology
 
 ## To Participate in the Battlesnake CascadiaJS Cup Hack Day
 
-1. Register for the CascadiaJS Conference
-2. Create a [Battlesnake Account](https://play.battlesnake.com/register/)
-3. Register for the CascadiaJS Cup event on the Battlesnake website
-4. Attend the Battlesnake workshop on Nov 1st
-5. Build your Battlesnake using the [Battlesnake Getting Started Guide](https://docs.battlesnake.com/guides/getting-started)
+*The CascadiaJS Cup is open to everyone!*
+
+1. Create a [Battlesnake Account](https://play.battlesnake.com/register/)
+2. Register for the [CascadiaJS Cup](https://play.battlesnake.com/competitions/cascadiajs-cup-2021/) event on the Battlesnake website
+3. Attend the Battlesnake workshop on Nov 1st
+4. Build your Battlesnake using the [Battlesnake Getting Started Guide](https://docs.battlesnake.com/guides/getting-started)
 
 <div class="cta"><a href="/tickets">Buy Conference Ticket</a></div>
 
