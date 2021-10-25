@@ -1401,7 +1401,7 @@ a[target="_blank"]:after {
     }
 
     #q-and-a {
-        flex-grow: 1;
+        flex: 1;
         min-height: 140px;
     }
     

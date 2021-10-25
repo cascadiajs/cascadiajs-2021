@@ -22,7 +22,15 @@ module.exports = async function Live({ speakers, ticket }) {
             <div id="q-and-a">
                 <h2>Q&A</h2>
                 <div id="q-a-container">
-                    <pre>Q&A widget will go here.</pre>
+                <q-and-a
+                    id="qa"
+                    correlation-id="cjs21-test"
+                    use-firebase="true"
+                    firebase-db="https://cjs21-discord-mirror-default-rtdb.firebaseio.com"
+                    ask-endpoint="https://us-central1-cjs21-discord-mirror.cloudfunctions.net/postQuestion"
+                    increment-endpoint="https://us-central1-cjs21-discord-mirror.cloudfunctions.net/incrementQuestion"
+                >
+                </q-and-a>
                 </div>
             </div>
             <div id="emote">
