@@ -975,6 +975,24 @@ a.js-topic:hover {
     height: 30px;
 }
 
+#live-header #live-nav {
+    display: flex;
+}
+
+#live-header #live-nav div {
+    margin-right: 16px;
+}
+
+#live-header #live-nav a, #live-header #live-nav a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#live-header #live-nav a:hover {
+    text-decoration: underline;
+}
+
+
 #live-header #settings {
     display: flex;
     align-items: center;

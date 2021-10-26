@@ -14,10 +14,13 @@ module.exports = function Layout ({title = 'CascadiaJS 2021 - Live Stream', cont
           <div id="logo">
             <a href="/"><img src="/images/logo-green.svg" alt="CascadiaJS logo"/></a>
           </div>
+          <div id="live-nav">
+            <div><a href="/conf/live">Live Stream</a></div>
+            <div><a href="/conf/expo">Expo Hall</a></div>
+            <div><a href="/conf/jobs">Jobs</a></span></div>
+            <div><a href="/conf/handbook" target="_handbook">Handbook</a></div>
+          </div>
           <div id="settings">
-            <div id="handbook-link">
-              <span class="cta"><a href="/conf/handbook" target="_handbook">Handbook</a></span>
-            </div>
             <div id="settings-label-discordview" class="label">Discord View</div>
             <div id="settings-switch-discordview">
               <label class="switch">

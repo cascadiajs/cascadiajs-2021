@@ -13,10 +13,10 @@ get  /admin
 get  /changelog
 post /code
 post /codes
+get  /conf/:view
 get  /home/:view
 post /home
 post /links/:key
-get  /live
 post /login
 get  /modules/:type/:module
 post /orders

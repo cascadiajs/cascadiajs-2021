@@ -1,5 +1,5 @@
-let LiveLayout = require('./layout/live')
-let { DayZero } = require('./components/schedule')
+let LiveLayout = require('../layout/live')
+let { DayZero } = require('../components/schedule')
 
 module.exports = async function Live({ speakers, ticket }) {
     let dayContainer = DayZero({ ticket })
