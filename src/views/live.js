@@ -54,6 +54,7 @@ module.exports = async function Live({ speakers, ticket }) {
             <div id="chat-discordview">
                 <discord-mirror id="discord-mirror" url="https://cjs21-discord-mirror-default-rtdb.firebaseio.com/" use-styles="false"></discord-mirror>
             </div>
+            <div class="chat-about">Discord mirroring powered by <a target="_blank" href="https://ab.bot">Ab.bot</a></div>
         </section>
     </div>
     <div id="live-more">

@@ -1481,6 +1481,12 @@ a[target="_blank"]:after {
         flex: 1;
         overflow-y: scroll;
     }
+
+    .chat-about {
+        margin-top: 8px;
+        font-size: 0.75em;
+        font-style: italic;
+    }
     
     .day-content {
         display: flex;
