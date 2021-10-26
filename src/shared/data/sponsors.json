@@ -110,5 +110,17 @@
     "tier": "bronze",
     "name": "Salesforce Developers",
     "logo": "salesforcedevs.png"
+  },
+  {
+    "key": "abbot",
+    "tier": "bronze",
+    "name": "Abbot",
+    "logo": "abbot.png"
+  },
+  {
+    "key": "plenty-of-fish",
+    "tier": "bronze",
+    "name": "Plenty of Fish",
+    "logo": "plenty-of-fish.png"
   }
 ]
