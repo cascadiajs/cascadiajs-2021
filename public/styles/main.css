@@ -968,7 +968,7 @@ a.js-topic:hover {
 }
 
 #live-header #logo {
-    flex: 1;
+    margin-right: 8px;
 }
 
 #live-header #logo img {
@@ -976,7 +976,9 @@ a.js-topic:hover {
 }
 
 #live-header #live-nav {
+    flex: 1;
     display: flex;
+    margin-left:32px;
 }
 
 #live-header #live-nav div {
@@ -984,12 +986,14 @@ a.js-topic:hover {
 }
 
 #live-header #live-nav a, #live-header #live-nav a:visited {
-    color: #fff;
+    font-family: mono45-headline, monospace;
+    font-weight: 500;
+    color: #17C37B;
     text-decoration: none;
 }
 
-#live-header #live-nav a:hover {
-    text-decoration: underline;
+#live-header #live-nav a:hover,  #live-header #live-nav a.selected {
+    color: #fff;
 }
 
 

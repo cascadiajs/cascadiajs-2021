@@ -24,14 +24,15 @@ async function authenticated(req) {
     let speakerData = getSpeakerData(req)
     let speakers = speakerData.speakers
     let { view } = req.params
+    let links = await data.get( {table: 'links', limit: 100 })
     if (view === 'live') {
-      return LiveView({ speakers, ticket })
+      return LiveView({ speakers, ticket, links })
     }
     else if (view === 'expo') {
-      return ExpoView()
+      return ExpoView({ links })
     }
     else if (view === 'jobs') {
-      return JobsView()
+      return JobsView({ links })
     }
     else if (pageExists(req.path)) {
       return await PageView(req)

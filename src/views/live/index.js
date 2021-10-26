@@ -63,7 +63,7 @@ module.exports = async function Live({ speakers, ticket }) {
         </div>
     </div>
     `
-    let html = LiveLayout({ content })
+    let html = LiveLayout({ content, view: 'live' })
     return { html }
 }
 
