@@ -961,10 +961,9 @@ a.js-topic:hover {
 #live-header {
     background-color: #112378;
     padding: 8px;
-    height: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #live-header #logo {
@@ -975,14 +974,8 @@ a.js-topic:hover {
     height: 30px;
 }
 
-#live-header #live-nav {
-    flex: 1;
-    display: flex;
-    margin-left:32px;
-}
-
 #live-header #live-nav div {
-    margin-right: 16px;
+    margin: 0 16px 4px 0;
 }
 
 #live-header #live-nav a, #live-header #live-nav a:visited {
@@ -996,17 +989,14 @@ a.js-topic:hover {
     color: #fff;
 }
 
-
-#live-header #settings {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #live-header #settings .label {
     font-size: 0.75em;
     color: #fff;
-    margin: 0 10px 0 10px;
+    margin: 0 8px 8px 0;
+}
+
+#settings .switch {
+    margin: 0 8px 8px 0;
 }
 
 #settings-label-discordview, #settings-switch-discordview, #graphic-recording, #q-and-a, #chat {
@@ -1400,6 +1390,21 @@ a[target="_blank"]:after {
         margin-left: 8px;
     }
 
+    #live-header #live-nav {
+        flex: 1;
+        display: flex;
+        margin-left:32px;
+    }
+
+    #live-header #settings {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #live-header #settings .label, #live-header #settings .switch {
+        margin-bottom: 0;
+    }
 
     #graphic-recording, #q-and-a, #stream-text, #chat, #settings-label-discordview, #settings-switch-discordview {
         display: block;

@@ -25,10 +25,10 @@ module.exports = async function Index({ ticket, links }) {
                     <div class="cta secondary"><a target="_blank" href="${ battlesnake?.url }">Register for Hack Day</a></div>
                     <h2>Workshop Track</h2>
                     <table id="workshop-rsvp">
-                        ${ courier ? `<tr><td>Nov 3 @ 10am PDT</td><td><a href="/workshops/courier">${ courier.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ courier.url }">Register</a></span></td></tr>` : '' }
-                        ${ dapps ? `<tr><td>Nov 3 @ 2pm PDT</td><td><a href="/workshops/dapps">${ dapps.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ dapps.url }">Register</a></span></td></tr>` : '' }
-                        ${ dolbyio ? `<tr><td>Nov 4 @ 10am PDT</td><td><a href="/workshops/dolbyio">${ dolbyio.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ dolbyio.url }">Register</a></span></td></tr>` : '' }
-                        ${ hasura ? `<tr><td>Nov 4 @ 2pm PDT</td><td><a href="/workshops/hasura">${ hasura.label }</a></td><td><span class="cta secondary"><a target="_blank" href="${ hasura.url }">Register</a></span></td></tr>` : '' }
+                        ${ courier ? `<tr><td>Nov 3 @ 10am PDT</td><td><a href="/workshops/courier">${ courier.label }</a></td><td><div class="cta secondary"><a target="_blank" href="${ courier.url }">Register</a></div></td></tr>` : '' }
+                        ${ dapps ? `<tr><td>Nov 3 @ 2pm PDT</td><td><a href="/workshops/dapps">${ dapps.label }</a></td><td><div class="cta secondary"><a target="_blank" href="${ dapps.url }">Register</a></div></td></tr>` : '' }
+                        ${ dolbyio ? `<tr><td>Nov 4 @ 10am PDT</td><td><a href="/workshops/dolbyio">${ dolbyio.label }</a></td><td><div class="cta secondary"><a target="_blank" href="${ dolbyio.url }">Register</a></div></td></tr>` : '' }
+                        ${ hasura ? `<tr><td>Nov 4 @ 2pm PDT</td><td><a href="/workshops/hasura">${ hasura.label }</a></td><td><div class="cta secondary"><a target="_blank" href="${ hasura.url }">Register</a></div></td></tr>` : '' }
                     </table>
                     <h2>Hallway Track</h2>
                     <h3>Conference Directory</h3>
