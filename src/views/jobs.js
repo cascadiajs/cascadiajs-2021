@@ -15,7 +15,7 @@ let Template = function(sponsors) {
             ${ sponsors.map(s => /*html*/`
                 <div class="job-listing">
                     <div><img src="/images/sponsors/${ s.logo }" alt=""/></div>
-                    <div>${ s.description }</div>
+                    <p>${ s.description }</p>
                     <div><div class="cta"><a target="_blank" href="${ s.jobs }">View Jobs</a></div></div>
                 </div>
             `
