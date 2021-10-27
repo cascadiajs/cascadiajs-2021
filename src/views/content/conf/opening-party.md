@@ -13,3 +13,4 @@ excerpt: Following Day One, get ready for a massive multiplayer JS Trivia Night!
 ## About Trivia Night
 
 More info coming soon!
+
