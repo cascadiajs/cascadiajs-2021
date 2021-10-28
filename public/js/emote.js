@@ -9616,4 +9616,4 @@ var Widget$1 = registerComponent(Widget, {
 });
 
 customElements.define('emote-widget', Widget$1.CustomElementConstructor);
-//# sourceMappingURL=emote.js.map
+//# sourceMappingURL=/js/emote.js.map
