@@ -3,6 +3,7 @@ let { DayZero } = require('../components/schedule')
 
 module.exports = async function Live({ speakers, ticket }) {
     let dayContainer = DayZero({ ticket })
+    let ytId = (new Date() - new Date('2021-11-03T21:00:00.0Z') < 0 ? 'vFhJceJffwE' : 'ePDqanmVm1Y')
     let content = /*html*/`
     <div id="live" class="slack-view-true">
         <section id="left-pane">
@@ -42,7 +43,7 @@ module.exports = async function Live({ speakers, ticket }) {
         <section id="stream"> 
             <div class="inner">            
                 <div id="stream-video" class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y331U1tK6VQ?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/${ ytId }?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div id="stream-text" class="stream-text-true">
                 <iframe id="stFrame" 

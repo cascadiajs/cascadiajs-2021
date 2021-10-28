@@ -1488,10 +1488,6 @@ a[target="_blank"]:after {
         height: 100%;
     }
 
-    #stream-video {
-        flex: 1;
-    }
-
     #stream-text {
         flex: 1;
         padding: 10px;
