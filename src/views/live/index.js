@@ -24,6 +24,7 @@ module.exports = async function Live({ speakers, ticket }) {
                 <div id="q-a-container">
                 <q-and-a
                     id="qa"
+                    user-id="${ ticket.key }"
                     correlation-id="cjs21-test"
                     use-firebase="true"
                     firebase-db="https://cjs21-discord-mirror-default-rtdb.firebaseio.com"
