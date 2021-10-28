@@ -35,6 +35,7 @@ module.exports = async function Live({ speakers, ticket }) {
             </div>
             <div id="emote">
                 <emote-widget talk-id="cjs21-test" open="false"></emote-widget>
+                <!--audio src="/sounds/applause-8.mp3"></audio-->
             </div>
         </section>
         <section id="stream"> 

@@ -38,8 +38,8 @@ module.exports = function Layout ({title = 'CascadiaJS 2021 - Live Stream', cont
                 <span class="slider"></span>
               </label>
             </div>
-            <div class="label">Clapping Audio</div>
-            <div>
+            <div id="settings-label-clapping" class="label">Clapping Audio</div>
+            <div id="settings-switch-clapping">
               <label class="switch">
                 <input id="clapping-audio-button" type="checkbox">
                 <span class="slider"></span>

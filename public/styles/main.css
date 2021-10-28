@@ -999,7 +999,7 @@ a.js-topic:hover {
     margin: 0 8px 8px 0;
 }
 
-#settings-label-discordview, #settings-switch-discordview, #graphic-recording, #q-and-a, #chat {
+#settings-label-discordview, #settings-switch-discordview, #settings-label-clapping, #settings-switch-clapping, #graphic-recording, #q-and-a, #chat  {
     display: none;
 }
 
@@ -1406,7 +1406,7 @@ a[target="_blank"]:after {
         margin-bottom: 0;
     }
 
-    #graphic-recording, #q-and-a, #stream-text, #chat, #settings-label-discordview, #settings-switch-discordview {
+    #graphic-recording, #q-and-a, #stream-text, #chat, #settings-label-discordview, #settings-switch-discordview, #settings-label-clapping, #settings-switch-clapping {
         display: block;
     }
 
