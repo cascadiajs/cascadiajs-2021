@@ -29,8 +29,9 @@ module.exports = async function Live({ speakers, ticket }) {
                     correlation-id="cjs21-test"
                     use-firebase="true"
                     firebase-db="https://cjs21-discord-mirror-default-rtdb.firebaseio.com"
-                    ask-endpoint="https://us-central1-cjs21-discord-mirror.cloudfunctions.net/postQuestion"
-                    increment-endpoint="https://us-central1-cjs21-discord-mirror.cloudfunctions.net/incrementQuestion"
+                    firebase-token="AIzaSyBq4Yb9zA3_I-qzqYMqoq6F9hDfvzhRRRI"
+                    firebase-project-id="cjs21-discord-mirror"
+                    placeholder="true"
                 >
                 </q-and-a>
                 </div>

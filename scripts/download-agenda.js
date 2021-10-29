@@ -10,7 +10,7 @@ let baseUrl = `https://api.airtable.com/v0/${ app }`
 async function fetchAgenda() {
     let json = await fetch(`${ baseUrl }/${ table }?view=${ view }`, { headers: {'Authorization': `Bearer ${ key }`}})
     let results = await json.json()
-    return results.records.map((r) => ( { what: r.fields.ID, when: r.fields["Start Time (GMT)"] } ))
+    return results.records.map((r) => ( { id: r.id, what: r.fields.ID, when: r.fields["Start Time (GMT)"], talk: r.fields["IsTalk"] === "Y" } ))
 }
 
 async function init() {

@@ -1068,7 +1068,7 @@ discord-mirror::part(message-body) {
 }
 
 discord-mirror::part(image) {
-    width: 100%;
+    width: 100% !important;
     height: auto;
 }
 
@@ -1382,6 +1382,10 @@ a[target="_blank"]:after {
         background-color: #eee;
     }
 
+    #live-header {
+        height: 30px;
+    }
+
     #live-header #handbook-link, #live-header #leaderboard-link {
         display: block;
     }
@@ -1436,7 +1440,7 @@ a[target="_blank"]:after {
         background-color: #fff;
         height: calc(100% - 27px);
         position: relative;
-        overflow: hidden;
+        overflow-y: scroll;
     }
     
     #q-and-a iframe {
@@ -1496,6 +1500,7 @@ a[target="_blank"]:after {
     #live #chat {
         padding: 8px;
         position:relative;
+        min-width: 0;
     }
 
     #chat-discordview {

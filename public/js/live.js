@@ -36,24 +36,27 @@ document.addEventListener(
     function checkForNewAgendaItem() {
       if (state.agenda !== undefined) {
         // find our current place in the agenda
-        let currentAgendaIndex;
+        let currentAgendaId;
         let now = Date.now();
         for (let i in state.agenda) {
           let item = state.agenda[i];
           let itemTime = new Date(item.when).getTime();
           // if this item is after the current time
           if (now > itemTime) {
-            currentAgendaIndex = i;
-            break;
+            currentAgendaId = state.agenda[i].id;
           }
         }
+        // the agenda is sorted by item.when asc, so if multiple items are after now(), the last / most recent will be set to the currentAgendaId
 
-        if (currentAgendaIndex === undefined) {
+        if (currentAgendaId === undefined) {
+          document
+            .querySelector("q-and-a")
+            .setAttribute("placeholder", true);
           console.log("Waiting for agenda to begin... ", state.agenda[0])
         }
-        else if (state.agendaIndex !== currentAgendaIndex) {
+        else if (state.currentAgendaId !== currentAgendaId) {
           // a new agenda item!
-          let current = state.agenda[currentAgendaIndex];
+          let current = state.agenda.find(a => a.id === currentAgendaId);
           console.log("A new agenda item!", current);
           // reset the emote counter
           document
@@ -63,8 +66,12 @@ document.addEventListener(
           document
             .querySelector("q-and-a")
             .setAttribute("correlation-id", current.what);
+          // set Q&A to "placeholder" if the next agenda item isn't a talk
+          document
+            .querySelector("q-and-a")
+            .setAttribute("placeholder", !current.talk);
           // reset index
-          state.agendaIndex = currentAgendaIndex;
+          state.currentAgendaId = currentAgendaId;
         }
         else {
           // we are in the middle of an agenda item
@@ -72,8 +79,8 @@ document.addEventListener(
       }
 
       if (
-        state.agendaIndex === undefined ||
-        state.agendaIndex < state.agenda.length - 1
+        state.currentAgendaId === undefined ||
+        state.currentAgendaId !== "rec65BeJbaMM8OMo3" // the last agenda item
       ) {
         // if the show hasn't started yet OR isn't over yet, keep checking for a new agenda item
         setTimeout(() => {
@@ -94,7 +101,7 @@ document.addEventListener(
       clappingContext: undefined,
       clappingBuffer: null,
       agenda: undefined,
-      agendaIndex: undefined,
+      currentAgendaId: undefined,
     }
 
     // emote event types that we will use to trigger clapping sound effect
