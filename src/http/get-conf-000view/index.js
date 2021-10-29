@@ -34,9 +34,6 @@ async function authenticated(req) {
     else if (view === 'jobs') {
       return JobsView({ links })
     }
-    else if (pageExists(req.path)) {
-      return await PageView(req)
-    }
     else {
       return
     }
@@ -47,4 +44,14 @@ async function authenticated(req) {
   }
 }
 
-exports.handler = arc.http.async(unauthenticated, authenticated, NotFoundView)
+// display static page
+async function page(req) {
+  if (pageExists(req.path)) {
+    return await PageView(req)
+  }
+  else {
+    return
+  }
+}
+
+exports.handler = arc.http.async(page, unauthenticated, authenticated, NotFoundView)
