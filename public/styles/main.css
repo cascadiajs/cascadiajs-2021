@@ -1061,10 +1061,12 @@ discord-mirror::part(message) {
 discord-mirror::part(username) {
     font-weight: 500;
     width: 80px;
+    overflow-x: scroll;
 }
 
 discord-mirror::part(message-body) {
     flex: 1;
+    overflow-x: scroll;
 }
 
 discord-mirror::part(image) {
