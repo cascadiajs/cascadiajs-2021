@@ -99,10 +99,14 @@ function speaker(person) {
     <textarea name=abstract value="${ person ? person.abstract : '' }" placeholder="VB.NET and C# go on a date with Java and JavaScript …" required>${ person ? person.abstract : '' }</textarea>
     <button>Save</button>
   </form>
-  <form action=/delete method=post>
-  <input type=hidden name=key value="${ person ? person.key : '' }">
-  <button>Delete</button>
-  </form>
+  ${ person
+    ? /*html*/`
+    <form action=/speakers/${ person.key } method=post>
+      <input type=hidden name=__delete value="true">
+      <button>Delete</button>
+    </form>`
+    : '' }
+
 </details>`
 }
 
