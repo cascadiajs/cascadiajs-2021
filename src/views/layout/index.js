@@ -13,7 +13,7 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
       <div id="root">
         <header>
           <section class="alert">
-            Register for the FREE <a href="/hackday">Pre-Conf Hack Day</a> on November 1 and earn a ticket <i class="fas fa-ticket-alt"></i> to the Conference! 
+            Register for post-conference <a href="/workshops">Expert Trainings</a> before the seats sell out!
           </section>
           <nav>
             <div class="wide">
