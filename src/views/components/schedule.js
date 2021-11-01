@@ -63,11 +63,11 @@ function hallwayTrack({ticket = undefined, links = []}) {
             <p>Gather is a virtual space that you can walk around and explore. When you bump into people, you'll have the option of seeings and hearing them via a video chat. We'll have lots of fun stuff to do inside the Gather, including watching the live stream!</p>
             <p><img src="/images/gather-map.jpg" alt="source: https://www.reddit.com/r/gathertown/comments/no8i1a/our_new_office/"/></p>
             ${ ticket && ticket.conference === 'Y' && gather
-                ? `<p><span class="cta"><a href="${ gather.link }" target="_gather">Join Gather</a></span></p>`
+                ? `<p><span class="cta"><a href="${ gather.url }" target="_gather">Join Gather</a></span></p>`
                 : ``}
             <p>If you'd prefer a more text and meme-centric way to hang out during the conference, we will be running a private Discord server. The Discord server will have channels for everything, including talking about #react and connecting with #workshop instructors.</p>
             ${ ticket && ticket.conference === 'Y' && discord
-            ? `<p><span class="cta"><a href="${ discord.link }" target="_discord">Join Discord</a></span></p>`
+            ? `<p><span class="cta"><a href="${ discord.url }" target="_discord">Join Discord</a></span></p>`
             : ``}
         </div>
     </div>

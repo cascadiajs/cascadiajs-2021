@@ -1,4 +1,4 @@
 [
-    { "key": "hasura", "link": "https://foo.com", "label": "Hasura Workshop" },
-    { "key": "dapps", "link": "https://foo.com", "label": "DApps Workshop" }
+    { "key": "hasura", "url": "https://foo.com", "label": "Hasura Workshop" },
+    { "key": "dapps", "url": "https://foo.com", "label": "DApps Workshop" }
 ]
