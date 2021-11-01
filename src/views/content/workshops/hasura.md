@@ -4,13 +4,11 @@ image: https://pbs.twimg.com/profile_images/1450802929527447554/kRyVEq8q_400x400
 ---
 ![](/images/sponsors/hasura.png)
 
-*This virtual workshop is available for free to registered attendees of CascadiaJS 2021!*
-
 ## Overview
 
 - Date: Nov 4, 2021
 - Time: 2pm PT
-- Venue: Online (Link to RSVP in Conference Dashboard)
+- Venue: Online
 
 ## About this Workshop
 
@@ -31,6 +29,8 @@ Imagine owning a sports car but never making it into top gear. That’s a little
 - Integrating the typed SDK with Apollo Client
 - JWT auth, and integrating it with Apollo Client
 - Deploying the frontend to Vercel
+
+<div class="cta"><a href="https://hasura.io/events/workshop/cascadiajs-hasura-typescript/">Register for Free</a></div>
 
 <section class="person">
     <h2>About Gavin Ray</h2>
