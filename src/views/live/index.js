@@ -1,7 +1,7 @@
 let LiveLayout = require('../layout/live')
 let { DayOne, DayTwo } = require('../components/schedule')
 
-module.exports = async function Live({ speakers, ticket, links }) {
+module.exports = function Live({ speakers, ticket, links }) {
     let isDayOne = (new Date() - new Date('2021-11-03T21:00:00.0Z') < 0)
     let dayContainer = (isDayOne ? DayOne({ speakers, ticket, links }) : DayTwo({ speakers, ticket, links }))
     let ytId = (isDayOne ? 'vFhJceJffwE' : 'ePDqanmVm1Y')

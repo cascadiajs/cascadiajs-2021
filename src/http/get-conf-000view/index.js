@@ -21,7 +21,7 @@ async function unauthenticated(req) {
 async function authenticated(req) {
   let ticket = await data.get({ table: 'tickets', key: req.session.ticketRef })
   if (ticket && ticket.conference === 'Y') {
-    let speakerData = getSpeakerData(req)
+    let speakerData = await getSpeakerData(req)
     let speakers = speakerData.speakers
     let { view } = req.params
     let links = await data.get( {table: 'links', limit: 100 })

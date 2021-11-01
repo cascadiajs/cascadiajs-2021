@@ -1,7 +1,7 @@
 let LiveLayout = require('../layout/live')
 let SponsorsContainer = require('../components/sponsors')
 
-module.exports = async function Expo({ links }) {
+module.exports = function Expo({ links }) {
     let discord = links.find(l => l.key === 'discord')
     let gather = links.find(l => l.key === 'gather')
     let content = /*html*/`

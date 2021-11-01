@@ -1,7 +1,7 @@
 let LiveLayout = require('../layout/live')
 let sponsors = require('../../shared/data/sponsors.json')
 
-module.exports = async function Expo({ links }) {
+module.exports = function Expo({ links }) {
     let hiring = sponsors.filter(s => s.jobs)
     let discord = links.find(l => l.key === 'discord')
     let gather = links.find(l => l.key === 'gather')
