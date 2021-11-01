@@ -147,7 +147,8 @@ function DayOne({ speakers = [], ticket = undefined, links }) {
                     <div class="when">12:00</div>
                     <div class="what"><div class="title"><i class="fas fa-taco"></i> Lunch</div></div>
                 </div>
-                ${ renderSpeaker("14:00", speakers.find(s => s.key === 'michelle-bakels'))}
+                ${ renderSpeaker("13:40", speakers.find(s => s.key === 'ceora-ford'))}
+                ${ renderSpeaker("", speakers.find(s => s.key === 'michelle-bakels'))}
                 ${ renderSpeaker("", speakers.find(s => s.key === 'romello-goodman'))}
                 <div class="show-item">       
                     <div class="when">15:00</div>
