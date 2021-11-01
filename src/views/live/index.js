@@ -1,9 +1,10 @@
 let LiveLayout = require('../layout/live')
-let { DayZero } = require('../components/schedule')
+let { DayOne, DayTwo } = require('../components/schedule')
 
-module.exports = async function Live({ speakers, ticket }) {
-    let dayContainer = DayZero({ ticket })
-    let ytId = (new Date() - new Date('2021-11-03T21:00:00.0Z') < 0 ? 'vFhJceJffwE' : 'ePDqanmVm1Y')
+module.exports = async function Live({ ticket, links }) {
+    let isDayOne = (new Date() - new Date('2021-11-03T21:00:00.0Z') < 0)
+    let dayContainer = (isDayOne ? DayOne({ ticket, links }) : DayTwo({ ticket, links }))
+    let ytId = (isDayOne ? 'vFhJceJffwE' : 'ePDqanmVm1Y')
     let content = /*html*/`
     <div id="live" class="slack-view-true">
         <section id="left-pane">

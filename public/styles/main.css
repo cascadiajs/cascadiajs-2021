@@ -478,7 +478,7 @@ section .cta {
 
 #conf-schedule .sponsor {
     width: 150px;
-    margin: 8px 0;
+    margin: 16px;
 }
 
 #landing .day {
@@ -1512,6 +1512,15 @@ a[target="_blank"]:after {
         overflow-y: scroll;
     }
 
+    .hallway-sponsors {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hallway-sponsors div {
+        margin: 8px;
+    }
+
     .chat-about {
         margin-top: 8px;
         font-size: 0.75em;
@@ -1519,11 +1528,13 @@ a[target="_blank"]:after {
     }
     
     .day-content {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .track {
-        flex: 33%;
+        /*flex: 33%;*/
+        min-width: 0;
         padding: 16px;
     }
 

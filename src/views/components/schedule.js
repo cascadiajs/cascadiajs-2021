@@ -9,7 +9,10 @@ function renderSpeaker(time, speaker = {}) {
     </div>`
 }
 
-function hallwayTrack({ticket = undefined}) {
+function hallwayTrack({ticket = undefined, links = []}) {
+    console.log(links)
+    let discord = links.find(l => l.key === 'discord')
+    let gather = links.find(l => l.key === 'gather')
     return /*html*/`
     <div class="hallway track">
     <h3>Hallway Track</h3>
@@ -36,18 +39,6 @@ function hallwayTrack({ticket = undefined}) {
                 <span class="boaf">Web Components</span>
                 <span class="boaf">CSS</span>
             </p>
-            <p>
-                <span class="boaf">Serverless</span>
-                <span class="boaf">Open Source</span>
-                <span class="boaf">APIs</span>
-                <span class="boaf">IoT</span>
-            </p>
-            <p>
-                <span class="boaf">DevOps</span>
-                <span class="boaf">UI / Design</span>
-                <span class="boaf">Mobile</span>
-                <span class="boaf">Accessibility</span>
-            </p>
         </div>
     </div>
     <div class="show-item">       
@@ -55,7 +46,13 @@ function hallwayTrack({ticket = undefined}) {
             <div class="title">Connect with Experts</div><br/>
             <p>Connect with experts at some of the top developer tooling companies in our industry.</p>
             <div class="hallway-sponsors">
-                <div class="sponsor"><a href="/sponsors/new-relic"><img src="/images/sponsors/new-relic.svg" alt="New Relic logo"/></a></div>
+                <div class="sponsor"><img src="/images/sponsors/circleci.svg" alt="Circle CI logo"/></div>
+                <div class="sponsor"><img src="/images/sponsors/courier.png" alt="Courier logo"/></div>
+                <div class="sponsor"><img src="/images/sponsors/media-jams.svg" alt="Media Jams logo"/></div>
+                <div class="sponsor"><img src="/images/sponsors/new-relic.svg" alt="New Relic logo"/></div>
+                <div class="sponsor"><img src="/images/sponsors/hasura.png" alt="Hasura logo"/></div>
+                <div class="sponsor"><img src="/images/sponsors/tmobile.png" alt="T-Mobile logo"/></div>
+                <div class="sponsor"><img src="/images/sponsors/dolby.svg" alt="Dolby.io logo"/></div>
             </div>
         </div>
     </div>
@@ -65,7 +62,13 @@ function hallwayTrack({ticket = undefined}) {
             <p>You have two options for joining the Hallway Track: Gather and Discord</p>
             <p>Gather is a virtual space that you can walk around and explore. When you bump into people, you'll have the option of seeings and hearing them via a video chat. We'll have lots of fun stuff to do inside the Gather, including watching the live stream!</p>
             <p><img src="/images/gather-map.jpg" alt="source: https://www.reddit.com/r/gathertown/comments/no8i1a/our_new_office/"/></p>
+            ${ ticket && ticket.conference === 'Y' && gather
+                ? `<p><span class="cta"><a href="${ gather.link }" target="_gather">Join Gather</a></span></p>`
+                : ``}
             <p>If you'd prefer a more text and meme-centric way to hang out during the conference, we will be running a private Discord server. The Discord server will have channels for everything, including talking about #react and connecting with #workshop instructors.</p>
+            ${ ticket && ticket.conference === 'Y' && discord
+            ? `<p><span class="cta"><a href="${ discord.link }" target="_discord">Join Discord</a></span></p>`
+            : ``}
         </div>
     </div>
 </div>
@@ -113,7 +116,7 @@ function DayZero({ ticket = undefined }) {
 `
 }
 
-function DayOne({ speakers = [], ticket = undefined }) {
+function DayOne({ speakers = [], ticket = undefined, links }) {
     return /*html*/`
     <div class="day">
         <div class="day-header">
@@ -166,7 +169,7 @@ function DayOne({ speakers = [], ticket = undefined }) {
                 </div>
             </div>
 
-            ${ hallwayTrack({ticket})}
+            ${ hallwayTrack({ ticket, links })}
 
             <div class="workshops track">
                 <h3>Workshop Track</h3>
@@ -198,7 +201,7 @@ function DayOne({ speakers = [], ticket = undefined }) {
 `
 }
 
-function DayTwo({ speakers, ticket = undefined }) {
+function DayTwo({ speakers, ticket = undefined, links }) {
     return /*html*/`
     <div class="day">
         <div class="day-header">
@@ -255,7 +258,7 @@ function DayTwo({ speakers, ticket = undefined }) {
                 </div>
             </div>
 
-            ${ hallwayTrack({ticket})}
+            ${ hallwayTrack({ ticket, links })}
 
             <div class="workshops track">
                 <h3>Workshop Track</h3>
