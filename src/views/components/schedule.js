@@ -201,7 +201,7 @@ function DayOne({ speakers = [], ticket = undefined, links }) {
 `
 }
 
-function DayTwo({ speakers, ticket = undefined, links }) {
+function DayTwo({ speakers = [], ticket = undefined, links }) {
     return /*html*/`
     <div class="day">
         <div class="day-header">
