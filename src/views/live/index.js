@@ -29,9 +29,9 @@ module.exports = function Live({ speakers, ticket, links }) {
                     user-id="${ ticket.key }"
                     correlation-id="cjs21-test"
                     use-firebase="true"
-                    firebase-db="https://cjs21-discord-mirror-default-rtdb.firebaseio.com"
-                    firebase-token="AIzaSyBq4Yb9zA3_I-qzqYMqoq6F9hDfvzhRRRI"
-                    firebase-project-id="cjs21-discord-mirror"
+                    firebase-db="https://cjs21-q-and-a-6163f-default-rtdb.firebaseio.com/"
+                    firebase-token="AIzaSyBZqDXrTT6S0aNNRM8FvnJiOSvIcftGg7g"
+                    firebase-project-id="cjs21-q-and-a-6163f"
                     placeholder="true"
                 >
                 </q-and-a>
