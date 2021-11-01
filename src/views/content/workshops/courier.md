@@ -5,8 +5,6 @@ excerpt: Learn how to use the Courier API to send notifications in seconds, acro
 ---
 ![Courier](/images/sponsors/courier.png)
 
-*This virtual workshop is available for free to registered attendees of CascadiaJS 2021!*
-
 ## Overview
 
 - Date: Nov 3, 2021
@@ -27,6 +25,8 @@ Courier offers a fast and cost-effective solution for developers to build notifi
 - How to integrate cross-channel notifications in minutes
 - How to build effective communication for developers-to-user engagement
 - How to start sending 10,000 messages/month for free
+
+<div class="cta"><a target="_blank" href="https://youtu.be/ZrwkVXOsKe8">RSVP</a></div>
 
 <section class="person">
     <h2>About Shreya Gupta</h2>
