@@ -137,7 +137,7 @@ function DayOne({ speakers = [], ticket = undefined, links }) {
                 ${ renderSpeaker("", speakers.find(s => s.key === 'james-steinbach'))}
                 ${ renderSpeaker("", speakers.find(s => s.key === 'jessica-campos'))}
                 <div class="show-item">       
-                    <div class="when">10:10</div>
+                    <div class="when">10:15</div>
                     <div class="what"><div class="title"><i class="fas fa-coffee"></i> Break</div></div>
                 </div>
                 ${ renderSpeaker("10:45", speakers.find(s => s.key === 'leonardo-faria'))}
@@ -239,7 +239,7 @@ function DayTwo({ speakers = [], ticket = undefined, links }) {
                     <div class="when">15:00</div>
                     <div class="what"><div class="title"><i class="fas fa-pie"></i> Break</div></div>
                 </div>
-                ${ renderSpeaker("15:50", speakers.find(s => s.key === 'garann-means'))}
+                ${ renderSpeaker("15:45", speakers.find(s => s.key === 'garann-means'))}
                 ${ renderSpeaker("", speakers.find(s => s.key === 'feross-aboukhadijeh'))}
                 <div class="show-item">       
                     <div class="when">16:45</div>
