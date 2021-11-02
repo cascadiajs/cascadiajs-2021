@@ -12,7 +12,24 @@ excerpt: Following Day One, get ready for a massive multiplayer JS Trivia Night!
 
 ## About Trivia Night
 
-We're closing out Day One with a JavaScript Trivia Night you definitely don't want to miss. Test your knowledge on JavaScript in pop culture, coding languages, hacking history, and more. Compete with fellow attendees for Amazon Echo Dot smart speakers, Sauce Labs swag boxes, and the best prize of all, bragging rights.
+We're closing out Day One with a JavaScript Trivia Night you definitely don't want to miss. Test your knowledge of JavaScript in pop culture, coding languages, hacking history, and more. Compete with fellow attendees for Amazon Echo Dot smart speakers, Sauce Labs swag boxes, and the best prize of all, bragging rights.
+
+### Prizes
+
+**1st Prize**
+- Amazon Echo Dot smart speaker
+- Sauce Labs swag box (includes a backpack, water bottle, and notebook)
+- Custom CascadiaJS trucker hat
+
+**2nd Prize**
+- Amazon Echo Dot smart speaker
+- Custom CascadiaJS trucker hat
+
+**3rd Prize**
+- Sauce Labs swag box
+
+**4th Prize**
+- Sauce Labs swag box
 
 ## How to Play
 
