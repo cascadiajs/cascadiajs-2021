@@ -26,7 +26,7 @@ Courier offers a fast and cost-effective solution for developers to build notifi
 - How to build effective communication for developers-to-user engagement
 - How to start sending 10,000 messages/month for free
 
-<div class="cta"><a target="_blank" href="https://youtu.be/ZrwkVXOsKe8">RSVP</a></div>
+<div class="cta"><a target="_blank" href="https://youtu.be/ZrwkVXOsKe8">Register for FREE</a></div>
 
 <section class="person">
     <h2>About Shreya Gupta</h2>

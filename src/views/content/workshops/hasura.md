@@ -30,7 +30,7 @@ Imagine owning a sports car but never making it into top gear. That’s a little
 - JWT auth, and integrating it with Apollo Client
 - Deploying the frontend to Vercel
 
-<div class="cta"><a href="https://hasura.io/events/workshop/cascadiajs-hasura-typescript/">Register for Free</a></div>
+<div class="cta"><a href="https://hasura.io/events/workshop/cascadiajs-hasura-typescript/">Register for FREE</a></div>
 
 <section class="person">
     <h2>About Gavin Ray</h2>

@@ -3,8 +3,6 @@ title: Dolby.io Workshop
 image: https://pbs.twimg.com/profile_images/1260046599088193536/VShobDXC_400x400.jpg
 excerpt: Learn how to build a fun geospatial video conferencing app using Dolby.io's Communications APIs
 ---
-*This virtual workshop is available for free to registered attendees of CascadiaJS 2021!*
-
 ## 🎉 Get a free tee for participating in our workshop! [*](#-to-qualify-for-a-free-t-shirt)
 
 <img src="/images/workshops/dolby-tee.jpg" width="400" height="400" alt="Dolby.io t-shirt">
@@ -56,3 +54,5 @@ Dolby.io Developer Advocate Dan Zeitman 👾 will guide you through the basics a
 - Offer valid for United States and Canada residents only. While supplies last
 - Must fill out post-event survey with shipping details by Nov. 11
 - One t-shirt per attendee. Valid for CascadiaJS attendees only
+
+<div class="cta"><a href="https://app.livestorm.co/dolby-io/cascadiajs-workshop?type=detailed">Register for FREE</a></div>
