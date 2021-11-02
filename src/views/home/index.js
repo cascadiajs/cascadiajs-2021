@@ -20,6 +20,8 @@ module.exports = async function Index({ ticket, links }) {
                 </table>
                 ${ ticket.conference === 'Y'
                 ? /*html*/`
+                    <h2>Onboarding</h2>
+                    <p>If this is your first time logging in, please review our <a href="/conf/onboarding">Onboarding Guide</a>.</p>
                     <h2>Talk Track</h2>
                     <p>Stay Tuned, link coming soon. Livestream will begin on both days at 9am PDT.</p>
                     <h2>Workshop Track</h2>
