@@ -10,7 +10,7 @@ excerpt: Learn how to use the Courier API to send notifications in seconds, acro
 - Date: Nov 3, 2021
 - Time: 10am PT
 - Length: 1 hour
-- Venue: Online (Link to RSVP in attendee Dashboard)
+- Venue: Online
 
 ## About this Workshop
 

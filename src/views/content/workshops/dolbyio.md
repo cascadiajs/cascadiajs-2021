@@ -12,7 +12,7 @@ excerpt: Learn how to build a fun geospatial video conferencing app using Dolby.
 - Title: A World of Communications Apps using Advanced Audio Features
 - Date: Nov 4, 2021
 - Time: 10am PT
-- Venue: Online (Link to RSVP in attendee Dashboard)
+- Venue: Online
 
 ## About this Workshop
 
