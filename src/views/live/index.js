@@ -49,7 +49,7 @@ module.exports = function Live({ speakers, ticket, links }) {
                 </div>
                 <div id="stream-text" class="stream-text-true">
                 <iframe id="stFrame" 
-                src="//www.streamtext.net/player?event=IHaveADream&header=true&footer=false&scroll=false&chat=false" 
+                src="//www.streamtext.net/player?event=CascadiaJS&header=true&footer=false&scroll=false&chat=false" 
                 style="width:100%;height:95%" frameborder="0"></iframe>
                 </div>
             </div>
