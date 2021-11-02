@@ -2,10 +2,11 @@ let Layout = require('../layout')
 
 module.exports = async function Index({ ticket, links }) {
     let clientID = process.env.GITHUB_CLIENT_ID
-    let battlesnake = links.find(l => l.key === 'battlesnake')
+    //let battlesnake = links.find(l => l.key === 'battlesnake')
     let dapps = links.find(l => l.key === 'dapps')
     let dolbyio = links.find(l => l.key === 'dolbyio')
     let hasura = links.find(l => l.key === 'hasura')
+    let discord = links.find(l => l.key === 'discord')
     let content = /*html*/`
         <div id=page>
             <div class=page-title><div><h1>Hello${ ticket.fullName ? ', ' + ticket.fullName : '' }!</h1></div></div>
@@ -19,9 +20,6 @@ module.exports = async function Index({ ticket, links }) {
                 </table>
                 ${ ticket.conference === 'Y'
                 ? /*html*/`
-                    <h2>Pre-Conf Hack Day</h2>
-                    <p>Start getting excited for the first ever <a href="/hackday">Battlesnake CascadiaJS Cup</a>! We are limiting entries to 64 players, so don't miss your chance to use your knowledge of HTTP and webhooks to win prizes and glory!</p>
-                    <div class="cta secondary"><a target="_blank" href="${ battlesnake?.url }">Register for Hack Day</a></div>
                     <h2>Workshop Track</h2>
                     <table id="workshop-rsvp">
                         <tr><td>Nov 3 @ 10am PDT</td><td><a href="/workshops/courier">Courier Workshop</a></td><td><div class="cta secondary"><a target="_blank" href="https://youtu.be/ZrwkVXOsKe8">Register</a></div></td></tr>
@@ -30,6 +28,13 @@ module.exports = async function Index({ ticket, links }) {
                         ${ hasura ? `<tr><td>Nov 4 @ 2pm PDT</td><td><a href="/workshops/hasura">${ hasura.label }</a></td><td><div class="cta secondary"><a target="_blank" href="${ hasura.url }">Register</a></div></td></tr>` : '' }
                     </table>
                     <h2>Hallway Track</h2>
+                    <h3>Gather</h3>
+                    <p>Stay Tuned, link coming soon.</p>
+                    <h3>Discord</h3>
+                    <p>Stay Tuned, link coming soon.</p>
+                    <h3>Photo Booth</h3>
+                    <p>Hop into the CascadiaJS Photo Booth! Record yourself saying "hello", download the animated gif, and share it in the Discord and on Twitter!</p>
+                    <div class="cta secondary"><a target="_booth" href="https://cascadiajs-photo-app.herokuapp.com/home">Photo Booth</a></div>
                     <h3>Conference Directory</h3>
                     ${ ticket.github && ticket.github !== ''
                         ? `<p>You have been added to the Conference Directory ✅<p>
@@ -39,7 +44,7 @@ module.exports = async function Index({ ticket, links }) {
                     }`
                 : ``}
                 <h2>Need Help?</h2>
-                <p>Please contact us in the Discord at #help-questions.</p>
+                <p>Please contact us in the <a target="_discord" href="${ discord?.url }">Discord</a> at #help-questions.</p>
                 <h2>Reset Session</h2>
                 <p>If you need to use a different Ticket Reference, just reset the session and start over.
                 <form action=/home method=post>
