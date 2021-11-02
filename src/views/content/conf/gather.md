@@ -14,7 +14,11 @@ Here's what you can expect:
 
 Straight from the help desk of Gather, "Gather works best for users who have hi-speed internet access. While we have a desktop version of Gather in beta, we recommend using Gather in a web browser at this time. Chrome and Firefox work best."
 
-Use the same email used to enter the main conference platform. Select “Send magic link”. (Do NOT Sign in with Google). You will receive an email with a link. Click on it and it will take you to a new browser page where you can successfully sign in. Close that browser window and go back to the original browser window that had the Welcome to Gather box in it and join the Gathering. Unfortunately, every time you enter into the system you will have to take these steps.
+In order to enter the Gather Space, you *must* use the same email address you used the register for the conference. Select “Send magic link”. (Do NOT Sign in with Google). You will receive an email with a link. Click on it and it will take you to a new browser page where you can successfully sign in. Close that browser window and go back to the original browser window that had the Welcome to Gather box in it and join the Gathering. Unfortunately, every time you enter into the system you will have to take these steps.
+
+## Oboarding Video
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/kurUG-Aw6DQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Tips on using Gather 
 ### Search for a specific attendee
