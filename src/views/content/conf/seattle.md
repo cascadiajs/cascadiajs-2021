@@ -40,6 +40,8 @@ Seattle, WA 98105
 
 MoPOP has a really great [planning your visit guide](https://www.mopop.org//visit/plan-your-visit/) that include more information about how to get there, accessibility information, etc. Please review it if you have any questions or concerns.
 
+<span class="highlight warning">Doors open at 8:00am PDT</span>
+
 ### Getting into the Venue (COVID check)
 
 CascadiaJS attendees are asked to enter at the North/Group Entry, which is located on the Harrison Street turnaround on the North/silver side of the building. There is a black walkway canopy covering the entry way and a large illuminated sign to the left of the entry.

@@ -52,6 +52,8 @@ Getting to OMSI is easy!
 - Drive: parking is free for attendees
 - Bike: located along the Eastbank Esplanade that connects to the Tilikum Crossing
 
+<span class="highlight warning">Doors open at 8:00am PDT</span>
+
 ### Getting into the Venue (COVID check)
 
 CascadiaJS attendees are asked to enter at the Planetarium entrance that is located to the north of the main entrance along SE Water Ave.

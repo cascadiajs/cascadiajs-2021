@@ -36,6 +36,7 @@ If you have already purchased a Virtual ticket, you are welcome to upgrade to In
 <div class="cta secondary"><a href="https://ti.to/event-loop/cascadiajs-2021/with/0ok59belchq" title="Seattle ticket upgrade">Vancouver In-Person Upgrade</a></div>
 
 ## Hybrid Event Venue
+
 The CascadiaJS 2021 Hybrid Event in Vancouver is taking place at the University of British Columbia ( UBC ) Robson Square campus:
 
 ```
@@ -45,6 +46,8 @@ Vancouver, BC V6Z 3B7
 ```
 
 UBC Robson Square is located adjacent to the Vancouver Art Gallery in downtown Vancouver.
+
+<span class="highlight warning">Doors open at 8:00am PDT</span>
 
 ### Getting into the Venue (COVID check)
 
