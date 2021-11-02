@@ -72,10 +72,8 @@ Talks will be streamed inside the Sound + Vision Theatre.
 
 Once JavaScript Trivia ends at 6pm, we will all walk 5 minutes over to The Collective for the Opening After Party by [CircleCI](/sponsors/circleci).
 
-```
-400 Dexter Avenue North
-Seattle, WA 98109
-```
+* When: 6:15pm
+* Where: 400 Dexter Avenue North, Seattle, WA 98109
 
 We have a private space all to ourselves and the event will be catered with plenty of yummy food and drinks.
 
@@ -89,10 +87,10 @@ We have a private space all to ourselves and the event will be catered with plen
 
 Following the close of the conference and the end of the Live Musical Performance, we will walk 10 minutes up the street to <a target="_blank" href="https://www.citizencampfire.com/">Citizen Campfire</a> for the Closing After Party by [Lacework](https://www.lacework.com).
 
-```
-706 Taylor Avenue North
-Seattle, WA 98109​
-```
+<span class="highlight warning">You may bring a +1, but they must bring proof of COVID vaccination.</span>
+
+* When: 6:15pm
+* Where: 706 Taylor Avenue North, Seattle, WA 98109​
 
 We will be located outside, but there will be plenty of covered areas and heaters to keep us cozy. This event will be catered with plenty of yummy food and drinks and once you're done eating come join us for <i class="fas fa-microphone-stand"></i> karaoke, powered by <a target="_blank" href="https://babyketten.com/">Baby Ketten</a>!
 
