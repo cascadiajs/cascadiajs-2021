@@ -12,11 +12,11 @@ let Template = function(sponsors) {
         </div>
         <div class="page-body">
             <div class="job-listings">
-            ${ sponsors.map(s => /*html*/`
+            ${ sponsors.sort(()=> Math.random() - 0.5).map(s => /*html*/`
                 <div class="job-listing">
                     <div><img src="/images/sponsors/${ s.logo }" alt=""/></div>
                     <p>${ s.description }</p>
-                    <div><div class="cta"><a target="_blank" href="${ s.jobs }">View Jobs</a></div></div>
+                    <div><div class="cta secondary"><a target="_blank" href="${ s.jobs }">View Jobs</a></div></div>
                 </div>
             `
             ).join("")}

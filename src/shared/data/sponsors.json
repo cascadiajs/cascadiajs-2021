@@ -5,6 +5,7 @@
     "name": "CircleCI",
     "url": "https://circleci.com",
     "logo": "circleci.svg",
+    "job": "https://boards.greenhouse.io/circleci/jobs/4242068002",
     "description": "The world’s best software teams use CircleCI to deliver quality code with confidence. As the largest continuous integration and delivery (CI/CD) platform, CircleCI empowers engineers to seamlessly take ideas to execution, at scale. Our platform is optimized for developer productivity, speed, and confidence.We understand how engineering teams work and how their code runs. Companies like Intuit, Apple, and Spotify use CircleCI to improve productivity, release better products, and get to market faster. We’ve been named a leader in cloud-native continuous integration by Forrester in 2019 and 2017, and rank #242 on Deloitte’s Technology Fast 500™."
   },
   {
@@ -54,6 +55,7 @@
     "name": "New Relic",
     "url": "https://trynewrelic.com",
     "logo": "new-relic.svg",
+    "jobs": "https://2021.cascadiajs.com/newrelic-jobs",
     "description": "New Relic helps software engineers measure the performance of their systems and provides comprehensive visibility across the entire stack in one unified experience. Your users will tell you it's broken, New Relic will tell you why."
   },
   {
@@ -87,6 +89,7 @@
     "name": "Dolby.io",
     "url": "https://dolby.io/?&utm_medium=event&utm_campaign=cascadiajs2021&utm_source=landing-page",
     "logo": "dolby.svg",
+    "jobs": "https://jobs.dolby.com/careers?pid=8588780&query=Dolby.io&domain=dolby.com&triggerGoButton=false",
     "description": "Meet Dolby.io. The API platform to transform media and communications. With decades of expertise in sound signal processing under our belt, we know a thing or two about high-quality audio and video. Whether you’re looking to build a communications app, solve for poor audio quality in your recordings, or convert digital media formats, we have the best-in-class APIs to match your needs. From virtual concerts to e-learning to podcasting, there’s no limit to what developers can build."
   },
   {

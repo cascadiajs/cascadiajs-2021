@@ -20,11 +20,11 @@ module.exports = function Expo({ links }) {
             <span class="cta"><a target="_gather" href="${ gather?.url }">Join Gather</a></span>
         </div>
         <div class="job-listings">
-        ${ hiring.map(s => /*html*/`
+        ${ hiring.sort(()=> Math.random() - 0.5).map(s => /*html*/`
             <div class="job-listing">
                 <div><img src="/images/sponsors/${ s.logo }" alt=""/></div>
                 <p>${ s.description }</p>
-                <div><div class="cta"><a target="_blank" href="${ s.jobs }">View Jobs</a></div></div>
+                <div><div class="cta secondary"><a target="_blank" href="${ s.jobs }">View Jobs</a></div></div>
             </div>
         `
         ).join("")}
