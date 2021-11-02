@@ -31,7 +31,7 @@ module.exports = async function Index({ ticket, links }) {
                     <h3>Gather</h3>
                     <p>Stay Tuned, link coming soon.</p>
                     <h3>Discord</h3>
-                    <p>Stay Tuned, link coming soon.</p>
+                    <div class="cta secondary"><a target="_discord" href="${ discord?.url }">Join Discord</a></div>
                     <h3>Photo Booth</h3>
                     <p>Hop into the CascadiaJS Photo Booth! Record yourself saying "hello", download the animated gif, and share it in the Discord and on Twitter!</p>
                     <div class="cta secondary"><a target="_booth" href="https://cascadiajs-photo-app.herokuapp.com/home">Photo Booth</a></div>
