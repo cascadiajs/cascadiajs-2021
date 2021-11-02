@@ -20,6 +20,8 @@ module.exports = async function Index({ ticket, links }) {
                 </table>
                 ${ ticket.conference === 'Y'
                 ? /*html*/`
+                    <h2>Talk Track</h2>
+                    <p>Stay Tuned, link coming soon. Livestream will begin on both days at 9am PDT.</p>
                     <h2>Workshop Track</h2>
                     <table id="workshop-rsvp">
                         <tr><td>Nov 3 @ 10am PDT</td><td><a href="/workshops/courier">Courier Workshop</a></td><td><div class="cta secondary"><a target="_blank" href="https://youtu.be/ZrwkVXOsKe8">Register</a></div></td></tr>
@@ -29,7 +31,7 @@ module.exports = async function Index({ ticket, links }) {
                     </table>
                     <h2>Hallway Track</h2>
                     <h3>Gather</h3>
-                    <p>Stay Tuned, link coming soon.</p>
+                    <p>Stay Tuned, link coming soon. Virtual doors will open on Nov 3 at 8am PDT.</p>
                     <h3>Discord</h3>
                     <div class="cta secondary"><a target="_discord" href="${ discord?.url }">Join Discord</a></div>
                     <h3>Photo Booth</h3>
@@ -44,6 +46,7 @@ module.exports = async function Index({ ticket, links }) {
                     }`
                 : ``}
                 <h2>Need Help?</h2>
+                <p>Check-out the <a target="_handbook" href="/conf/handbook">Handbook</a> for answers to common questions.</p>
                 <p>Please contact us in the <a target="_discord" href="${ discord?.url }">Discord</a> at #help-questions.</p>
                 <h2>Reset Session</h2>
                 <p>If you need to use a different Ticket Reference, just reset the session and start over.
