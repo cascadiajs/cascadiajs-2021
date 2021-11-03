@@ -34,8 +34,10 @@ module.exports = async function Index({ ticket, links }) {
                     </table>
                     <h2>Hallway Track</h2>
                     <h3>Gather</h3>
+                    <p>Gather is a virtual space that we have fully customized for your enjoyment. Walk around, meet new people and even watch the Livestream!</p>
                     <div class="cta secondary"><a target="_gather" href="${ gather?.url }">Join Gather</a></div>
                     <h3>Discord</h3>
+                    <p>Discord is the text chat experience, complete with the animated gifs and reactions that you love.</p>
                     <div class="cta secondary"><a target="_discord" href="${ discord?.url }">Join Discord</a></div>
                     <h3>Photo Booth</h3>
                     <p>Hop into the CascadiaJS Photo Booth! Record yourself saying "hello", download the animated gif, and share it in the Discord and on Twitter!</p>
