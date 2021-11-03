@@ -7,6 +7,7 @@ module.exports = async function Index({ ticket, links }) {
     let dolbyio = links.find(l => l.key === 'dolbyio')
     let hasura = links.find(l => l.key === 'hasura')
     let discord = links.find(l => l.key === 'discord')
+    let gather = links.find(l => l.key === 'gather')
     let content = /*html*/`
         <div id=page>
             <div class=page-title><div><h1>Hello${ ticket.fullName ? ', ' + ticket.fullName : '' }!</h1></div></div>
@@ -23,7 +24,7 @@ module.exports = async function Index({ ticket, links }) {
                     <h2>Onboarding</h2>
                     <p>If this is your first time logging in, please review our <a href="/conf/onboarding">Onboarding Guide</a>.</p>
                     <h2>Talk Track</h2>
-                    <p>Stay Tuned, link coming soon. Livestream will begin on both days at 9am PDT.</p>
+                    <div class="cta"><a target="_livestream" href="/conf/live">Watch Livestream</a></div>
                     <h2>Workshop Track</h2>
                     <table id="workshop-rsvp">
                         <tr><td>Nov 3 @ 10am PDT</td><td><a href="/workshops/courier">Courier Workshop</a></td><td><div class="cta secondary"><a target="_blank" href="https://youtu.be/ZrwkVXOsKe8">Register</a></div></td></tr>
@@ -33,7 +34,7 @@ module.exports = async function Index({ ticket, links }) {
                     </table>
                     <h2>Hallway Track</h2>
                     <h3>Gather</h3>
-                    <p>Stay Tuned, link coming soon. Virtual doors will open on Nov 3 at 8am PDT.</p>
+                    <div class="cta secondary"><a target="_gather" href="${ gather?.url }">Join Gather</a></div>
                     <h3>Discord</h3>
                     <div class="cta secondary"><a target="_discord" href="${ discord?.url }">Join Discord</a></div>
                     <h3>Photo Booth</h3>

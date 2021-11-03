@@ -12,6 +12,7 @@ let Template = function ({ speakersContainer, organizersContainer, directoryCont
             <div id="hero-copy">   
                 <div>
                     <p>Join us on Nov 3 &amp; 4 for a <em>hybrid</em> event, a virtual conference <em>progressively enhanced</em> with in-person events in Seattle, Portland and Vancouver, BC.</p>
+                    <p><div class="cta"><a href="/home">Log-in to Watch the Show</a></div></p>
                 </div>
                 <div>
                     <img src="/images/heron-right.png" alt="hero image of a hybrid heron / espresso machine"/>

@@ -6,6 +6,7 @@ This guide provides useful links and some guides on how to get the most of your 
 ## Important Links
 
 - [Code of Conduct](/code-of-conduct)
+- [Accessibility](/accessibility)
 - [Conference Dashboard](/home)
 - [Full Schedule](/schedule)
 
