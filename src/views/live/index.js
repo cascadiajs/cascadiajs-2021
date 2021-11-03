@@ -2,9 +2,9 @@ let LiveLayout = require('../layout/live')
 let { DayOne, DayTwo } = require('../components/schedule')
 
 module.exports = function Live({ speakers, ticket, links }) {
-    let isDayOne = (new Date() - new Date('2021-11-03T21:00:00.0Z') < 0)
+    let isDayOne = (new Date() - new Date('2021-11-04T04:00:00.0Z') < 0)
     let dayContainer = (isDayOne ? DayOne({ speakers, ticket, links }) : DayTwo({ speakers, ticket, links }))
-    let ytId = (isDayOne ? 'vFhJceJffwE' : 'vFhJceJffwE')
+    let ytId = (isDayOne ? 'vFhJceJffwE' : 'ePDqanmVm1Y')
     let content = /*html*/`
     <div id="live" class="slack-view-true">
         <section id="left-pane">
