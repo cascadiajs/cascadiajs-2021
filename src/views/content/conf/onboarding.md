@@ -22,7 +22,7 @@ COVID has really messed-up supply chains all over the world, so all we can ask f
 
 You can access to conference livestream by logging-in to your [Conference Dashboard](/home). In order to log-in you will need an Access Code.
 
-Conveniently, you can find this Access Code at the bottom of this email! Here's a screenshot of where to find it:
+Conveniently, you can find this Access Code at the bottom of all of the emails that we've sent you! Here's a screenshot of where to find it:
 
 ![Tito access code](/images/tito-access-code.png)
 
@@ -40,7 +40,7 @@ We have two options for folks to hang out and chat in the all-important Hallway 
 
 Gather is a virtual space that we have fully customized for your enjoyment. You'll find places to chat about different technologies, an Expo Hall with a bunch of our awesome sponsors, and other surprises. You can even watch the livestream from within Gather, and hear people as they clap or cheer! There's a table to the right of the stage where some speakers will be available for Q&A after their talks.
 
-NOTE: Gather uses a guest list to restrict access. You *must* log-in to Gather using the same email address you used to register for the conference (and that we're using to email you right now).
+NOTE: Gather uses a guest list to restrict access. You *must* log-in to Gather using the same email address you used to register for the conference.
 
 Discord is text chat, kind of like Slack but much better for communities and events like ours. We've got channels for everything, so definitely check it out!
 
