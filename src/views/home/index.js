@@ -25,6 +25,7 @@ module.exports = async function Index({ ticket, links }) {
                     <p>If this is your first time logging in, please review our <a href="/conf/onboarding">Onboarding Guide</a>.</p>
                     <h2>Talk Track</h2>
                     <div class="cta"><a target="_livestream" href="/conf/live">Watch Livestream</a></div>
+                    <div class="cta secondary"><a target="_trivia" href="/trivia">Play Trivia</a></div>
                     <h2>Workshop Track</h2>
                     <table id="workshop-rsvp">
                         <tr><td>Nov 3 @ 10am PDT</td><td><a href="/workshops/courier">Courier Workshop</a></td><td><div class="cta secondary"><a target="_blank" href="https://youtu.be/ZrwkVXOsKe8">Register</a></div></td></tr>
