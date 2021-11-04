@@ -127,6 +127,12 @@
     "logo": "plenty-of-fish.png"
   },
   {
+    "key": "lacework",
+    "tier": "bronze",
+    "name": "Lacework",
+    "logo": "lacework.png"
+  },
+  {
     "key": "codingscape",
     "tier": "bronze",
     "name": "Codingscape",
