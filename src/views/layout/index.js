@@ -12,9 +12,9 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
     <body>
       <div id="root">
         <header>
-          <section class="alert">
+          <!--section class="alert">
             Register for post-conference <a href="/workshops">Expert Trainings</a> before the seats sell out!
-          </section>
+          </section-->
           <nav>
             <div class="wide">
               <div id="logo"><a href="/"><img src="/images/logo-green.svg" alt="logo"/></a></div>
@@ -23,8 +23,7 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
               <div class="spacer"><a href="/schedule">Schedule</a></div>
               <div class="spacer"><a href="/workshops">Workshops</a></div>
               <div class="spacer"><a href="/sponsors/jobs">Jobs</a></div>
-              <div class="spacer"><a href="/tickets">Tickets</a></div>
-              <div class="spacer"><a href="/home" class="buy">Live</a></div>
+              <div class="spacer"><a href="https://www.youtube.com/cascadiajs" class="buy">Watch the Talks</a></div>
             </div>
           </nav>
         </header>

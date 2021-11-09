@@ -19,6 +19,10 @@ let Template = function(speaker) {
                 <h2>${ title }</h2>
                 <div class="topics">${ topics.map(t => `<div class=js-topic>${ t }</div>`).join('') }</div>
                 <div class="abstract">${ md(abstract) }</div>
+                <div class="illustration">
+                    <img src="https://static.cascadiajs.com/2021/graphic-recordings/${ key }.jpg" alt="talk illustration"/><br/>
+                    <p><small><i>Illustrations made possible by our friends at <a href="https://trynewrelic.com/cascadiajs">NewRelic</a> ❤️</i></small></p>
+                </div>
                 <h2>About ${ name }</h2>
                 <div class="person-info"> 
                     <div class="person-photo"><img src="${ assetPath }/${ key }.jpg" alt="photo of ${ name }"/></div>
@@ -50,7 +54,8 @@ module.exports = async function Speaker({speaker, social}) {
     }
     else {
         let content = Template(speaker)
-        let socialUrl = `/social?path=/speakers/${ speaker.key }`
+        //let socialUrl = `/social?path=/speakers/${ speaker.key }`
+        let socialUrl = `https://static.cascadiajs.com/2021/graphic-recordings/${ speaker.key }.jpg`
         let title = `${ speaker.name } | ${ speaker.title }`
         html = Layout({ content, title, socialUrl })
     }
