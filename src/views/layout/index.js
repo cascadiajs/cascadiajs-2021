@@ -12,9 +12,9 @@ module.exports = function Layout ({title, content, socialUrl, excerpt, scripts =
     <body>
       <div id="root">
         <header>
-          <!--section class="alert">
-            Register for post-conference <a href="/workshops">Expert Trainings</a> before the seats sell out!
-          </section-->
+          <section class="alert">
+            Join us for <a href="https://2022.cascadiajs.com">CascadiaJS 2022</a>, our 10-year anniversary event, at Sunriver Resort in Bend, OR!
+          </section>
           <nav>
             <div class="wide">
               <div id="logo"><a href="/"><img src="/images/logo-green.svg" alt="logo"/></a></div>
