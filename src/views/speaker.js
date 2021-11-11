@@ -5,7 +5,7 @@ let SocialLayout = require('./layout/social')
 let assetPath = 'https://create-4jr.begin.app/_static/2021'
 
 let Template = function(speaker) {
-    const { key, name, location, company, url, twitter, title, topics, pronouns, abstract } = speaker
+    const { key, name, location, company, url, twitter, title, topics, pronouns, abstract, ytId } = speaker
 
     return /*html*/`
     <div id="page">
@@ -22,6 +22,11 @@ let Template = function(speaker) {
                 <div class="illustration">
                     <img src="https://static.cascadiajs.com/2021/graphic-recordings/${ key }.jpg" alt="talk illustration"/><br/>
                     <p><small><i>Illustrations made possible by our friends at <a href="https://trynewrelic.com/cascadiajs">NewRelic</a> ❤️</i></small></p>
+                </div>
+                <div class="video">
+                ${ ytId
+                ?   /*html*/`<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/${ ytId }" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`
+                :   /*html*/`<p>Video Recording Coming Soon!</p>`}
                 </div>
                 <h2>About ${ name }</h2>
                 <div class="person-info"> 
